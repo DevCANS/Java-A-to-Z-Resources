@@ -24,4 +24,4 @@ And more things.
 
 > ### External Resources
 
-[Continue to Java installation and environmental setup](EnvironmentalSetup.md)
+[Continue to Java installation and environmental setup](../02-Environmental-Setup/Environmental-Setup.md)

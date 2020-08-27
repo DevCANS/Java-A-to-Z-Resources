@@ -5,9 +5,9 @@
 
 ## Contents
 
-> #### Java Overview
+> #### [Java Overview](01-Java-Overview/Java-Overview.md)
 
-> #### Environmental Setup
+> #### [Environmental Setup](02-Environmental-Setup/Environmental-Setup.md)
 
 > #### Introduction to Object Oriented Programming
 * Object Oriented Paradigm
@@ -17,14 +17,14 @@
 * Polymorphism
 
 > #### Data Types
-* Primitive Types
+* [Primitive Types](01-Data-Types/01-Primitive-Types.md)
   * Integers
   * Floating-Point
   * Characters
   * Booleans
-* Arrays
-* Strings
-* Literals
+* [Arrays](04-Data-Types/02-Arrays.md)
+* [Strings](04-Data-Types/03-Strings.md)
+* [Literals](04-Data-Types/04-Literals.md)
 
 > #### Variables
 * Declaring Variables
@@ -85,11 +85,11 @@
 * The 'Object' Class
 
 > #### Interfaces
-* Introduction
+* [Introduction](11-Interfaces/01-Introduction.md)
   * 'interface' Keyword
   * 'implements' Keyword
-* Nested Interfaces and Extending Interfaces
-* Variables and Methods in Interfaces
+* [Nested Interfaces and Extending Interfaces](11-Interfaces/02-Nested-Interface-And-Extending-Interface.md)
+* [Variables and Methods in Interfaces](11-Interfaces/03-Variables-And-Methods.md)
 
 > #### Packages
 * Packages and CLASSPATH
