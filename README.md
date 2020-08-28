@@ -64,9 +64,9 @@
 |__Interfaces__|Introduction|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Nested Interfaces and Extending Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Variables and Methods in Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-|__Packages__|Packages and CLASSPATH|:x:|:x:|:x:|:x:|
-||Access Control Revisited|:x:|:x:|:x:|:x:|
-||'import' Keyword|:x:|:x:|:x:|:x:|
+|__Packages__|Packages and CLASSPATH|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||'import' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Access Control Revisited|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Exception Handling__|Exception Handling Fundamentals|:x:|:x:|:x:|:x:|
 ||'try-catch' Block|:x:|:x:|:x:|:x:|
 ||Nested try and Multiple catch Clauses|:x:|:x:|:x:|:x:|

@@ -92,9 +92,9 @@
 * [Variables and Methods in Interfaces](11-Interfaces/03-Variables-And-Methods.md)
 
 > #### Packages
-* Packages and CLASSPATH
-* Access Control Revisited
-* 'import' Keyword
+* [Packages and CLASSPATH](12-Packages/01-Packages-and-CLASSPATH.md)
+* ['import' Keyword](12-Packages/02-import-Keyword.md)
+* [Access Control Revisited](12-Packages/03-Access-Control-Revisited.md)
 
 > #### Exception Handling
 * Exception Handling Fundamentals
