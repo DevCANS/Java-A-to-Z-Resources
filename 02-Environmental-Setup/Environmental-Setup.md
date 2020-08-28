@@ -55,11 +55,49 @@ The result will be something like this
 
 The first step to learn any programming language is to write a "Hello World" program. Below is a small program which will print "Hello World" in the console.
 
-    public class Main{
-        /*
-        * My first Java program
-        */
-        public static void main(String[] args){
-            System.out.println("Hello World"); // prints Hello World
-        }
+```java
+public class Main{
+    /*
+    * My first Java program
+    */
+    public static void main(String[] args){
+        System.out.println("Hello World"); // prints Hello World
     }
+}
+```
+
+Here, `public` is an access modifier which tells that the class/method/variable is accessible from anywhere in the program.
+
+`class` is a keyword used to define a class which is the most basic level of encapsulation.
+
+`main` method should always be declared `public static void` which means it is accessible from anywhere (public), can be called without instantiating the object of `Main` class (static) and its return type is void.
+
+`String[] args`: Java main method. accepts a single argument of type String array. This is also called Java command line arguments.
+
+`System.out.println("Hello World")` will print Hello World in console/terminal.
+
+A Java program should be saved with same name as of the class or interface. Here, the name of the class is `Main` so the file name should be Main.java.
+
+The compiler will try to find the `main` method in the Main class if it is not found, the compiler will throw an error.
+
+To compile the program open cammand prompt/terminal in the working directory and run the following command.
+
+    javac Main.java
+
+The general form of this command is
+
+    javac ClassName.java
+
+The java file name is same as the class name
+
+To run the program type:
+
+    java Main
+
+General form:
+
+    java ClassName
+
+##### Output
+
+    Hello World
