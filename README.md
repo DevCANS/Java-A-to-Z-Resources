@@ -62,7 +62,7 @@
 ||Abstract Classes and More on 'final' Keyword|:x:|:x:|:x:|:x:|
 ||The 'Object' Class|:x:|:x:|:x:|:x:|
 |__Interfaces__|Introduction|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-||Nested Interfaces and Extending Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Nested Interfaces and Extending Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Variables and Methods in Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Packages__|Packages and CLASSPATH|:x:|:x:|:x:|:x:|
 ||Access Control Revisited|:x:|:x:|:x:|:x:|

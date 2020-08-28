@@ -2,33 +2,32 @@
 
 ## Extending Interface
 
-One interface can inherit another by use of the keyword extends. The syntax is the same as
-for inheriting classes. When a class implements an interface that inherits another interface,
-it must provide implementations for all methods required by the interface inheritance
-chain.
+One interface can inherit another by use of the keyword `extends`. The syntax is the same as for inheriting classes. When a class implements an interface that inherits another interface, it must provide implementations for all methods required by the interface inheritance chain.
 
 ##### Example
 
-    // Filename: Sports.java
-    public interface Sports {
-        public void setHomeTeam(String name);
-        public void setVisitingTeam(String name);
-    }
+```java
+// Filename: Sports.java
+public interface Sports {
+    public void setHomeTeam(String name);
+    public void setVisitingTeam(String name);
+}
 
-    // Filename: Football.java
-    public interface Football extends Sports {
-        public void homeTeamScored(int points);
-        public void visitingTeamScored(int points);
-        public void endOfQuarter(int quarter);
-    }
+// Filename: Football.java
+public interface Football extends Sports {
+    public void homeTeamScored(int points);
+    public void visitingTeamScored(int points);
+    public void endOfQuarter(int quarter);
+}
 
-    // Filename: Hockey.java
-    public interface Hockey extends Sports {
-        public void homeGoalScored();
-        public void visitingGoalScored();
-        public void endOfPeriod(int period);
-        public void overtimePeriod(int ot);
-    }
+// Filename: Hockey.java
+public interface Hockey extends Sports {
+    public void homeGoalScored();
+    public void visitingGoalScored();
+    public void endOfPeriod(int period);
+    public void overtimePeriod(int ot);
+}
+```
 
 The Hockey interface has four methods, but it inherits two from Sports; thus, a class that implements Hockey needs to implement all six methods. Similarly, a class that implements Football needs to define the three methods from Football and the two methods from Sports.
 
@@ -41,33 +40,34 @@ When a nested interface is used outside of its enclosing scope, it must be quali
 
 ##### Example
 
-    // A nested interface example.
-    // This class contains a member interface.
-    class A {
-        // this is a nested interface
-        public interface NestedIF {
-            boolean isNotNegative(int x);
-        }
+```java
+// A nested interface example.
+// This class contains a member interface.
+class A {
+    // this is a nested interface
+    public interface NestedIF {
+        boolean isNotNegative(int x);
     }
+}
 
-    // B implements the nested interface.
-    class B implements A.NestedIF {
-        public boolean isNotNegative(int x) {
-            return x < 0 ? false: true;
-        }
+// B implements the nested interface.
+class B implements A.NestedIF {
+    public boolean isNotNegative(int x) {
+        return x < 0 ? false: true;
     }
-    
-    class NestedIFDemo {
-        public static void main(String args[]) {
-            // use a nested interface reference
-            A.NestedIF nif = new B();
-            if(nif.isNotNegative(10))
-                System.out.println("10 is not negative");
-            if(nif.isNotNegative(-12))
-                System.out.println("this won't be displayed");
-        }
-    }
+}
 
+class NestedIFDemo {
+    public static void main(String args[]) {
+        // use a nested interface reference
+        A.NestedIF nif = new B();
+        if(nif.isNotNegative(10))
+            System.out.println("10 is not negative");
+        if(nif.isNotNegative(-12))
+            System.out.println("this won't be displayed");
+    }
+}
+```
 
 ##### Output
 
@@ -75,7 +75,7 @@ When a nested interface is used outside of its enclosing scope, it must be quali
 
 Notice that A defines a member interface called NestedIF and that it is declared public. Next, B implements the nested interface by specifying `implements A.NestedIF`
 
-Notice that the name is fully qualified by the enclosing class’ name. Inside the main( ) method, an A.NestedIF reference called nif is created, and it is assigned a reference to a B object. Because B implements A.NestedIF, this is legal.
+Notice that the name is fully qualified by the enclosing class’ name. Inside the `main()` method, an A.NestedIF reference called nif is created, and it is assigned a reference to a B object. Because B implements A.NestedIF, this is legal.
 
 
 ## External Resources

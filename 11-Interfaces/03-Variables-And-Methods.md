@@ -4,67 +4,69 @@
 
 You can use interfaces to import shared constants into multiple classes by simply declaring an interface that contains variables that are initialized to the desired values. When you include that interface in a class (that is, when you “implement” the interface), all of those variable names will be in scope as constants. (This is similar to using a header file in C/C++ to create a large number of #defined constants or const declarations.) If an interface contains no methods, then any class that includes such an interface doesn’t actually implement anything. It is as if that class were importing the constant fields into the class name space as final variables. The next example uses this technique to implement an automated “decision maker”:
 
-    import java.util.Random;
-    
-    interface SharedConstants {
-        int NO = 0;
-        int YES = 1;
-        int MAYBE = 2;
-        int LATER = 3;
-        int SOON = 4;
-        int NEVER = 5;
+```java
+import java.util.Random;
+
+interface SharedConstants {
+    int NO = 0;
+    int YES = 1;
+    int MAYBE = 2;
+    int LATER = 3;
+    int SOON = 4;
+    int NEVER = 5;
+}
+
+class Question implements SharedConstants {
+    Random rand = new Random();
+    int ask() {
+        int prob = (int) (100 * rand.nextDouble());
+
+        if (prob < 30)
+            return NO; // 30%
+        else if (prob < 60)
+            return YES; // 30%
+        else if (prob < 75)
+            return LATER; // 15%
+        else if (prob < 98)
+            return SOON; // 13%
+        else
+            return NEVER; // 2%
     }
+}
 
-    class Question implements SharedConstants {
-        Random rand = new Random();
-        int ask() {
-            int prob = (int) (100 * rand.nextDouble());
-
-            if (prob < 30)
-                return NO; // 30%
-            else if (prob < 60)
-                return YES; // 30%
-            else if (prob < 75)
-                return LATER; // 15%
-            else if (prob < 98)
-                return SOON; // 13%
-            else
-                return NEVER; // 2%
+class AskMe implements SharedConstants {
+    public static void answer(int result) {
+        switch(result) {
+            case NO:
+            System.out.println("No");
+            break;
+            case YES:
+            System.out.println("Yes");
+            break;
+            case MAYBE:
+            System.out.println("Maybe");
+            break;
+            case LATER:
+            System.out.println("Later");
+            break;
+            case SOON:
+            System.out.println("Soon");
+            break;
+            case NEVER:
+            System.out.println("Never");
+            break;
         }
     }
 
-    class AskMe implements SharedConstants {
-        public static void answer(int result) {
-            switch(result) {
-                case NO:
-                System.out.println("No");
-                break;
-                case YES:
-                System.out.println("Yes");
-                break;
-                case MAYBE:
-                System.out.println("Maybe");
-                break;
-                case LATER:
-                System.out.println("Later");
-                break;
-                case SOON:
-                System.out.println("Soon");
-                break;
-                case NEVER:
-                System.out.println("Never");
-                break;
-            }
-        }
-
-        public static void main(String args[]) {
-            Question q = new Question();
-            answer(q.ask());
-            answer(q.ask());
-            answer(q.ask());
-            answer(q.ask());
-        }
+    public static void main(String args[]) {
+        Question q = new Question();
+        answer(q.ask());
+        answer(q.ask());
+        answer(q.ask());
+        answer(q.ask());
     }
+}
+```
 
 ##### Output
 
@@ -85,45 +87,48 @@ An interface default method is defined similar to the way a method is defined by
 
 ##### Example
 
-    public interface MyIF {
+```java
+public interface MyIF {
 
-        // This is a "normal" interface method declaration.
-        // It does NOT define a default implementation.
-        int getNumber();
+    // This is a "normal" interface method declaration.
+    // It does NOT define a default implementation.
+    int getNumber();
 
-        // This is a default method. Notice that it provides
-        // a default implementation.
-        default String getString() {
-            return "Default String";
-        }
+    // This is a default method. Notice that it provides
+    // a default implementation.
+    default String getString() {
+        return "Default String";
     }
+}
+```
 
 Because getString( ) includes a default implementation, it is not necessary for an implementing class to override it. In other words, if an implementing class does not provide its own implementation, the default is used.
 
-    // Implement MyIF.
-    class MyIFImp implements MyIF {
-        // Only getNumber() defined by MyIF needs to be implemented.
-        // getString() can be allowed to default.
-        public int getNumber() {
-            return 100;
-        }
+```java
+// Implement MyIF.
+class MyIFImp implements MyIF {
+    // Only getNumber() defined by MyIF needs to be implemented.
+    // getString() can be allowed to default.
+    public int getNumber() {
+        return 100;
     }
+}
 
-    // Use the default method.
-    class DefaultMethodDemo {
-        public static void main(String args[]) {
+// Use the default method.
+class DefaultMethodDemo {
+    public static void main(String args[]) {
 
-            MyIFImp obj = new MyIFImp();
-            
-            // Can call getNumber(), because it is explicitly
-            // implemented by MyIFImp:
-            System.out.println(obj.getNumber());
-            
-            // Can also call getString(), because of default implementation:
-            System.out.println(obj.getString());
-        }
+        MyIFImp obj = new MyIFImp();
+        
+        // Can call getNumber(), because it is explicitly
+        // implemented by MyIFImp:
+        System.out.println(obj.getNumber());
+        
+        // Can also call getString(), because of default implementation:
+        System.out.println(obj.getString());
     }
-
+}
+```
 
 ##### Output
 
@@ -140,4 +145,4 @@ Starting from Java 8 another new capability to interface was added: the ability 
 
 ## External Resources
 
-[Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)

@@ -34,16 +34,17 @@ An interface is declared using `interface` keyword. An interface has following p
 * Methods in an interface are implicitly public.
 
 ##### Example
-
-    // interface is declared using 'interface' keyword
-    public interface Car{
-        // declaring abstract methods
-        // no need to use 'abstract' keyword
-        // by default they are abstract in an interface
-        public void start();
-        public void accelerate();
-        public void stop();
-    }
+```java
+// interface is declared using 'interface' keyword
+public interface Car{
+    // declaring abstract methods
+    // no need to use 'abstract' keyword
+    // by default they are abstract in an interface
+    public void start();
+    public void accelerate();
+    public void stop();
+}
+```
 
 ## 'implements' keyword
 
@@ -52,32 +53,32 @@ When a class implements an interface, you can think of the class agreeing to per
 A class can implement an interface using the keyword `implements`.
 
 ##### Example
+```java
+public class SUV implements Car{
 
-    public class SUV implements Car{
+    // implementing behaviours of the interface Car
 
-        // implementing behaviours of the interface Car
-
-        public void start(){
-            System.out.println("SUV started");
-        }
-
-        public void accelerate(){
-            System.out.println("Accelerating");
-        }
-
-        public void stop(){
-            System.out.println("SUV is stopped");
-        }
-
-        public static void main(String[] args){
-            SUV suv = new SUV();
-
-            suv.start();
-            suv.accelerate();
-            suv.stop();
-        }
+    public void start(){
+        System.out.println("SUV started");
     }
 
+    public void accelerate(){
+        System.out.println("Accelerating");
+    }
+
+    public void stop(){
+        System.out.println("SUV is stopped");
+    }
+
+    public static void main(String[] args){
+        SUV suv = new SUV();
+
+        suv.start();
+        suv.accelerate();
+        suv.stop();
+    }
+}
+```
 ##### Output
 
     SUV started
@@ -93,17 +94,17 @@ When overriding methods defined in interfaces, there are several rules to be fol
 * An interface can extend another interface in the same way a class extends anothere class
 * A class can implement multiple interfaces. Each interface name should be separated by a comma `,`
 
-    
-        public class A implements B, C, D{
-            // implementation of methods of B, C and D
-        }
-
+    ```java    
+    public class A implements B, C, D{
+        // implementation of methods of B, C and D
+    }
+    ```
 
 ## External Resources
 
-[Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html)
-[JavaTPoint](https://www.javatpoint.com/interface-in-java)
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html)
+* [JavaTPoint](https://www.javatpoint.com/interface-in-java)
 
 #### More Examples and Practice Questions
 
-[W3Schools](https://www.w3schools.com/java/java_interface.asp)
+* [W3Schools](https://www.w3schools.com/java/java_interface.asp)

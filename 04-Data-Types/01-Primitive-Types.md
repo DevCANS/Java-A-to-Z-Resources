@@ -12,28 +12,30 @@ Java defines four integer types __bytes__, __short__, __int__, and __long__. All
 
 
 #### Example
-    // Compute distance light travels using long variables.
-    class Light {
-        public static void main(String[] args) {
-            int lightspeed;
-            long days;
-            long seconds;
-            long distance;
+```java
+// Compute distance light travels using long variables.
+class Light {
+    public static void main(String[] args) {
+        int lightspeed;
+        long days;
+        long seconds;
+        long distance;
 
-            // approximate speed of light in miles per second
-            lightspeed = 186000;
-            
-            days = 1000; // specify number of days here
-            
-            seconds = days * 24 * 60 * 60; // convert to seconds
-            
-            distance = lightspeed * seconds; // compute distance
-            
-            System.out.print("In " + days);
-            System.out.print(" days light will travel about ");
-            System.out.println(distance + " miles.");
-        }
+        // approximate speed of light in miles per second
+        lightspeed = 186000;
+        
+        days = 1000; // specify number of days here
+        
+        seconds = days * 24 * 60 * 60; // convert to seconds
+        
+        distance = lightspeed * seconds; // compute distance
+        
+        System.out.print("In " + days);
+        System.out.print(" days light will travel about ");
+        System.out.println(distance + " miles.");
     }
+}
+```
 
 #### Output
     In 1000 days light will travel about 16070400000000 miles.
@@ -55,15 +57,17 @@ type.
 The value of `float` type ends with 'f' and `double` with a 'd'
 
 #### Example
-    
-    public class MyClass {
-        public static void main(String[] args) {
-            float f1 = 35e3f;
-            double d1 = 12E4d;
-            System.out.println(f1);
-            System.out.println(d1);  
-        }
+
+```java    
+public class MyClass {
+    public static void main(String[] args) {
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);  
     }
+}
+```
 
 #### Output
 
@@ -83,16 +87,18 @@ negative chars. The standard set of characters known as ASCII still ranges from 
 always, and the extended 8-bit character set, ISO-Latin-1, ranges from 0 to 255.
 
 #### Example
-    // Demonstrate char data type.
-    class CharDemo {
-        public static void main(String[] args) {
-            char ch1, ch2;
-            ch1 = 88; // ASCII code for 'X'
-            ch2 = 'Y';
-            System.out.print("ch1 and ch2: ");
-            System.out.println(ch1 + " " + ch2);
-        }
+```java
+// Demonstrate char data type.
+class CharDemo {
+    public static void main(String[] args) {
+        char ch1, ch2;
+        ch1 = 88; // ASCII code for 'X'
+        ch2 = 'Y';
+        System.out.print("ch1 and ch2: ");
+        System.out.println(ch1 + " " + ch2);
     }
+}
+```
 
 #### Output
 
@@ -105,16 +111,18 @@ used with characters in other languages will work in Java, too.
 
 #### Example
 
-    // char variables behave like integers.
-    class CharDemo2 {
-        public static void main(String[] args) {
-            char ch1;
-            ch1 = 'X';
-            System.out.println("ch1 contains " + ch1);
-            ch1++; // increment ch1
-            System.out.println("ch1 is now " + ch1);
-        }
+```java
+// char variables behave like integers.
+class CharDemo2 {
+    public static void main(String[] args) {
+        char ch1;
+        ch1 = 'X';
+        System.out.println("ch1 contains " + ch1);
+        ch1++; // increment ch1
+        System.out.println("ch1 is now " + ch1);
     }
+}
+```
 
 #### Output
 
@@ -130,22 +138,24 @@ control statements such as if and for.
 
 #### Example
 
-    // Demonstrate boolean values.
-    class BoolTest {
-        public static void main(String args[]) {
-            boolean b;
-            b = false;
-            System.out.println("b is " + b);
-            b = true;
-            System.out.println("b is " + b);
-            // a boolean value can control the if statement
-            if(b) System.out.println("This is executed.");
-            b = false;
-            if(b) System.out.println("This is not executed.");
-            // outcome of a relational operator is a boolean value
-            System.out.println("10 > 9 is " + (10 > 9));
-        }
+```java
+// Demonstrate boolean values.
+class BoolTest {
+    public static void main(String args[]) {
+        boolean b;
+        b = false;
+        System.out.println("b is " + b);
+        b = true;
+        System.out.println("b is " + b);
+        // a boolean value can control the if statement
+        if(b) System.out.println("This is executed.");
+        b = false;
+        if(b) System.out.println("This is not executed.");
+        // outcome of a relational operator is a boolean value
+        System.out.println("10 > 9 is " + (10 > 9));
     }
+}
+```
 
 
 #### Output
@@ -158,9 +168,9 @@ control statements such as if and for.
 
 # External Resources
 
-[Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-[JavaTPoints](https://www.javatpoint.com/java-data-types)
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+* [JavaTPoints](https://www.javatpoint.com/java-data-types)
 
 #### More Example Programs and Practice Questions
 
-[w3Resources](https://www.w3resource.com/java-exercises/basic/index.php) Solve Question 1 to 7
+* [w3Resources](https://www.w3resource.com/java-exercises/basic/index.php) Solve Question 1 to 7

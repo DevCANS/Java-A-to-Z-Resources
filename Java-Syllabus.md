@@ -17,7 +17,7 @@
 * Polymorphism
 
 > #### Data Types
-* [Primitive Types](01-Data-Types/01-Primitive-Types.md)
+* [Primitive Types](04-Data-Types/01-Primitive-Types.md)
   * Integers
   * Floating-Point
   * Characters
