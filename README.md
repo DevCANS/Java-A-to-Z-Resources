@@ -1,7 +1,11 @@
-# Java - A-Z Resources
+# Java A-Z Resources
 
 ## Syllabus
 [Click Here](Java-Syllabus.md) to see full syllabus
+
+## Contribution Guidelines
+
+Please read the [Contribution Guidelines](Contribution-Guidlines.md)
 
 ## Contents
 
