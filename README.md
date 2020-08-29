@@ -5,7 +5,7 @@
 
 ## Contribution Guidelines
 
-Please read the [Contribution Guidelines](Contribution-Guidlines.md)
+Please read the [Contribution Guidelines](CONTRIBUTING.md)
 
 ## Contents
 
