@@ -71,13 +71,13 @@ Please read the [Contribution Guidelines](Contribution-Guidlines.md)
 |__Packages__|Packages and CLASSPATH|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||'import' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Access Control Revisited|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-|__Exception Handling__|Exception Handling Fundamentals|:x:|:x:|:x:|:x:|
-||'try-catch' Block|:x:|:x:|:x:|:x:|
-||Nested try and Multiple catch Clauses|:x:|:x:|:x:|:x:|
-||'throw' and 'throws' Keyword|:x:|:x:|:x:|:x:|
-||'finally' Keyword|:x:|:x:|:x:|:x:|
-||Built-in Exceptions and Custom Exceptions|:x:|:x:|:x:|:x:|
-||Chained Exceptions|:x:|:x:|:x:|:x:|
+|__Exception Handling__|Exception Handling Fundamentals|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||'try-catch' Block|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Nested try and Multiple catch Clauses|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||'throw' and 'throws' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||'finally' Keyword|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
+||Built-in Exceptions and Custom Exceptions|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Chained Exceptions and Other Features|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 |__Multithreaded Programing__|Process and Threads|:x:|:x:|:x:|:x:|
 ||Creating Threads|:x:|:x:|:x:|:x:|
 ||Multiple Threads|:x:|:x:|:x:|:x:|
