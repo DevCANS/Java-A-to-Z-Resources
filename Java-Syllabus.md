@@ -21,10 +21,10 @@
 > #### Data Types
 
 * [Primitive Types](04-Data-Types/01-Primitive-Types.md)
-  * Integers
-  * Floating-Point
-  * Characters
-  * Booleans
+  * [Integers](04-Data-Types/01-Primitive-Types.md#Integers)
+  * [Floating-Point](04-Data-Types/01-Primitive-Types.md#Floating-Point-Types)
+  * [Characters](04-Data-Types/01-Primitive-Types.md#Characters)
+  * [Booleans](04-Data-Types/01-Primitive-Types.md#Booleans)
 * [Arrays](04-Data-Types/02-Arrays.md)
 * [Strings](04-Data-Types/03-Strings.md)
 * [Literals](04-Data-Types/04-Literals.md)
@@ -96,8 +96,8 @@
 > #### Interfaces
 
 * [Introduction](11-Interfaces/01-Introduction.md)
-  * 'interface' Keyword
-  * 'implements' Keyword
+  * ['interface' Keyword](11-Interfaces/01-Introduction.md#'interface'-Keyword)
+  * ['implements' Keyword](11-Interfaces/01-Introduction.md#'implements'-keyword)
 * [Nested Interfaces and Extending Interfaces](11-Interfaces/02-Nested-Interface-And-Extending-Interface.md)
 * [Variables and Methods in Interfaces](11-Interfaces/03-Variables-And-Methods.md)
 
