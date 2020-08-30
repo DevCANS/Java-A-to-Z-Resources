@@ -78,14 +78,13 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||'finally' Keyword|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
 ||Built-in Exceptions and Custom Exceptions|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Chained Exceptions and Other Features|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-|__Multithreaded Programing__|Process and Threads|:x:|:x:|:x:|:x:|
-||Creating Threads|:x:|:x:|:x:|:x:|
-||Multiple Threads|:x:|:x:|:x:|:x:|
-||Thread Priorities|:x:|:x:|:x:|:x:|
-||Synchronization|:x:|:x:|:x:|:x:|
-||Interthread Communication|:x:|:x:|:x:|:x:|
-||Deadlock|:x:|:x:|:x:|:x:|
-||Suspending, Resuming and Stopping Threads|:x:|:x:|:x:|:x:|
+|__Multithreaded Programing__|Process and Threads|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Creating Threads|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Multiple Threads|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Thread Priorities|:heavy_check_mark:|:x:|:x:|:x:|
+||Synchronization|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Interthread Communication|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Deadlock|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 |__Enumerations, Type Wrappers, Autoboxing and Annotations__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|
 |__File Handling__|Streams|:x:|:x:|:x:|:x:|
 ||Reading Console Input|:x:|:x:|:x:|:x:|
