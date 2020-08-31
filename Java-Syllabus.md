@@ -133,14 +133,13 @@
 > #### Enumerations, Type Wrappers, Autoboxing and Annotations
 
 > #### File Handling
-* Streams
-  * Byte Stream
-  * Character Stream
-* Reading Console Input
-* Writing Console Output
-* PrintWriter Class
-* Reading and Writing Files
-* try-with-resources
+* [Streams](16-File-Handling/01-Streams.md)
+  * [Byte Stream](16-File-Handling/01-Streams.md#The-Byte-Stream-Classes)
+  * [Character Stream](16-File-Handling/01-Streams.md#The-Character-Stream-Classes)
+* [Reading Console Input](16-File-Handling/02-Reading-Console-Input.md)
+* [Writing Console Output](16-File-Handling/03-Writing-Console-Output.md)
+  * [PrintWriter Class](16-File-Handling/03-Writing-Console-Output.md#The-PrintWriter-Class)
+* [Reading and Writing Files](16-File-Handling/04-Reading-and-Writing-Files.md)
 
 > #### Generics
 
