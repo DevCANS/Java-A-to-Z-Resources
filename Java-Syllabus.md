@@ -133,13 +133,13 @@
 > #### Enumerations, Type Wrappers, Autoboxing and Annotations
 
 > #### Java I/O
-* [Streams](16-File-Handling/01-Streams.md)
-  * [Byte Stream](16-File-Handling/01-Streams.md#The-Byte-Stream-Classes)
-  * [Character Stream](16-File-Handling/01-Streams.md#The-Character-Stream-Classes)
-* [Reading Console Input](16-File-Handling/02-Reading-Console-Input.md)
-* [Writing Console Output](16-File-Handling/03-Writing-Console-Output.md)
-  * [PrintWriter Class](16-File-Handling/03-Writing-Console-Output.md#The-PrintWriter-Class)
-* [Reading and Writing Files](16-File-Handling/04-Reading-and-Writing-Files.md)
+* [Streams](16-Java-IO/01-Streams.md)
+  * [Byte Stream](16-Java-IO/01-Streams.md#The-Byte-Stream-Classes)
+  * [Character Stream](16-Java-IO/01-Streams.md#The-Character-Stream-Classes)
+* [Reading Console Input](16-Java-IO/02-Reading-Console-Input.md)
+* [Writing Console Output](16-Java-IO/03-Writing-Console-Output.md)
+  * [PrintWriter Class](16-Java-IO/03-Writing-Console-Output.md#The-PrintWriter-Class)
+* [Reading and Writing Files](16-Java-IO/04-Reading-and-Writing-Files.md)
 
 > #### Generics
 
