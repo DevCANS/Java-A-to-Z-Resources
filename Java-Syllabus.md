@@ -132,7 +132,7 @@
 
 > #### Enumerations, Type Wrappers, Autoboxing and Annotations
 
-> #### File Handling
+> #### Java I/O
 * [Streams](16-File-Handling/01-Streams.md)
   * [Byte Stream](16-File-Handling/01-Streams.md#The-Byte-Stream-Classes)
   * [Character Stream](16-File-Handling/01-Streams.md#The-Character-Stream-Classes)
