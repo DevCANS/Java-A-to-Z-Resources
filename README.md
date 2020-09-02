@@ -22,11 +22,11 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 |---|---|---|--|--|--|
 |__Java Overview__| :heavy_minus_sign: |:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Environmental Setup__|:heavy_minus_sign:|:heavy_check_mark:|:x:|:x:|:heavy_minus_sign:|
-|__Introduction to Object Oriented Programming__|Object Oriented Paradigm|:x:|:x:|:x:|:x:|
-||Abstraction|:x:|:x:|:x:|:x:|
-||Encapsulation|:x:|:x:|:x:|:x:|
-||Inheritance|:x:|:x:|:x:|:x:|
-||Polymorphism|:x:|:x:|:x:|:x:|
+|__Introduction to Object Oriented Programming__|Object Oriented Paradigm|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Abstraction|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Encapsulation|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Inheritance|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Polymorphism|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Data Types__|Primitive Types|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Strings|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Arrays|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
@@ -90,6 +90,8 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Reading Console Input|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Writing to Console|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Reading and Writing Files|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-|__Generics__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|
+|__Generics__|Generic Classes|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Generic Methods, Constructors and Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Wildcard Arguments|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Lambda Expressions__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|
 |__Java Collections__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|

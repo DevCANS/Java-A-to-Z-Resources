@@ -12,11 +12,11 @@
 
 > #### Introduction to Object Oriented Programming
 
-* Object Oriented Paradigm
-* Abstraction
-* Encapsulation
-* Inheritance
-* Polymorphism
+* [Object Oriented Paradigm](03-Introduiction-to-Object-Oriented-Programming/01-Object-Oriented-Paradigm.md)
+* [Abstraction](03-Introduiction-to-Object-Oriented-Programming/02-Principles-of-OOP.md#Abstraction)
+* [Encapsulation](03-Introduiction-to-Object-Oriented-Programming/02-Principles-of-OOP.md#Encapsulation)
+* [Inheritance](03-Introduiction-to-Object-Oriented-Programming/02-Principles-of-OOP.md#Inheritance)
+* [Polymorphism](03-Introduiction-to-Object-Oriented-Programming/02-Principles-of-OOP.md#Polymorphism)
 
 > #### Data Types
 
@@ -142,6 +142,9 @@
 * [Reading and Writing Files](16-Java-IO/04-Reading-and-Writing-Files.md)
 
 > #### Generics
+* [Generic Classes](17-Generics/01-Generic-Classes.md)
+* [Generic Methods, Constructors and Interfaces](17-Generics/02-Generic-Methods-Constructors-and-Interfaces.md)
+* [Wildcard Arguments](17-Generics/03-Wildcard-Arguments.md)
 
 > #### Lambda Expressions
 
