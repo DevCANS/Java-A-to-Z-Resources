@@ -3,6 +3,12 @@
 ## Syllabus
 [Click Here](Java-Syllabus.md) to see full syllabus
 
+## Useful Links
+
+A collection of resources that you might find helpful.
+
+[Click here](Useful-Links.md)
+
 ## Contribution Guidelines
 
 Please read the [Contribution Guidelines](CONTRIBUTING.md)
