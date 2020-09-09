@@ -4,10 +4,10 @@
 
 General format of assignment operator is,
 
-__variable = value;__
+__variable = value;__   
 
 
-In many cases assignment operator can be combined with other operators to build a shorter version of statement called Compound Statement.   
+In many cases assignment operator can be combined with other operators to build a shorter version of statement called Compound Statement   
 
 For example, instead of a = a+5, we can write a += 5.
 
