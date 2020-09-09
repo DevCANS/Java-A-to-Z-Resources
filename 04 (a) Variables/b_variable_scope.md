@@ -177,7 +177,7 @@ class Test
 >## Output 
 Output:
 
-0
+0  
 1
 2
 3
