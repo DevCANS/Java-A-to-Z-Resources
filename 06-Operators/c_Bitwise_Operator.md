@@ -6,6 +6,7 @@ These operators are used to perform manipulation of individual bits of a number.
 
 * __Bitwise AND ' & '  operator__: returns bit by bit AND of input values.
 
+
 * __Bitwise OR ' | ' operator__: returns bit by bit OR of input values.
 
  * __Bitwise XOR ' ^ ' operator__: returns bit by bit XOR of input values.
