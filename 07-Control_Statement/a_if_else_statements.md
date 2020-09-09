@@ -96,7 +96,7 @@ class IfElseDemo
 }
  ````
 
-#### Output 
+#### Output:
 ```
  i is smaller than 15 
  ````
