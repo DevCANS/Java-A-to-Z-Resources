@@ -85,7 +85,7 @@
 > #### Inheritance
 
 * [Basics](10-Inheritance/01-Basics.md)
-* 'super' Keyword
+* ['super' Keyword](10-Inheritance/02-super-Keyword.md)
 * Multilevel Hierarchy
 * Method Overriding
 * Constructors Revisited
