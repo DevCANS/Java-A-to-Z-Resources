@@ -84,8 +84,7 @@
 
 > #### Inheritance
 
-* Basics
-* Member Access
+* [Basics](10-Inheritance/01-Basics.md)
 * 'super' Keyword
 * Multilevel Hierarchy
 * Method Overriding

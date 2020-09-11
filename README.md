@@ -63,7 +63,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Initializer Block|:x:|:x:|:x:|:x:|
 ||Static Initializer Block|:x:|:x:|:x:|:x:|
 ||Nested and Inner Classes|:x:|:x:|:x:|:x:|
-|__Inheritance__|Basics|:x:|:x:|:x:|:x:|
+|__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Member Access|:x:|:x:|:x:|:x:|
 ||'super' Keyword|:x:|:x:|:x:|:x:|
 ||Multilevel Hierarchy|:x:|:x:|:x:|:x:|
