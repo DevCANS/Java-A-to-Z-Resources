@@ -67,7 +67,6 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Multilevel Hierarchy|:x:|:x:|:x:|:x:|
 ||Method Overriding|:x:|:x:|:x:|:x:|
-||Constructors Revisited|:x:|:x:|:x:|:x:|
 ||Abstract Classes and More on 'final' Keyword|:x:|:x:|:x:|:x:|
 ||The 'Object' Class|:x:|:x:|:x:|:x:|
 |__Interfaces__|Introduction|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|

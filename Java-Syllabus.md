@@ -88,7 +88,6 @@
 * ['super' Keyword](10-Inheritance/02-super-Keyword.md)
 * Multilevel Hierarchy
 * Method Overriding
-* Constructors Revisited
 * Abstract Classes and More on 'final' Keyword
 * The 'Object' Class
 
