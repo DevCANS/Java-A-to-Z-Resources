@@ -86,8 +86,8 @@
 
 * [Basics](10-Inheritance/01-Basics.md)
 * ['super' Keyword](10-Inheritance/02-super-Keyword.md)
-* Multilevel Hierarchy
-* Method Overriding
+* [Multilevel Hierarchy](10-Inheritance/03-Multilevel-Hierarchy.md)
+* [Method Overriding](10-Inheritance/04-Method-Overriding.md)
 * Abstract Classes and More on 'final' Keyword
 * The 'Object' Class
 

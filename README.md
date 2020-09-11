@@ -65,8 +65,8 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Nested and Inner Classes|:x:|:x:|:x:|:x:|
 |__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Multilevel Hierarchy|:x:|:x:|:x:|:x:|
-||Method Overriding|:x:|:x:|:x:|:x:|
+||Multilevel Hierarchy|:heavy_check_mark:|:x:|:x:|:x:|
+||Method Overriding|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Abstract Classes and More on 'final' Keyword|:x:|:x:|:x:|:x:|
 ||The 'Object' Class|:x:|:x:|:x:|:x:|
 |__Interfaces__|Introduction|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
