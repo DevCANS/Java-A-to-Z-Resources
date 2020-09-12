@@ -100,11 +100,9 @@ A nested if is an if statement that is the target of another if or else. Nested 
 __Syntax__:
 
 ```java
-if (condition1) 
-{
+if (condition1){
    // Executes when condition1 is true
-   if (condition2) 
-   {
+   if (condition2){
       // Executes when condition2 is true
    }
 }

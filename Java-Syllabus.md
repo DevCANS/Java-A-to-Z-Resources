@@ -32,24 +32,26 @@
 > #### Variables
 
 * [What is Variable?](05-Variable/01-What-Is-Variable.md)
-* Scope and Lifetime
-* Type Conversion and Casting
-* Automatic Type Promotion
+* [Scope and Lifetime](05-Variable/02-Scope-And-Lifetime.md)
+* [Type Conversion and Casting](05-Variable/03-Type-Converion-And-Casting.md)
+* [Automatic Type Promotion](05-Variable/04-Automatic-Type-Promotion.md)
 
 > #### Operators
 
-* Arithmatic Operators
-* Bitwise Operators
-* Relational Operators
-* Boolean Logical Operators
-* Assignment Operator
-* Ternary Operator (?)
+* [Arithmatic Operators](06-Operators/02-Arithmetic-Operators.md)
+* [Bitwise Operators](06-Operators/03-Bitwise-Operator.md)
+* [Relational Operators](06-Operators/04-Relational-Operator.md)
+* [Boolean Logical Operators](06-Operators/05-Logical-Operators.md)
+* 08-Assignment-Operator.md)
+* [Ternary Operator (?)](06-Operators/06-Ternary-Operator.md)
+* [Unary Operator](06-Operators/07-Unary-Operator.md)
+* [Assignment Operator](06-Operators/08-Assignment-Operator.md)
 
 > #### Control Statements
 
-* if statements
-  * Nested if-else
-  * if-else ladder
+* [if statements](07-Control-Statements/01-If-Statment.md)
+  * [Nested if-else](07-Control-Statements/01-If-Statment.md#Nested-if)
+  * [if-else ladder](07-Control-Statements/01-If-Statment.md#if-else-ladder)
 * switch
 * Loops
   * while
