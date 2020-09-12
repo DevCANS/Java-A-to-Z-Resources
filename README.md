@@ -63,12 +63,12 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Initializer Block|:x:|:x:|:x:|:x:|
 ||Static Initializer Block|:x:|:x:|:x:|:x:|
 ||Nested and Inner Classes|:x:|:x:|:x:|:x:|
-|__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Multilevel Hierarchy|:heavy_check_mark:|:x:|:x:|:x:|
-||Method Overriding|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Abstract Classes and More on 'final' Keyword|:x:|:x:|:x:|:x:|
-||The 'Object' Class|:x:|:x:|:x:|:x:|
+|__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Multilevel Hierarchy|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
+||Method Overriding|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Abstract Classes and More on 'final' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||The 'Object' Class|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 |__Interfaces__|Introduction|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Nested Interfaces and Extending Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Variables and Methods in Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
