@@ -1,5 +1,4 @@
-# Bitwise Operator
-
+># Bitwise Operator
 
 These operators are used to perform manipulation of individual bits of a number. They can be used with any of the integer types. They are used when performing update and query operations of Binary indexed tree.
 
@@ -15,17 +14,15 @@ These operators are used to perform manipulation of individual bits of a number.
  This is a unary operator which returns the one’s compliment 
  representation of the input value, i.e. with all bits inversed.
 
-## Example
+##### Example
 
- // Java program to illustrate
-
+```java
+// Java program to illustrate
 // bitwise operators
 
 public class operators {
 
-	public static void main(String[] args) 
-	{
-
+	public static void main(String[] args) {
 		// if int a = 010 
 		// Java considers it as octal value 
 		// of 8 as number starts with 0. 
@@ -56,11 +53,12 @@ public class operators {
 		System.out.println("a= " + a); 
 	} 
 } 
+```
 
-Output:
+##### Output:
 
-a&b = 5   
-a|b = 7   
-a^b = 2   
-~a = -6   
-a= 5
+	a&b = 5   
+	a|b = 7   
+	a^b = 2   
+	~a = -6   
+	a= 5

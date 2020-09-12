@@ -20,16 +20,20 @@ For example, instead of a = a+5, we can write a += 5.
 * __' /= '__, for dividing left operand with right operand and then assigning it to variable on the left.
 
 * __' %= '__, for assigning modulo of left operand with right operand and then assigning it to variable on the left.
+```java
 int a = 5;   
 a += 5; //a = a+5;
-   
+```
+
+##### Example
+
+```java
 // Java program to illustrate    
 // assignment operators    
 
 public class operators {
 
-	public static void main(String[] args) 
-	{ 
+	public static void main(String[] args){
 		int a = 20, b = 10, c, d, e = 10, f = 4, g = 9; 
 
 		// simple assignment operator 
@@ -65,10 +69,12 @@ public class operators {
 						+ "using shorthand operators)= "
 						+ a + ", " + b + ", "
 						+ e + ", " + f); 
-	} 
-} 
+	}
+}
+```
 
-## Output:
-Value of c = 10   
-a, b, e, f = 21, 9, 20, 2   
-a, b, e, f (using shorthand operators)= 21, 9, 20, 2
+##### Output:
+
+	Value of c = 10   
+	a, b, e, f = 21, 9, 20, 2   
+	a, b, e, f (using shorthand operators)= 21, 9, 20, 2

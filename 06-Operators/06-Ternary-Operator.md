@@ -6,13 +6,16 @@ Ternary operator is a shorthand version of if-else statement. It has three opera
 
 The above statement means that if the condition evaluates to true, then execute the statements after the ‘ __?__ ’ else execute the statements after the ‘ __:__ ’.
 
+##### Example
+
+```java
+
 // Java program to illustrate    
 // max of three numbers using    
 // ternary operator.    
 public class operators {
 
-	public static void main(String[] args) 
-	{ 
+	public static void main(String[] args){ 
 		int a = 20, b = 10, c = 30, result; 
 
 		// result holds max of three 
@@ -28,7 +31,8 @@ public class operators {
 						+ result); 
 	} 
 } 
+```
 
-## Output:
-         Max of three numbers = 30
-
+##### Output:
+        
+	Max of three numbers = 30

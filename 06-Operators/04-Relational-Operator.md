@@ -7,27 +7,28 @@ __variable__   relation_operator _value_
 
 Some of the relational operators are-
 
-* ==, Equal to : returns true of left hand side is equal to right hand side.
+* __==, Equal to__ : returns true of left hand side is equal to right hand side.
 
-* !=, Not Equal to : returns true of left hand side is not equal to right hand side.
+* __!=, Not Equal to__ : returns true of left hand side is not equal to right hand side.
 
-* <, less than : returns true of left hand side is less than right hand side.
+* __<, less than__ : returns true of left hand side is less than right hand side.
 
-* <=, less than or equal to : returns true of left hand side is less than or equal to right hand side.
+* __<=, less than or equal to__ : returns true of left hand side is less than or equal to right hand side.
 
-* '>' Greater than : returns true of left hand side is greater than right hand side.
+* __'>' Greater than__ : returns true of left hand side is greater than right hand side.
 
-* '>=', Greater than or equal to: returns true of left hand side is greater than or equal to right hand side.
+* __'>=', Greater than or equal to__ : returns true of left hand side is greater than or equal to right hand side.
 
+##### Example
+
+```java
 // Java program to illustrate 
 
 // relational operators 
 
 public class operators { 
 
-	public static void main(String[] args) 
-
-	{ 
+	public static void main(String[] args){
 		int a = 20, b = 10; 
 		String x = "Thank", y = "Thank"; 
 		int ar[] = { 1, 2, 3 }; 
@@ -51,13 +52,15 @@ public class operators {
 						+ (condition == true)); 
 	} 
 } 
+```
 
-># Output:
-a == b :false   
-a < b :false   
-a <= b :false   
-a > b :true   
-a >= b :true   
-a != b :true   
-x == y : false   
-condition==true :true
+##### Output:
+
+	a == b :false   
+	a < b :false   
+	a <= b :false   
+	a > b :true   
+	a >= b :true   
+	a != b :true   
+	x == y : false   
+	condition==true :true

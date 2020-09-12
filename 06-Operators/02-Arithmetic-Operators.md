@@ -2,26 +2,27 @@
 
  They are used to perform simple arithmetic operations on primitive data types.
 
-' * ' : Multiplication
+* ' __*__ ' : Multiplication
 
-' / ' : Division
+* ' __/__ ' : Division
 
-' % ' : Modulo
+* ' __%__ ' : Modulo
 
-' + ' : Addition
+* ' __+__ ' : Addition
 
-' – ' : Subtraction
+* ' __–__ ' : Subtraction
 
 
+##### Example
 
+```java
 // Java program to illustrate 
 
 // arithmetic operators 
 
 public class operators { 
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args){
 
 		int a = 20, b = 10, c = 0, d = 20, e = 40, f = 30; 
 		String x = "Thank", y = "You"; 
@@ -50,11 +51,11 @@ public class operators {
 	} 
 } 
 
->## Output:
+##### Output:
 
-a + b = 30   
-a - b = 10   
-x + y = ThankYou   
-a * b = 200  
-a / b = 2  
-a % b = 0
+	a + b = 30   
+	a - b = 10   
+	x + y = ThankYou   
+	a * b = 200  
+	a / b = 2  
+	a % b = 0

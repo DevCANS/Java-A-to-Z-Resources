@@ -4,11 +4,12 @@ These operators are used to perform “logical AND” and “logical OR” opera
 
 Conditional operators are-
 
-&&, Logical AND : returns true when both conditions are true.
-||, Logical OR : returns true if at least one condition is true.
+* __&&, Logical AND__ : returns true when both conditions are true.
+* __||, Logical OR__ : returns true if at least one condition is true.
 
-## Example:
+##### Example:
 
+```java
 // Java program to illustrate 
 // logical operators 
 
@@ -16,8 +17,7 @@ import java.util.*;
 
 public class operators {   
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args){
 
 		String x = "Sher"; 
 		String y = "Locked"; 
@@ -38,10 +38,11 @@ public class operators {
 		} 
 	} 
 } 
+```
 
-## Output:
+##### Output:
 
-Enter username:Sher   
-Enter password:Locked   
-Welcome user.
+	Enter username:Sher   
+	Enter password:Locked   
+	Welcome user.
 

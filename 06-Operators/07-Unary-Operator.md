@@ -2,30 +2,25 @@
 
 * Unary operators need only one operand. They are used to increment, decrement or negate a value.   
 * ' __–__ ' :Unary minus, used for negating the values.
-
 * '__+__' :Unary plus, used for giving positive values. Only used when deliberately converting a negative value to positive.
-
 * ' __++__ ' :Increment operator, used for incrementing the value by 1. There are two varieties of increment operator.
+  * Post-Increment : Value is first used for computing the result and then incremented.
 
-* Post-Increment : Value is first used for computing the result and then incremented.
-
-* Pre-Increment : Value is incremented first and then result is computed.
-
+  * Pre-Increment : Value is incremented first and then result is computed.
 * ' __--__' : Decrement operator, used for decrementing the value by 1. There are two varieties of decrement operator.
-
-* Post-decrement : Value is first used for computing the result and then decremented.
-* Pre-Decrement : Value is decremented first and then result is computed.
+  * Post-decrement : Value is first used for computing the result and then decremented.
+  * Pre-Decrement : Value is decremented first and then result is computed.
 * ' __!__ ' : Logical not operator, used for inverting a boolean value.
 
-## Example
+##### Example
 
+```java
 // Java program to illustrate    
 // unary operators    
 
 public class operators {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args){
 
 		int a = 20, b = 10, c = 0, d = 20, e = 40, f = 30; 
 		boolean condition = true; 
@@ -55,11 +50,12 @@ public class operators {
 						+ !condition); 
 	} 
 } 
+```
 
-## Output:
+##### Output:
 
-Value of c (++a) = 21   
-Value of c (b++) = 10   
-Value of c (--d) = 19   
-Value of c (e--) = 40   
-Value of !condition =false
+	Value of c (++a) = 21   
+	Value of c (b++) = 10   
+	Value of c (--d) = 19   
+	Value of c (e--) = 40   
+	Value of !condition =false
