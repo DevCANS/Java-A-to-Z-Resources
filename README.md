@@ -38,11 +38,10 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Arrays|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Strings|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Literals|:heavy_check_mark:|:x:|:x:|:x:|
-|__Variables__|Declaring Variables|:x:|:x:|:x:|:x:|
-||Dynamic Initialization|:x:|:x:|:x:|:x:|
-||Scope and Liftime|:x:|:x:|:x:|:x:|
-||Type Conversion and Casting|:x:|:x:|:x:|:x:|
-||Automatic Type Promotion|:x:|:x:|:x:|:x:|
+|__Variables__|What is Variable?|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Scope and Liftime|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Type Conversion and Casting|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
+||Automatic Type Promotion|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
 |__Operators__|Arithmatic Operators|:x:|:x:|:x:|:x:|
 ||Bitwise Operators|:x:|:x:|:x:|:x:|
 ||Relational Operators|:x:|:x:|:x:|:x:|

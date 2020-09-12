@@ -1,4 +1,4 @@
-># Type Conversions in Java
+># Type Conversions
 
 When you assign value of one data type to another, the two types might not be compatible with each other. If the data types are compatible, then Java will perform the conversion automatically known as Automatic Type Conversion and if not then they need to be casted or converted explicitly. For example, assigning an int value to a long variable.
 
@@ -12,11 +12,13 @@ When we assign value of a smaller data type to a bigger data type.
 For Example, in java the numeric data types are compatible with each other but no automatic conversion is supported from numeric type to char or boolean. Also, char and boolean are not compatible with each other.
 
 ![](images/typeconversion_java.png)
-class Test 
-{ 
 
-	public static void main(String[] args) 
-	{
+##### Example
+
+```java
+class Test{
+
+	public static void main(String[] args){
 
 		int i = 100; 
 		
@@ -30,17 +32,16 @@ class Test
 		System.out.println("Float value "+f); 
 	} 
 } 
+```
 
->## Output
+##### Output
 
-Int value 100
-
-Long value 100
-
-Float value 100.0
+	Int value 100
+	Long value 100
+	Float value 100.0
 
 
-># Narrowing or Explicit Conversion
+## Narrowing or Explicit Conversion
 
 If we want to assign a value of larger data type to a smaller data type we perform explicit type casting or narrowing.
 
@@ -49,42 +50,41 @@ If we want to assign a value of larger data type to a smaller data type we perfo
 
 ![](images/typeconversion_second.png)
 
->>## See Examples
+##### Examples
+
+```java
 //Java program to illustrate incompatible data 
 
 // type for explicit type conversion 
 
-public class Test 
-{
+public class Test{
 
-public static void main(String[] argv) 
-{ 
+	public static void main(String[] argv){
+		char ch = 'c'; 
+		int num = 88; 
+		ch = num; 
+	}
+}
+```
 
-	char ch = 'c'; 
-	int num = 88; 
-	ch = num; 
-} 
-} 
+##### Output
+	Error:
 
-Error:
-
-7: error: incompatible types: possible lossy conversion from int to char
-    
-    ch = num;
-         ^
-1 error
+	7: error: incompatible types: possible lossy conversion from int to char
+		
+		ch = num;
+			^
+	1 error
 
 __How to do Explicit Conversion?__
 
->>## Examples
+##### Examples
 
+```java
 //Java program to illustrate explicit type conversion 
 
-class Test 
-{
-
-	public static void main(String[] args) 
-	{
+class Test{
+	public static void main(String[] args){
 
 		double d = 100.04; 
 		
@@ -100,28 +100,25 @@ class Test
 		
 		//fractional part lost 
 		System.out.println("Int value "+i); 
-	} 
-} 
+	}
+}
+```
 
->>## Output:
+##### Output:
 
-Double value 100.04
+	Double value 100.04
+	Long value 100
+	Int value 100
 
-Long value 100
+While assigning value to byte type the fractional part is lost and is reduced to modulo 256 (range of byte).
 
-Int value 100
+##### Example:
 
-While assigning value to byte type the fractional part is lost and is reduced to modulo 256(range of byte).
+```java
+//  Java program to illustrate Conversion of int and double to byte
 
->>## Example:
-
-//  Java program to illustrate Conversion of __int__ and __double__ to __byte__ 
-
-class Test 
-{
-
-	public static void main(String args[]) 
-	{
+class Test{
+	public static void main(String args[]){
 
 		byte b; 
 		int i = 257; 
@@ -136,22 +133,18 @@ class Test
 		//d%256 
 		b = (byte) d; 
 		System.out.println("d = " + d + " b= " + b); 
-	} 
-} 
+	}
+}
+```
 
->>## Output:
+##### Output:
 
-Conversion of int to byte.
+	Conversion of int to byte.
+	i = 257 b = 1
+	Conversion of double to byte.
+	d = 323.142 b = 67
 
-i = 257 b = 1
-
-Conversion of double to byte.
-
-d = 323.142 b = 67
-
-
-
-># Type promotion in Expressions
+## Type promotion in Expressions
 
 While evaluating expressions,
  the intermediate value may exceed the range of operands and hence the expression value will be promoted. Some conditions for type promotion are:
@@ -159,15 +152,13 @@ While evaluating expressions,
 * Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
 * If one operand is a long, float or double the whole expression is promoted to long, float or double respectively.
 
->>## Example:
+##### Example:
 
+```java
 //Java program to illustrate Type promotion in Expressions 
 
-class Test 
-{
-
-	public static void main(String args[]) 
-	{
+class Test{
+	public static void main(String args[]){
 
 		byte b = 42; 
 		char c = 'a'; 
@@ -181,34 +172,40 @@ class Test
 		
 		//Result after all the promotions are done 
 		System.out.println("result = " + result); 
-	} 
-} 
+	}
+}
+```
 
->>## Output:
+##### Output:
 
-Result = 626.7784146484375
+	Result = 626.7784146484375
 
-># Explicit type casting in Expressions
+## Explicit type casting in Expressions
 
 While evaluating expressions, the result is automatically updated to larger data type  of the operand. But if we store that result in any smaller data type it generates compile time error, due to which we need to type cast the result.
 
->>## Example
+##### Example
 
-//Java program to illustrate type casting int to byte 
+```java
+//Java program to illustrate type casting int to byte
+class Test{
 
-class Test 
-{
-
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]){
 		byte b = 50; 
 		
 		//type casting int to byte 
 		b = (byte)(b * 2); 
 		System.out.println(b); 
-	} 
-} 
+	}
+}
+```
 
->>## Output
+##### Output
 
-     100
+    100
+
+## External Resources
+
+#### More Examples and Practice Questions
+
+Provided in the last chapter of current section.

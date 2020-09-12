@@ -1,4 +1,4 @@
-># Scope of Variables In Java
+># Scope And Lifetime
 
 * Scope of a variable is the part of the program where the variable is accessible. Like C/C++, in Java, all identifiers are lexically (or statically) scoped, i.e.scope of a variable can determined at compile time and independent of function call stack.
 
@@ -8,10 +8,11 @@ Member Variables (Class Level Scope)
 
 These variables must be declared inside class (outside any function). They can be directly accessed anywhere in class. Let’s take a look at an __example__:
 
-public class Test
-{
+##### Example
 
-    // All variables defined directly inside a class 
+```java
+public class Test{
+	// All variables defined directly inside a class 
     // are member variables
     int a;
     private String b
@@ -19,7 +20,7 @@ public class Test
     int method2() {....}
     char c;
 }
-
+```
 
 * We can declare class variables anywhere in class, but outside methods.
 
@@ -28,35 +29,35 @@ public class Test
 * Member variables can be accessed outside a class with following rules
 
 
-Modifier      Package  Subclass  World
+|Modifier|Package|Subclass|World|
+|---|---|---|---|
+|public|Yes|Yes|Yes|
+|protected|Yes|Yes|No|
+|Default (no modifier)|Yes|No|No|
+|private|No|No|No|
 
-public          Yes      Yes     Yes
-
-protected       Yes      Yes     No
-
-Default (no
-modifier)       Yes       No     No
-
-private         No        No     No
-
->## Local Variables (Method Level Scope)
+## Local Variables (Method Level Scope)
 
 Variables declared inside a method have method level scope and can’t be accessed outside the method.
 
-public class Test
-{
+##### Example
 
-    void method1() 
-    {
+```java
+public class Test{
+
+    void method1(){
        // Local variable (Method level scope)
        int x;
     }
 }
-
+```
 __Note__ : Local variables don’t exist after method’s execution is over.
 
 Here’s another example of method scope, except this time the variable got passed in as a parameter to the method:
 
+##### Example
+
+```java
 class Test
 {
 
@@ -66,18 +67,18 @@ class Test
         this.x = x;
     }
 }
+```
 
 The above code uses this keyword to differentiate between the local and class variables.
 
-As an exercise, predict the output of following Java program.
+### Example
 
-public class Test 
-{ 
-
+```java
+public class Test { 
 	static int x = 11; 
-	private int y = 33; 
-	public void method1(int x) 
-	{ 
+	private int y = 33;
+
+	public void method1(int x){ 
 		Test t = new Test(); 
 		this.x = 22; 
 		y = 44; 
@@ -88,32 +89,28 @@ public class Test
 		System.out.println("y: " + y); 
 	} 
 
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]){
 		Test t = new Test(); 
 		t.method1(5); 
 	} 
-} 
+}
+```
 
-## Output:
+##### Output:
 
-Test.x:   22
+	Test.x:   22
+	t.x: 22
+	t.y: 33
+	y: 44
 
-t.x: 22
-
-t.y: 33
-
-y: 44
-
->## Loop Variables (Block Scope)
+##### Loop Variables (Block Scope)
 
 A variable declared inside pair of brackets “{” and “}” in a method has scope withing the brackets only.
 
-public class Test 
-{ 
+```java
+public class Test{
 
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]){
 		{ 
 			// The variable x has scope within 
 			// brackets 
@@ -126,66 +123,63 @@ public class Test
 
 		// System.out.println(x); 
 	} 
-} 
+}
+```
 
->## Output 
-     10
-
+##### Output 
+     
+	 10
      As another example, consider following program with a for loop.
 
 
-class Test
-{ 
+```java
+class Test{
 
-	public static void main(String args[]) 
-	{ 
-		for (int x = 0; x < 4; x++) 
-		{ 
+	public static void main(String args[]){
+		for (int x = 0; x < 4; x++){
 			System.out.println(x); 
 		} 
 
 		// Will produce error 
 		System.out.println(x); 
 	} 
-} 
+}
+```
 
->## Output:
+##### Output:
 
-11: error: cannot find symbol
+	11: error: cannot find symbol
 
         System.out.println(x); 
 
  The right way of doing above is,  
 
+```java
  // Above program after correcting the error 
+class Test{
 
-class Test 
-{ 
-
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]){
 		int x; 
-		for (x = 0; x < 4; x++) 
-		{ 
+		for (x = 0; x < 4; x++){
 			System.out.println(x); 
 		} 
 
-	System.out.println(x); 
+		System.out.println(x); 
 	} 
 }
+```
 
->## Output 
-Output:
+##### Output 
 
-0  
-1
-2
-3
-4
+	0  
+	1
+	2
+	3
+	4
 
-__Some Important Points about Variable scope in Java__:
+### Some Important Points about Variable scope in Java:
 
-In general, a set of curly brackets { } defines a scope.
+In general, a set of curly brackets `{ }` defines a scope.
 
 * In Java we can usually access a variable as long as it was defined within the same set of brackets as the code we are writing or within any curly brackets inside of the curly brackets where the variable was defined.
 
@@ -194,3 +188,12 @@ In general, a set of curly brackets { } defines a scope.
 * When a method has the same local variable as a member, this keyword can be used to reference the current class variable.
 
 * For a variable to be read after the termination of a loop, It must be declared before the body of the loop.
+
+## External Resources
+
+* [JavaTPoint](https://www.javatpoint.com/java-variables)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/variables-in-java/)
+
+#### More Examples and Practice Questions
+
+Provided in the last chapter of current section.

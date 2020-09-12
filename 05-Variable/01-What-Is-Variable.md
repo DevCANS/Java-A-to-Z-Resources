@@ -8,7 +8,7 @@ A variable is a name given to a memory location. It is the basic unit of storage
 
 ![See here](images/variables_java_one.jpeg)
 
-># How to declare variables?
+## How to declare variables?
 
 We can declare variables in java as follows:
 
@@ -23,31 +23,32 @@ __name__: Name given to the variable.
 
 __datatype__: Type of data that can be stored in this variable.
 
-__variable_name__: Name given to the variable.
+__variable name__: Name given to the variable.
 
 __value__: It is the initial value stored in the variable.
 
-## Examples:
+##### Examples:
 
-__float__ simpleInterest; //Declaring float variable
+```java
+float simpleInterest; //Declaring float variable
 
-__int__ time = 10, speed = 20; //Declaring and Initializing integer variable
+int time = 10, speed = 20; //Declaring and Initializing integer variable
 
-__char__ var = 'h'; // Declaring and Initializing character variable
+char var = 'h'; // Declaring and Initializing character variable
+```
+## Types of Variables
 
-># Types of Variables
+There are three types of variables in Java:
 
- ## There are three types of variables in Java:
+* __Local Variables__    
 
-* __Local_Variables__    
+* __Instance Variables__
 
-* __Instance_Variables__
-
-* __Static_Variables__
+* __Static Variables__
 
 Let us now learn about each one of these variables in detail.
 
-__Local_Variables__: 
+__Local Variables__: 
 
  A variable defined within a block or method or constructor is called local variable.
 
@@ -57,66 +58,65 @@ __Local_Variables__:
 
 * Initilisation of Local Variable is Mandatory.
 
-## Samples
+##### Example
 
-
+```java
 public class StudentDetails { 
 
-	public void StudentAge() 
-	{ 
+	public void StudentAge(){ 
 		// local variable age 
 		int age = 0; 
 		age = age + 5; 
 		System.out.println("Student age is : " + age); 
 	} 
 
-	public static void main(String args[]) 
-	{ 
+	public static void main(String args[]){ 
 		StudentDetails obj = new StudentDetails(); 
 		obj.StudentAge(); 
 	} 
 } 
+```
 
-## Output
-> Student age is : 5
+##### Output
 
-In the above program, the variable __age__ is a local variable to the function __StudentAge()__. 
+	Student age is : 5
 
-If we use the variable age outside __StudentAge()__ function, the compiler will produce an error as shown in below program.
+In the above program, the variable `age` is a local variable to the function `StudentAge()`. 
 
-
-
-># Sample 2
+If we use the variable age outside `StudentAge()` function, the compiler will produce an error as shown in below program.
 
 
+
+##### Example
+
+```java
 public class StudentDetails {
 
-    public void StudentAge() 
-    { // local variable age 
+    public void StudentAge(){ 
+		// local variable age 
         int age = 0; 
         age = age + 5; 
     } 
   
-    public static void main(String args[]) 
-    { 
+    public static void main(String args[]){ 
         // using local variable age outside it's scope 
         System.out.println("Student age is : " + age); 
     } 
 } 
+```
 
->## Output:
+##### Output:
 
  __Compilation Error in java code__ 
 
-prog.java:103: error: cannot find symbol
-        System.out.println("Student age is : " + age);
-                                         
-  symbol:   variable age
-  location: class StudentDetails
+	prog.java:103: error: cannot find symbol System.out.println("Student age is : " + age);
+											
+	symbol:   variable age
+	location: class StudentDetails
 
-1 error
+	1 error
 
->## 02 Instance Variable
+## Instance Variable
 
 
 __Instance Variables__: Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
@@ -127,8 +127,9 @@ __Instance Variables__: Instance variables are non-static variables and are decl
 * Initilisation of Instance Variable is not Mandatory. Its default value is 0
 Instance Variable can be accessed only by creating objects.
 
->## Samples
+##### Example
 
+```java
 import java.io.*; 
 class Marks { 
 
@@ -138,8 +139,10 @@ class Marks {
 	int engMarks; 
 	int mathsMarks; 
 	int phyMarks; 
-} 
+}
+```
 
+```java
 class MarksDemo { 
 
 	public static void main(String args[]) 
@@ -168,28 +171,22 @@ class MarksDemo {
 		System.out.println(obj2.mathsMarks); 
 		System.out.println(obj2.phyMarks); 
 	} 
-} 
+}
+```
 
->## Output:
-Marks for first object:
-
-50
-
-80
-
-90
-
-Marks for second object:
-
-80
-
-60
-
-85
+##### Output:
+	Marks for first object:
+	50
+	80
+	90
+	Marks for second object:
+	80
+	60
+	85
 
 As you can see in the above program the variables, engMarks , mathsMarks , phyMarksare instance variables. In case we have multiple objects as in the above program, each object will have its own copies of instance variables. It is clear from the above output that each object will have its own copy of instance variable.
 
->## Static Variable
+## Static Variable
 
 __Static Variables__: Static variables are also known as Class variables.
 
@@ -203,31 +200,47 @@ Initilisation of Static Variable is not Mandatory. Its default value is 0
 * If we access the static variable like Instance variable (through an object), the compiler will show the warning message and it won’t halt the program. The compiler will replace the object name to class name automatically.
 
 * If we access the static variable without the class name, Compiler will automatically append the class name.
+
 To access static variables, we need not create an object of that class, we can simply access the variable as
 
->>### class_name.variable_name;
+```java
+ClassName.variableName;
+```
 
+##### Example
+
+```java
 import java.io.*; 
 class Emp { 
-
-
 	// static variable salary 
 	public static double salary; 
 	public static String name = "Harsh"; 
 } 
+```
 
+```java
 public class EmpDemo {
 
-	public static void main(String args[]) 
-	{ 
-
+	public static void main(String args[]){ 
 		// accessing static variable without object 
 		Emp.salary = 1000; 
 		System.out.println(Emp.name + "'s average salary:"
 						+ Emp.salary); 
 	} 
 } 
+```
 
->## Output:
+##### Output:
 
-Harsh's average salary:1000.0
+	Harsh's average salary:1000.0
+
+
+## External Resources
+
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)
+* [JavaTPoint](https://www.javatpoint.com/java-variables)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/variables-in-java/)
+
+#### More Examples and Practice Questions
+
+Provided in the last chapter of current section.

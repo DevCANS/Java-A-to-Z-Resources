@@ -31,8 +31,7 @@
 
 > #### Variables
 
-* Declaring Variables
-* Dynamic Initialization
+* [What is Variable?](05-Variable/01-What-Is-Variable.md)
 * Scope and Lifetime
 * Type Conversion and Casting
 * Automatic Type Promotion
