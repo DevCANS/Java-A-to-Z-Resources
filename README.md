@@ -42,13 +42,14 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Scope and Liftime|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Type Conversion and Casting|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
 ||Automatic Type Promotion|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
-|__Operators__|Arithmatic Operators|:x:|:x:|:x:|:x:|
-||Bitwise Operators|:x:|:x:|:x:|:x:|
-||Relational Operators|:x:|:x:|:x:|:x:|
-||Boolean Logical Operator|:x:|:x:|:x:|:x:|
-||Assignment Operator|:x:|:x:|:x:|:x:|
-||Ternary Operator|:x:|:x:|:x:|:x:|
-|__Control Statements__|'if' Statements|:x:|:x:|:x:|:x:|
+|__Operators__|Arithmatic Operators|:heavy_check_mark:|:x:|:x:|:x:|
+||Bitwise Operators|:heavy_check_mark:|:x:|:x:|:x:|
+||Relational Operators|:heavy_check_mark:|:x:|:x:|:x:|
+||Boolean Logical Operator|:heavy_check_mark:|:x:|:x:|:x:|
+||Ternary Operator|:heavy_check_mark:|:x:|:x:|:x:|
+||Unary Operator|:heavy_check_mark:|:x:|:x:|:x:|
+||Assignment Operator|:heavy_check_mark:|:x:|:x:|:x:|
+|__Control Statements__|'if' Statements|:heavy_check_mark:|:x:|:x:|:x:|
 ||switch|:x:|:x:|:x:|:x:|
 ||Loops|:x:|:x:|:x:|:x:|
 ||Jump Statements|:x:|:x:|:x:|:x:|
