@@ -90,7 +90,7 @@
 * [Multilevel Hierarchy](10-Inheritance/03-Multilevel-Hierarchy.md)
 * [Method Overriding](10-Inheritance/04-Method-Overriding.md)
 * [Abstract Classes and More on 'final' Keyword](10-Inheritance/05-Abstract-Classes-and-More-on-final-Keyword.md)
-* The 'Object' Class
+* [The 'Object' Class](10-Inheritance/06-The-Object-Class.md)
 
 > #### Interfaces
 
