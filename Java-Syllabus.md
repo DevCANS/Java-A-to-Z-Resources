@@ -82,7 +82,7 @@
   * [Static Methods](09-More-on-Classes/01-static-Keyword.md#Static-Methods)
   * [Initializer Block](09-More-on-Classes/01-static-Keyword.md#Initializer-Block)
   * [Static Initializer Block](09-More-on-Classes/01-static-Keyword.md#Static-Initializer-Block)
-* Nested or Inner Classes
+* [Nested or Inner Classes](09-More-on-Classes/02-Nested-or-Inner-Class.md)
 * 'final' Keyword
 
 > #### Inheritance
