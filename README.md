@@ -58,11 +58,9 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Methods|:x:|:x:|:x:|:x:|
 ||Constructors|:x:|:x:|:x:|:x:|
 ||Access Control|:x:|:x:|:x:|:x:|
-|__More on Classes__|'static' Keyword|:x:|:x:|:x:|:x:|
+|__More on Classes__|'static' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+||Nested or Inner Classes|:x:|:x:|:x:|:x:|
 ||'final' Keyword|:x:|:x:|:x:|:x:|
-||Initializer Block|:x:|:x:|:x:|:x:|
-||Static Initializer Block|:x:|:x:|:x:|:x:|
-||Nested and Inner Classes|:x:|:x:|:x:|:x:|
 |__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Multilevel Hierarchy|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|

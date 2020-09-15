@@ -77,11 +77,13 @@
 
 > #### More on Classes
 
-* 'static' Keyword
+* ['static' Keyword](09-More-on-Classes/01-static-Keyword.md)
+  * [Static Variable](09-More-on-Classes/01-static-Keyword.md#Static-Variables)
+  * [Static Methods](09-More-on-Classes/01-static-Keyword.md#Static-Methods)
+  * [Initializer Block](09-More-on-Classes/01-static-Keyword.md#Initializer-Block)
+  * [Static Initializer Block](09-More-on-Classes/01-static-Keyword.md#Static-Initializer-Block)
+* Nested or Inner Classes
 * 'final' Keyword
-* Initializer Block
-* Static Initializer Block
-* Nested and Inner Classes
 
 > #### Inheritance
 
