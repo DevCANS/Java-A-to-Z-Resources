@@ -148,5 +148,6 @@
 * [Wildcard Arguments](17-Generics/03-Wildcard-Arguments.md)
 
 > #### Lambda Expressions
+* [Lambda Expression Fundamentals](18-Lambda-Expressions/01-Lambda-Expression-Fundamentals.md)
 
 > #### Java Collections
