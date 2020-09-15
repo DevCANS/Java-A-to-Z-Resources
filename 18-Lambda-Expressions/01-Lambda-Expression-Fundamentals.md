@@ -119,6 +119,44 @@ class LambdaDemo3 {
     2 is a factor of 10
     3 is not a factor of 10
 
+## Block Lambda Expression
+
+The body of the lambdas shown in the preceding examples consist of a single expression. These types of lambda bodies are referred to as expression bodies, and lambdas that have expression bodies are sometimes called expression lambdas.
+
+Java supports a second type of lambda expression in which the code on the right side of the lambda operator consists of a block of code that can contain more than one statement. This type of lambda body is called a _block body_. Lambdas that have block bodies are sometimes referred to as _block lambdas_.
+
+Aside from allowing multiple statements, block lambdas are used much like the expression lambdas just discussed. One key difference, however, is that you must explicitly use a return statement to return a value.
+
+##### Examples
+
+```java
+// A block lambda that computes the factorial of an int value.
+interface NumericFunc {
+    int func(int n);
+}
+```
+
+```java
+class BlockLambdaDemo {
+    public static void main(String args[]){
+        // This block lambda computes the factorial of an int value.
+        NumericFunc factorial = (n) -> {
+            int result = 1;
+            for(int i=1; i <= n; i++)
+            result = i * result;
+            return result;
+        };
+        System.out.println("The factoral of 3 is " + factorial.func(3));
+        System.out.println("The factoral of 5 is " + factorial.func(5));
+    }
+}
+```
+
+##### Output
+
+    The factorial of 3 is 6
+    The factorial of 5 is 120
+
 ## External Resources
 
 * [JavaTPoinnt](https://www.javatpoint.com/java-lambda-expressions)
