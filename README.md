@@ -96,4 +96,5 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Generic Methods, Constructors and Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Wildcard Arguments|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Lambda Expressions__|Lambda Expression Fundamentals|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||More Fundamental Concepts|:heavy_check_mark:|:x:|:x:|:x:|
 |__Java Collections__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|
