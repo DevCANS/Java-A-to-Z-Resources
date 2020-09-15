@@ -60,7 +60,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Access Control|:x:|:x:|:x:|:x:|
 |__More on Classes__|'static' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Nested or Inner Classes|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||'final' Keyword|:x:|:x:|:x:|:x:|
+||'final' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Inheritance__|Basics|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||'super' Keyword|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Multilevel Hierarchy|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
