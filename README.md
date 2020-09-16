@@ -34,7 +34,6 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Inheritance|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Polymorphism|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Data Types__|Primitive Types|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-||Strings|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Arrays|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Strings|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Literals|:heavy_check_mark:|:x:|:x:|:x:|
@@ -87,7 +86,10 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Synchronization|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Interthread Communication|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Deadlock|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-|__Enumerations, Type Wrappers, Autoboxing and Annotations__|:heavy_minus_sign:|:x:|:x:|:x:|:x:|
+|__Enumerations, Type Wrappers, Autoboxing and Annotations__|Enumerations|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Type Wrappers|:x:|:x:|:x:|:x:|
+||Autoboxing|:x:|:x:|:x:|:x:|
+||Annotations|:x:|:x:|:x:|:x:|
 |__Java I/O__|Streams|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Reading Console Input|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Writing to Console|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|

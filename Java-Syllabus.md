@@ -132,6 +132,10 @@
 * [Deadlock](14-Multithreaded-Programing/07-Deadlock.md)
 
 > #### Enumerations, Type Wrappers, Autoboxing and Annotations
+* [Enumerations](15-Enumerations-Type-Wrappers-Autoboxing-and-Annotations/01-Enumerations.md)
+* Type Wrappers
+* Autoboxing
+* Annotations
 
 > #### Java I/O
 * [Streams](16-Java-IO/01-Streams.md)
