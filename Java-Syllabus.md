@@ -133,8 +133,7 @@
 
 > #### Enumerations, Type Wrappers, Autoboxing and Annotations
 * [Enumerations](15-Enumerations-Type-Wrappers-Autoboxing-and-Annotations/01-Enumerations.md)
-* Type Wrappers
-* Autoboxing
+* [Type Wrappers and Autoboxing](15-Enumerations-Type-Wrappers-Autoboxing-and-Annotations/02-Type-Wrappers-and-Autoboxing.md)
 * Annotations
 
 > #### Java I/O

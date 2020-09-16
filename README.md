@@ -87,8 +87,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Interthread Communication|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Deadlock|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 |__Enumerations, Type Wrappers, Autoboxing and Annotations__|Enumerations|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Type Wrappers|:x:|:x:|:x:|:x:|
-||Autoboxing|:x:|:x:|:x:|:x:|
+||Type Wrappers and Autoboxing|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Annotations|:x:|:x:|:x:|:x:|
 |__Java I/O__|Streams|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Reading Console Input|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
