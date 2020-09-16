@@ -166,3 +166,51 @@ class LambdaExceptionDemo {
 ```
 
 The first call to `average.func()` returns the value 2.5. The second call, which passes a zero-length array, causes an `EmptyArrayException` to be thrown. Remember, the inclusion of the throws clause in `func()` is necessary. Without it, the program will not compile because the lambda expression will no longer be compatible with `func()`.
+
+## Lambda Expression and Variable Capture
+
+A Java lambda expression is capable of accessing variables declared outside the lambda function body under certain circumstances. For example, a lambda expression can use an instance or static variable defined by its enclosing class.
+
+When a lambda expression uses a local variable from its enclosing scope, a special situation is created that is referred to as a variable capture. In this case, a lambda expression may only use local variables that are effectively final.
+
+An effectively final variable is one whose value does not change after it is first assigned. There is no need to explicitly declare such a variable as final, although doing so would not be an error.
+
+Java lambdas can capture the following types of variables:
+* Local Variables
+* Instance Variables
+* Static Variables
+
+##### Example
+
+```java
+// An example of capturing a local variable from the enclosing scope.
+interface MyFunc {
+    int func(int n);
+}
+```
+
+```java
+class VarCapture {
+    public static void main(String args[]){
+    // A local variable that can be captured.
+    int num = 10;
+    MyFunc myLambda = (n) -> {
+        // This use of num is OK. It does not modify num.
+        int v = num + n;
+        // However, the following is illegal because it attempts
+        // to modify the value of num.
+        // num++;
+        return v;
+    };
+    // The following line would also cause an error, because
+    // it would remove the effectively final status from num.
+    // num = 9;
+    }
+}
+```
+
+If `num` were to be modified, either inside the lambda or outside of it, `num` would lose its effectively final status. This would cause an error, and the program would not compile.
+
+## External Resources
+
+* [Jenkov Tutorials](http://tutorials.jenkov.com/java/lambda-expressions.html)
