@@ -150,5 +150,6 @@
 > #### Lambda Expressions
 * [Lambda Expression Fundamentals](18-Lambda-Expressions/01-Lambda-Expression-Fundamentals.md)
 * [More Fundamental Concepts](18-Lambda-Expressions/02-More-Fundamental-Concepts.md)
+* [Method References](18-Lambda-Expressions/03-Method-References.md)
 
 > #### Java Collections
