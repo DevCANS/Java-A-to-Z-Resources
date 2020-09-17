@@ -2,17 +2,12 @@
 
 These operators are used to perform manipulation of individual bits of a number. They can be used with any of the integer types. They are used when performing update and query operations of Binary indexed tree.
 
-
-* __Bitwise AND ' & '  operator__: returns bit by bit AND of input values.
-
-
-* __Bitwise OR ' | ' operator__: returns bit by bit OR of input values.
-
- * __Bitwise XOR ' ^ ' operator__: returns bit by bit XOR of input values.
-
-* __Bitwise Complement ' ~ ' Operator__:
- This is a unary operator which returns the one’s compliment 
- representation of the input value, i.e. with all bits inversed.
+|Operator|Operator Name|Description|
+|---|---|---|
+|`&`|Bitwise AND|Returns bit by bit AND of input values.|
+|`|`|Bitwise OR|Returns bit by bit OR of input values.|
+|`^`|Bitwise XOR|Returns bit by bit XOR of input values.|
+|`~`|Bitwise Complement|This is a unary operator which returns the one’s compliment representation of the input value, i.e. with all bits inversed.|
 
 ##### Example
 

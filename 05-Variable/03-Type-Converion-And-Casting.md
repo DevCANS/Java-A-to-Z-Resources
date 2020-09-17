@@ -1,15 +1,15 @@
 ># Type Conversions
 
-When you assign value of one data type to another, the two types might not be compatible with each other. If the data types are compatible, then Java will perform the conversion automatically known as Automatic Type Conversion and if not then they need to be casted or converted explicitly. For example, assigning an int value to a long variable.
+When you assign value of one data type to another, the two types might not be compatible with each other. If the data types are compatible, then Java will perform the conversion automatically known as Automatic Type Conversion and if not then they need to be casted or converted explicitly. For example, assigning an `int` value to a `long` variable.
 
-
-Widening or Automatic Type Conversion
+## Widening or Automatic Type Conversion
 
 Widening conversion takes place when two data types are automatically converted. This happens when:
 
-The two data types are compatible.
-When we assign value of a smaller data type to a bigger data type.
-For Example, in java the numeric data types are compatible with each other but no automatic conversion is supported from numeric type to char or boolean. Also, char and boolean are not compatible with each other.
+* The two data types are compatible.
+* When we assign value of a smaller data type to a bigger data type.
+
+For Example, in java the numeric data types are compatible with each other but no automatic conversion is supported from numeric type to `char` or `boolean`. Also, `char` and `boolean` are not compatible with each other.
 
 ![](images/typeconversion_java.png)
 
@@ -76,7 +76,7 @@ public class Test{
 			^
 	1 error
 
-__How to do Explicit Conversion?__
+### How to do Explicit Conversion?
 
 ##### Examples
 
@@ -110,7 +110,7 @@ class Test{
 	Long value 100
 	Int value 100
 
-While assigning value to byte type the fractional part is lost and is reduced to modulo 256 (range of byte).
+While assigning value to `byte` type the fractional part is lost and is reduced to modulo 256 (range of byte).
 
 ##### Example:
 
@@ -146,11 +146,10 @@ class Test{
 
 ## Type promotion in Expressions
 
-While evaluating expressions,
- the intermediate value may exceed the range of operands and hence the expression value will be promoted. Some conditions for type promotion are:
+While evaluating expressions, the intermediate value may exceed the range of operands and hence the expression value will be promoted. Some conditions for type promotion are:
 
-* Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
-* If one operand is a long, float or double the whole expression is promoted to long, float or double respectively.
+* Java automatically promotes each `byte`, `short`, or `char` operand to `int` when evaluating an expression.
+* If one operand is a `long`, `float` or `double` the whole expression is promoted to `long`, `float` or `double` respectively.
 
 ##### Example:
 
@@ -182,7 +181,7 @@ class Test{
 
 ## Explicit type casting in Expressions
 
-While evaluating expressions, the result is automatically updated to larger data type  of the operand. But if we store that result in any smaller data type it generates compile time error, due to which we need to type cast the result.
+While evaluating expressions, the result is automatically updated to larger data type of the operand. But if we store that result in any smaller data type it generates compile time error, due to which we need to type cast the result.
 
 ##### Example
 

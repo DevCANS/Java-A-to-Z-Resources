@@ -6,7 +6,7 @@ A programming language uses control statements to control the flow of execution 
 
 ## if statements
 
-if statement is the most simple decision making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.
+`if` statement is the most simple decision making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.
 
 __Syntax:__
 
@@ -16,15 +16,17 @@ if(condition){
    // condition is true
 }
 ```
-Here, condition after evaluation will be either true or false. if statement accepts boolean values – if the value is true then it will execute the block of statements under it.
 
-If we do not provide the curly braces ‘{‘ and ‘}’ after if( condition ) then by default if statement will consider the immediate one statement to be inside its block. For example,
+Here, condition after evaluation will be either true or false. `if` statement accepts boolean values – if the value is true then it will execute the block of statements under it.
+
+If we do not provide the curly braces `{` and `}` after `if(condition)` then by default `if` statement will consider the immediate one statement to be inside its block.
+
+For example:
 
 ```java
-if(condition)  {   
+if(condition)
     statement1;  
-    statement2;   
-}     
+statement2;     
 
 // Here if the condition is true, if block    
 // will consider only statement1 to be inside    
@@ -54,9 +56,9 @@ class IfDemo{
 
     I am Not in if
 
-## if-else statements
+## if-else statement
 
-The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false. Here comes the else statement. We can use the else statement with if statement to execute a block of code when the condition is false.   
+The `if` statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false. Here comes the `else` statement. We can use the `else` statement with `if` statement to execute a block of code when the condition is false.   
 
 __Syntax__:
  
@@ -95,7 +97,7 @@ class IfElseDemo{
 
 ## Nested if 
 
-A nested if is an if statement that is the target of another if or else. Nested if statements means an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
+A nested `if` is an `if` statement that is the target of another `if` or `else`. Nested `if` statements means an if statement inside an `if` statement. Yes, java allows us to nest `if` statements within `if` statements. i.e, we can place an `if` statement inside another `if` statement.
 
 __Syntax__:
 
@@ -142,7 +144,7 @@ class NestedIfDemo{
 
 ## if-else ladder
 
-Here, a user can decide among multiple options.The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final else statement will be executed.
+Here, a user can decide among multiple options.The `if` statements are executed from the top down. As soon as one of the conditions controlling the `if` is true, the statement associated with that `if` is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final `else` statement will be executed.
 
 ```java
 if (condition)

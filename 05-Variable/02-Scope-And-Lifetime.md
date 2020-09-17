@@ -4,9 +4,9 @@
 
 * Java programs are organized in the form of classes. Every class is part of some package. Java scope rules can be covered under following categories.
 
-Member Variables (Class Level Scope)
+## Member Variables (Class Level Scope)
 
-These variables must be declared inside class (outside any function). They can be directly accessed anywhere in class. Let’s take a look at an __example__:
+These variables must be declared inside class (outside any function). They can be directly accessed anywhere in class. Let’s take a look at an example:
 
 ##### Example
 
@@ -62,8 +62,7 @@ class Test
 {
 
     private int x;
-    public void setX(int x)
-    {
+    public void setX(int x){
         this.x = x;
     }
 }
@@ -103,9 +102,9 @@ public class Test {
 	t.y: 33
 	y: 44
 
-##### Loop Variables (Block Scope)
+## Loop Variables (Block Scope)
 
-A variable declared inside pair of brackets “{” and “}” in a method has scope withing the brackets only.
+A variable declared inside pair of brackets `{` and `}` in a method has scope withing the brackets only.
 
 ```java
 public class Test{
@@ -152,7 +151,7 @@ class Test{
 
         System.out.println(x); 
 
- The right way of doing above is,  
+The right way of doing above is,  
 
 ```java
  // Above program after correcting the error 

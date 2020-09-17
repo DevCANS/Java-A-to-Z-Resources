@@ -1,17 +1,14 @@
-# Arithmetic Operators
+># Arithmetic Operators
 
  They are used to perform simple arithmetic operations on primitive data types.
 
-* ' __*__ ' : Multiplication
-
-* ' __/__ ' : Division
-
-* ' __%__ ' : Modulo
-
-* ' __+__ ' : Addition
-
-* ' __–__ ' : Subtraction
-
+|Operator|Description|
+|---|---|
+|`*`|Multiplication|
+|`/`|Division|
+|`%`|Modulo|
+|`+`|Addition|
+|`–`|Subtraction|
 
 ##### Example
 

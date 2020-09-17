@@ -1,26 +1,23 @@
-# Assignment Operator
+># Assignment Operator
 
- ‘ __=__ ’ Assignment operator is used to assign a value to any variable. It has a right to left associativity, i.e value given on right hand side of operator is assigned to the variable on the left and therefore right hand side value must be declared before using it or should be a constant.
+Assignment operator, `=`, is used to assign a value to any variable. It has a right to left associativity, i.e value given on right hand side of operator is assigned to the variable on the left and therefore right hand side value must be declared before using it or should be a constant.
 
 General format of assignment operator is,
 
-__variable = value;__   
-
+	variable = value;
 
 In many cases assignment operator can be combined with other operators to build a shorter version of statement called Compound Statement   
 
-For example, instead of a = a+5, we can write a += 5.
+|Operator|Description|
+|---|---|
+|`+=`|For adding left operand with right operand and then assigning it to variable on the left.|
+|`-=`|For subtracting left operand with right operand and then assigning it to variable on the left.|
+|`*=`|For multiplying left operand with right operand and then assigning it to variable on the left.|
+|`/=`|For dividing left operand with right operand and then assigning it to variable on the left.|
+|`%=`|For assigning modulo of left operand with right operand and then assigning it to variable on the left.|
 
-* __' += '__, for adding left operand with right operand and then assigning it to variable on the left.
-
-* __' -= '__, for subtracting left operand with right operand and then assigning it to variable on the left.
-
-* __' *= '__, for multiplying left operand with right operand and then assigning it to variable on the left.
-
-* __' /= '__, for dividing left operand with right operand and then assigning it to variable on the left.
-
-* __' %= '__, for assigning modulo of left operand with right operand and then assigning it to variable on the left.
 ```java
+//For example, instead of a = a+5, we can write a += 5.
 int a = 5;   
 a += 5; //a = a+5;
 ```

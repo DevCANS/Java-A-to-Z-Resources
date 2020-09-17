@@ -1,11 +1,13 @@
-# Logical Operators
+># Logical Operators
 
 These operators are used to perform “logical AND” and “logical OR” operation, i.e. the function similar to AND gate and OR gate in digital electronics. One thing to keep in mind is the second condition is not evaluated if the first one is false, i.e. it has a short-circuiting effect. Used extensively to test for several conditions for making a decision.
 
 Conditional operators are-
 
-* __&&, Logical AND__ : returns true when both conditions are true.
-* __||, Logical OR__ : returns true if at least one condition is true.
+|Operator|Operator Name|Description|
+|---|---|---|
+|`&&`|Logical AND|Returns true when both conditions are true.|
+|`||`|Logical OR|Returns true if at least one condition is true.|
 
 ##### Example:
 

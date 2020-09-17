@@ -1,10 +1,10 @@
-# Ternary Operator
+># Ternary Operator
 
-Ternary operator is a shorthand version of if-else statement. It has three operands and hence the name ternary. General format is-
+Ternary operator is a shorthand version of if-else statement. It has three operands and hence the name ternary. General format is:
 
-## __condition__ ? if __true__ : if __false__
+	condition ? if-true : if-false
 
-The above statement means that if the condition evaluates to true, then execute the statements after the ‘ __?__ ’ else execute the statements after the ‘ __:__ ’.
+The above statement means that if the condition evaluates to true, then execute the statements after the `?` else execute the statements after the `:`.
 
 ##### Example
 
