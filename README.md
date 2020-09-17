@@ -27,15 +27,15 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 |Section|Topic|Notes|Video Resources|Reading Resources|Practice Resources|
 |---|---|---|--|--|--|
 |__Java Overview__| :heavy_minus_sign: |:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-|__Environmental Setup__|:heavy_minus_sign:|:heavy_check_mark:|:x:|:x:|:heavy_minus_sign:|
-|__Introduction to Object Oriented Programming__|Object Oriented Paradigm|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Abstraction|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Encapsulation|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Inheritance|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Polymorphism|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-|__Data Types__|Primitive Types|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-||Arrays|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
-||Strings|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
+|__Environmental Setup__|:heavy_minus_sign:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_minus_sign:|
+|__Introduction to Object Oriented Programming__|Object Oriented Paradigm|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+||Abstraction|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+||Encapsulation|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+||Inheritance|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+||Polymorphism|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|__Data Types__|Primitive Types|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+||Arrays|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+||Strings|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 ||Literals|:heavy_check_mark:|:x:|:x:|:x:|
 |__Variables__|What is Variable?|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Scope and Liftime|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|

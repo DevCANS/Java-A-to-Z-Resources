@@ -171,6 +171,13 @@ class BoolTest {
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 * [JavaTPoints](https://www.javatpoint.com/java-data-types)
 
+#### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=4ekASokneGU&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=5&t=430s)
+* [Alex Lee (int)](https://www.youtube.com/watch?v=3Bf2Y9NBcck&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=7)
+* [Alex Lee (long, float, double)](https://www.youtube.com/watch?v=qawwQf6gKpQ&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=8)
+* [Alex Lee (booleans)](https://www.youtube.com/watch?v=CHVVEGRGiJU&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=9)
+
 #### More Example Programs and Practice Questions
 
 * [w3Resources](https://www.w3resource.com/java-exercises/basic/index.php) Solve Question 1 to 7

@@ -14,6 +14,7 @@ __Step 2__ Assuming you have installed Java in `C:\Program Files\java\jdk` direc
   * Now click 'Browse' and then select the directory `C:\Program Files\java\jdk\bin'`
 * For Windows 7
   * Right-click on 'My Computer' and select 'Properties'.
+  * In the menu present at the left of the window click on 'Advanced system settings'
   * Click the 'Environment variables' button under the 'Advanced' tab.
   * Now, alter the 'Path' variable so that it also contains the path to the Java executable. Example, if the path is currently set to `C:\WINDOWS\SYSTEM32`, then change your path to read `C:\WINDOWS\SYSTEM32;C:\Program Files\java\jdk\bin`.
 
@@ -101,3 +102,8 @@ General form:
 ##### Output
 
     Hello World
+
+## External Resources
+
+### Youtube Videos
+* [Installation](https://www.youtube.com/watch?v=IJ-PJbvJBGs)

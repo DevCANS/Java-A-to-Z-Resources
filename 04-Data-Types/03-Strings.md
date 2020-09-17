@@ -79,7 +79,12 @@ System.out.println(str.cahrtAt(6));
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
 * [JavaTPoint](https://www.javatpoint.com/java-string)
 
-### More Examples and Practice Questions
+#### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=sliTbMkQBZ4&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=15)
+* [Alex Lee](https://www.youtube.com/watch?v=3xuJIaP3C4g&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=4)
+
+#### More Examples and Practice Questions
 
 * [W3Resources](https://www.w3resource.com/java-exercises/string/index.php) Solve Questions 1, 2, 7, 11, 12, 13 and 14
 
