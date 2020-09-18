@@ -115,8 +115,14 @@ The two classes defined in `p2` cover the other two conditions that are affected
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 * [JavaTPoint](https://www.javatpoint.com/access-modifiers)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/access-modifiers-java/)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=3n1cvoDL1qw&list=PL9DF6E4B45C36D411&index=25)
+
+### More Examples and Practice Questions

@@ -47,6 +47,7 @@ public class operators {
 		// System.out.println(a/c); 
 	} 
 } 
+```
 
 ##### Output:
 
@@ -56,3 +57,9 @@ public class operators {
 	a * b = 200  
 	a / b = 2  
 	a % b = 0
+
+## External Resources
+
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=ss7BtLrbxp4&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=6)

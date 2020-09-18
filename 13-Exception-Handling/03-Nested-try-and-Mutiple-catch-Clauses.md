@@ -156,10 +156,15 @@ When you use multiple catch statements, it is important to remember that excepti
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/catch.html)
 * [JavaTPoint - Multiple catch Clauses](https://www.javatpoint.com/multiple-catch-block-in-java)
 * [JavaTPoint - Nested try](https://www.javatpoint.com/nested-try-block)
 
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=odhReeuuCXo&list=PL9DF6E4B45C36D411&index=36)
 
 #### More Examples and Practice Questions
 Provided in the last chapter of this section

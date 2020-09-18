@@ -176,8 +176,16 @@ class ifelseifDemo{
 			System.out.println("i is not present"); 
 	} 
 } 
-````
+```
 
 ##### Output:
 
 	i is 20
+
+## External Resources
+
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=WZXq5_9_JDs&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=8)
+* [Cave of Programming](https://www.youtube.com/watch?v=jjx5mJOcLqM&list=PL9DF6E4B45C36D411&index=6)
+* [Alex Lee](https://www.youtube.com/watch?v=yvWnj_HfG6s&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=10)

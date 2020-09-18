@@ -141,9 +141,16 @@ At this point, you might be wondering why Java has two ways to create child thre
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html)
 * [JavaTPoint](https://www.javatpoint.com/creating-thread)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/multithreading-in-java/)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge - By Exteding Thread](https://www.youtube.com/watch?v=0ySznjdXMEA&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=43)
+* [ProgrammingKnowledge - By Implementing Runnable](https://www.youtube.com/watch?v=UXW5a-iHjso&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=44)
+
+### More Examples and Practice Questions
 Provided in the last chapter of the current section

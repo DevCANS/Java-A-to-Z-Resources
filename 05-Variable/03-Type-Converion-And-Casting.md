@@ -205,6 +205,12 @@ class Test{
 
 ## External Resources
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [Cave of Programming - Casting](https://www.youtube.com/watch?v=GqsTbuQwEBU&list=PL9DF6E4B45C36D411&index=28)
+* [Cave of Programming - Upcasting and Downcasting](https://www.youtube.com/watch?v=Uj4JdvFKTNo&list=PL9DF6E4B45C36D411&index=29)
+* [Alex Lee](https://www.youtube.com/watch?v=H0LNjF9PSeM&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=21)
+
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

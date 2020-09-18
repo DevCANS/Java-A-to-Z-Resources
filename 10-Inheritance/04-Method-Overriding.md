@@ -118,11 +118,18 @@ As the output shows, the version of `callme()` executed is determined by the typ
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
 * [JavaTPoint](https://www.javatpoint.com/method-overriding-in-java)
 * [GeeksForGeeks (Method Overriding)](https://www.geeksforgeeks.org/overriding-in-java/)
 * [GeeksForGeeks (Dynamic Method Dispatch)](https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=rVSlCg2ttZ0&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=27)
+* [Cave of Programming](https://www.youtube.com/watch?v=wzW-251bGgM&list=PL9DF6E4B45C36D411&index=22)
+
+### More Examples and Practice Questions
 
 Provided in the last chapter of the current section.

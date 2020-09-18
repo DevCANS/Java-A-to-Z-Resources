@@ -52,6 +52,12 @@ class FinallyDemo {
 
 In this example, `procA()` prematurely breaks out of the `try` by throwing an exception. The `finally` clause is executed on the way out. `procB()`’s try statement is exited via a `return` statement. The `finally` clause is executed before `procB()` returns. In `procC()`, the try statement executes normally, without error. However, the `finally` block is still executed.
 
+## External Resources
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=nuYdT5q3Gxc&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=37)
+* [Alex Lee](https://www.youtube.com/watch?v=bLGzEqd-ELM&list=PL59LTecnGM1Mg6I4i_KbS0w5bPcDjl7oz&index=21)
+
+### More Examples and Practice Questions
 Provided in the last chapter of this section

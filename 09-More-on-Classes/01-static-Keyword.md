@@ -170,6 +170,12 @@ class JavaExample{
 * [JavaTPoint](https://www.javatpoint.com/static-keyword-in-java)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/static-keyword-java/)
 
+#### Youtube Videos
+
+* [ProgrammingKnowledge - 'static' Keyword](https://www.youtube.com/watch?v=n4axao9LWWE&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=22)
+* [ProgrammingKnowledge - 'static' Keyword Examples](https://www.youtube.com/watch?v=G9octOBgSf4&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=22)
+* []
+
 #### More Examples and Practice Questions
 
 * [GeeksForGeeks - Quiz](https://www.geeksforgeeks.org/output-java-programs-set-48-static-keyword/)

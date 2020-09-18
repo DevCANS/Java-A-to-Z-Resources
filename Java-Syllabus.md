@@ -42,7 +42,6 @@
 * [Bitwise Operators](06-Operators/03-Bitwise-Operator.md)
 * [Relational Operators](06-Operators/04-Relational-Operator.md)
 * [Boolean Logical Operators](06-Operators/05-Logical-Operators.md)
-* 08-Assignment-Operator.md)
 * [Ternary Operator (?)](06-Operators/06-Ternary-Operator.md)
 * [Unary Operator](06-Operators/07-Unary-Operator.md)
 * [Assignment Operator](06-Operators/08-Assignment-Operator.md)

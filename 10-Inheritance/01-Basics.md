@@ -94,10 +94,16 @@ members of the superclass that have been declared as private.
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 * [JavaTPoint](https://www.javatpoint.com/inheritance-in-java)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/inheritance-in-java/)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=lz1Cx6GzOuc&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=25)
+
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section

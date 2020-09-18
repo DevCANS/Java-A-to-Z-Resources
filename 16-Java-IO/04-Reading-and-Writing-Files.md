@@ -158,11 +158,22 @@ Files can be automatically closed using `try-with-resources` block as described 
 
 ## External Resources
 
+### Readings
+
 * [JavaTPoint](https://www.javatpoint.com/java-io)
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/io/fileio.html)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/java-io-input-output-in-java-with-examples/)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge - Reading File](https://www.youtube.com/watch?v=7ICZGNFD28g&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=39)
+* [ProgrammingKnowledge - Writing File](https://www.youtube.com/watch?v=fgjIk7qQong&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=38)
+* [Cave of Programming - Reading File](https://www.youtube.com/watch?v=FHDNwJmus3k&list=PL9DF6E4B45C36D411&index=33)
+* [Cave of Programming - Reading File (FileReader and Buffered Reader)](https://www.youtube.com/watch?v=I6q0WN8ssyw&list=PL9DF6E4B45C36D411&index=39)
+* [Cave of Programming - Writing File](https://www.youtube.com/watch?v=weAwTh5iiMY&list=PL9DF6E4B45C36D411&index=41)
+
+
+### More Examples and Practice Questions
 
 * [W3Resources](https://www.w3resource.com/java-exercises/io/index.php)
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/io/QandE/questions.html)

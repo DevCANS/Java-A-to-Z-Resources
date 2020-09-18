@@ -88,7 +88,13 @@ class InnerClassDemo {
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
 * [JavaTPoint](https://www.javatpoint.com/java-inner-class)
 * [GeeksForGeeks Link 1](https://www.geeksforgeeks.org/nested-classes-java/)
 * [GeeksForGeeks Link 2](https://www.geeksforgeeks.org/inner-class-java/)
+
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=DZWlO1jCVas&list=PL9DF6E4B45C36D411&index=43)

@@ -129,7 +129,13 @@ Although you can’t inherit a superclass when declaring an `enum`, all enumerat
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
 * [JavaTPoint](https://www.javatpoint.com/enum-in-java)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/enum-in-java/)
 * [Beginners Book](https://beginnersbook.com/2014/09/java-enum-examples/)
+
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=A0GHaVRlYAQ&list=PL9DF6E4B45C36D411&index=44)

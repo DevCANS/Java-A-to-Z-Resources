@@ -148,15 +148,21 @@ public class TwoDArray2{
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 * [JavaTPoint](https://www.javatpoint.com/array-in-java)
 
-#### Youtube Videos
+### Youtube Videos
 
 * [Alex Lee](https://www.youtube.com/watch?v=xzjZy-dHHLw&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=15)
+* [Alex Lee - 2D Arrays](https://www.youtube.com/watch?v=L3-q2GxAqZA&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=18)
 * [ProgrammingKnowledge](https://www.youtube.com/watch?v=_NfwcH5zKpA&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=13)
+* [Cave of Programming](https://www.youtube.com/watch?v=Mfacb9T4biQ&list=PL9DF6E4B45C36D411&index=10)
+* [Cave of Programming - Arrays of Strings](https://www.youtube.com/watch?v=XYcz9QSprY4&list=PL9DF6E4B45C36D411&index=11)
+* [Cave of Programming - Multidimensional Array](https://www.youtube.com/watch?v=dj15BrhCHIc&list=PL9DF6E4B45C36D411&index=12)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 * [W3Resources](https://www.w3resource.com/java-exercises/array/index.php)
 * [CodesDope](https://www.codesdope.com/practice/java-array/)

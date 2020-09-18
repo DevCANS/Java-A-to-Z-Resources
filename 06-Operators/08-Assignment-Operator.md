@@ -75,3 +75,9 @@ public class operators {
 	Value of c = 10   
 	a, b, e, f = 21, 9, 20, 2   
 	a, b, e, f (using shorthand operators)= 21, 9, 20, 2
+
+## External Resources
+
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=f5YdkIzNmfM&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=7)

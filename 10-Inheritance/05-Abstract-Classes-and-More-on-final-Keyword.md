@@ -84,12 +84,19 @@ class B extends A { // ERROR! Can't subclass A
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 * [JavaTPoint](https://www.javatpoint.com/abstract-class-in-java)
 * [GeeksForGeeks - Abstract Classes](https://www.geeksforgeeks.org/abstract-classes-in-java/)
 * [GeeksForGeeks - abstract Keyword](https://www.geeksforgeeks.org/abstract-keyword-in-java/?ref=rp)
 * [GeeksForGeeks - final Keyword](https://www.geeksforgeeks.org/final-keyword-java/?ref=rp)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammmingKnowledge](https://www.youtube.com/watch?v=vcN_mXHPXVA&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=28)
+* [Cave of Programming](https://www.youtube.com/watch?v=CUC522qMGe8&list=PL9DF6E4B45C36D411&index=38)
+
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

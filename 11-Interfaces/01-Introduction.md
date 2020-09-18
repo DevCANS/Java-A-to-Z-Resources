@@ -102,9 +102,16 @@ When overriding methods defined in interfaces, there are several rules to be fol
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html)
 * [JavaTPoint](https://www.javatpoint.com/interface-in-java)
 
-#### More Examples and Practice Questions
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=HxmP7ZVUeGU&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=29)
+* [Cave of Programming](https://www.youtube.com/watch?v=UumX4mQKQlA&list=PL9DF6E4B45C36D411&index=23)
+
+### More Examples and Practice Questions
 
 * [W3Schools](https://www.w3schools.com/java/java_interface.asp)

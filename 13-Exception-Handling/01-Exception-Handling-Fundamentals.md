@@ -94,12 +94,17 @@ Basically, an Error is used by the Java run-time system (JVM) to indicate errors
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials - Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html)
 * [Oracle Tutorials - Types of Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html)
 * [JavaTPoint](https://www.javatpoint.com/exception-handling-in-java)
 * [GeeksForGeeks - Exceptions](https://www.geeksforgeeks.org/exceptions-in-java/)
 * [GeeksForGeeks - Errors VS Exception](https://www.geeksforgeeks.org/errors-v-s-exceptions-in-java/)
 
+### Youtube Videos
+
+* [Alex Lee](https://www.youtube.com/watch?v=xNVlq9IEBEg&list=PL59LTecnGM1Mg6I4i_KbS0w5bPcDjl7oz&index=10)
 
 #### More Examples and Practice Questions
 Provided in the last chapter of this section

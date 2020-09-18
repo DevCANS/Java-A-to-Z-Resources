@@ -48,3 +48,8 @@ public class operators {
 	Enter password:Locked   
 	Welcome user.
 
+## External Resources
+
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=HBnB69yFf_4&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=9)

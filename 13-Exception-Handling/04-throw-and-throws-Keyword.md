@@ -101,6 +101,9 @@ class ThrowsDemo {
   * [Exception Propagation](https://www.javatpoint.com/exception-propagation)
   * [throws](https://www.javatpoint.com/throws-keyword-and-difference-between-throw-and-throws)
 
+### Youtube Videos
 
-#### More Examples and Practice Questions
+* [Cave of Programming](https://www.youtube.com/watch?v=5pPPtRtCBHw&list=PL9DF6E4B45C36D411&index=35)
+
+### More Examples and Practice Questions
 Provided in the last chapter of this section

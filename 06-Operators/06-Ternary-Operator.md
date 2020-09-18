@@ -36,3 +36,9 @@ public class operators {
 ##### Output:
         
 	Max of three numbers = 30
+
+## External Resources
+
+### Youtube Videos
+
+* [Alex Lee](https://www.youtube.com/watch?v=ln_vMXXXeDI&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=23)

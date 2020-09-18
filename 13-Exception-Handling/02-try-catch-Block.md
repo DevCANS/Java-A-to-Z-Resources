@@ -55,9 +55,16 @@ While it is of no particular value in this context, the ability to display a des
 
 ## External Resources
 
-[Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html)
-[JavaTPoint](https://www.javatpoint.com/try-catch-block)
+### Readings
 
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html)
+* [JavaTPoint](https://www.javatpoint.com/try-catch-block)
+
+### Youtube Videos
+
+* [ProgrammingKnowledge](https://www.youtube.com/watch?v=YCalEDpu2oA&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=36)
+* [Cave of Programming](https://www.youtube.com/watch?v=yqwQQnUW3p8&list=PL9DF6E4B45C36D411&index=34)
+* [Alex Lee](https://www.youtube.com/watch?v=ceGnVDrMy1A&list=PL59LTecnGM1Mg6I4i_KbS0w5bPcDjl7oz&index=12)
 
 #### More Examples and Practice Questions
 Provided in the last chapter of this section
