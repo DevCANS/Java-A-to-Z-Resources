@@ -59,10 +59,10 @@
   * for loop variations
 * Jump Statements
 
-> #### Classes and Objects
+> #### [Classes and Objects](08-Classes-and-Objects/)
 
 * [Class Fundamentals](08-Classes-and-Objects/01-Class-Fundamentals.md)
-* Objects and The 'new' Keyword
+* [Objects and The 'new' Keyword](08-Classes-and-Objects/02-Objects-and-The-new-Keyword.md)
 * Methods
   * Overloading
   * Objects as Parameters

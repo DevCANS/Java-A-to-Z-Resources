@@ -53,7 +53,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Loops|:x:|:x:|:x:|:x:|
 ||Jump Statements|:x:|:x:|:x:|:x:|
 |__Classes and Objects__|Class Fundamentals|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-||Objects and The 'new' Keyword|:x:|:x:|:x:|:x:|
+||Objects and The 'new' Keyword|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Methods|:x:|:x:|:x:|:x:|
 ||Constructors|:x:|:x:|:x:|:x:|
 ||Access Control|:x:|:x:|:x:|:x:|
