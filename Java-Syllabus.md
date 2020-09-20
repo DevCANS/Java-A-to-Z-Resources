@@ -61,7 +61,7 @@
 
 > #### Classes and Objects
 
-* Class Fundamentals
+* [Class Fundamentals](08-Classes-and-Objects/01-Class-Fundamentals.md)
 * Objects and The 'new' Keyword
 * Methods
   * Overloading
