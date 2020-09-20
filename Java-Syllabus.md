@@ -63,11 +63,9 @@
 
 * [Class Fundamentals](08-Classes-and-Objects/01-Class-Fundamentals.md)
 * [Objects and The 'new' Keyword](08-Classes-and-Objects/02-Objects-and-The-new-Keyword.md)
-* Methods
-  * Overloading
-  * Objects as Parameters
-  * Returning Objects
-  * Recursion
+* [Methods](08-Classes-and-Objects/03-Methods.md)
+  * [Overloading](08-Classes-and-Objects/03-Methods.md#Method-Overloading)
+  * [Objects as Parameters](08-Classes-and-Objects/03-Methods.md#Objects-as-Parameters)
 * Constructors
   * Default Constructors
   * Parameterized Constructors
