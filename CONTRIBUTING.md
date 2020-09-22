@@ -36,7 +36,7 @@ Welcome to [Java A-Z Resources](https://github.com/prateekKrOraon/Java-A-to-Z-Re
 * Example and Output headings should be H5
 
     ```
-    ##### Example
+    ##### Example <Number>
     ##### Output
     ```
 
