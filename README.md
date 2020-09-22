@@ -51,7 +51,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 |__Control Statements__|'if' Statements|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 ||switch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Loops|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-||Jump Statements|:x:|:x:|:x:|:x:|
+||Jump Statements|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__Classes and Objects__|Class Fundamentals|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Objects and The 'new' Keyword|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Methods|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
