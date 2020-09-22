@@ -4,7 +4,7 @@ In any object-oriented programming language, Overriding is a feature that allows
 
 When a method in a subclass has the same name and type signature as a method in its superclass, then the method in the subclass is said to override the method in the superclass.
 
-##### Example
+##### Example 01
 
 ```java
 class Human{
@@ -62,7 +62,7 @@ When an overridden method is called through a superclass reference, Java determi
 
 In other words, it is the type of the object being referred to (not the type of the reference variable) that determines which version of an overridden method will be executed.
 
-##### Example
+##### Example 02
 
 ```java
 // Dynamic Method Dispatch

@@ -12,14 +12,18 @@ public interface Sports {
     public void setHomeTeam(String name);
     public void setVisitingTeam(String name);
 }
+```
 
+```java
 // Filename: Football.java
 public interface Football extends Sports {
     public void homeTeamScored(int points);
     public void visitingTeamScored(int points);
     public void endOfQuarter(int quarter);
 }
+```
 
+```java
 // Filename: Hockey.java
 public interface Hockey extends Sports {
     public void homeGoalScored();
@@ -38,7 +42,7 @@ An interface can be declared inside a class or another interface as member. Such
 
 When a nested interface is used outside of its enclosing scope, it must be qualified by the name of the class or interface of which it is a member. Thus, outside of the class or interface in which a nested interface is declared, its name must be fully qualified.
 
-##### Example
+##### Example 01
 
 ```java
 // A nested interface example.
@@ -49,14 +53,18 @@ class A {
         boolean isNotNegative(int x);
     }
 }
+```
 
+```java
 // B implements the nested interface.
 class B implements A.NestedIF {
     public boolean isNotNegative(int x) {
         return x < 0 ? false: true;
     }
 }
+```
 
+```java
 class NestedIFDemo {
     public static void main(String args[]) {
         // use a nested interface reference
@@ -80,9 +88,11 @@ Notice that the name is fully qualified by the enclosing class’ name. Inside t
 
 ## External Resources
 
+### Readings
+
 [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html)
 [JavaTPoint](https://www.javatpoint.com/interface-in-java)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 [W3Schools](https://www.w3schools.com/java/java_interface.asp)

@@ -19,7 +19,7 @@ Closing a file releases the system resources allocated to the file, allowing the
 
 ## Reading a File
 
-##### Example
+##### Example 01
 
 ```java
 /* Display a text file.
@@ -100,7 +100,7 @@ To write to a file, you can use the `write()` method defined by `FileOutputStrea
 void write(int byteval) throws IOException
 ```
 
-##### Example
+##### Example 02
 
 ```java
 /* Copy a file.

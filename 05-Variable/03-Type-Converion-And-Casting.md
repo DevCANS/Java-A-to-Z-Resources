@@ -13,7 +13,7 @@ For Example, in java the numeric data types are compatible with each other but n
 
 ![](images/typeconversion_java.png)
 
-##### Example
+##### Example 01
 
 ```java
 class Test{
@@ -50,7 +50,7 @@ If we want to assign a value of larger data type to a smaller data type we perfo
 
 ![](images/typeconversion_second.png)
 
-##### Examples
+##### Example 02
 
 ```java
 //Java program to illustrate incompatible data 
@@ -78,7 +78,7 @@ public class Test{
 
 ### How to do Explicit Conversion?
 
-##### Examples
+##### Example 03
 
 ```java
 //Java program to illustrate explicit type conversion 
@@ -112,7 +112,7 @@ class Test{
 
 While assigning value to `byte` type the fractional part is lost and is reduced to modulo 256 (range of byte).
 
-##### Example:
+##### Example 04
 
 ```java
 //  Java program to illustrate Conversion of int and double to byte
@@ -151,7 +151,7 @@ While evaluating expressions, the intermediate value may exceed the range of ope
 * Java automatically promotes each `byte`, `short`, or `char` operand to `int` when evaluating an expression.
 * If one operand is a `long`, `float` or `double` the whole expression is promoted to `long`, `float` or `double` respectively.
 
-##### Example:
+##### Example 05
 
 ```java
 //Java program to illustrate Type promotion in Expressions 
@@ -183,7 +183,7 @@ class Test{
 
 While evaluating expressions, the result is automatically updated to larger data type of the operand. But if we store that result in any smaller data type it generates compile time error, due to which we need to type cast the result.
 
-##### Example
+##### Example 06
 
 ```java
 //Java program to illustrate type casting int to byte

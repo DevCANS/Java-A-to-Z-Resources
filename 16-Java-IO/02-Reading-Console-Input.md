@@ -30,7 +30,7 @@ int read( ) throws IOException
 
 Each time that `read()` is called, it reads a character from the input stream and returns it as an integer value. It returns –1 when the end of the stream is encountered. As you can see, it can throw an `IOException`.
 
-##### Example
+##### Example 01
 
 ```java
 // Use a BufferedReader to read characters from the console.
@@ -68,10 +68,10 @@ class BRRead {
 To read a string from the keyboard, use the version of `readLine()` that is a member of the `BufferedReader` class. Its general form is shown here:
 
 ```java
-String readLine( ) throws IOException
+String readLine() throws IOException
 ```
 
-##### Example
+##### Example 02
 
 ```java
 // A tiny editor.
@@ -117,11 +117,13 @@ class TinyEdit {
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/io/cl.html)
 * [JavaTPoint](https://www.javatpoint.com/java-bufferedreader-class)
 * [GeeksForGeeks - Scanner Class](https://www.geeksforgeeks.org/scanner-class-in-java/)
 * [GeeksForGeeks - Scanner vs BufferedReader](https://www.geeksforgeeks.org/difference-between-scanner-and-bufferreader-class-in-java/)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

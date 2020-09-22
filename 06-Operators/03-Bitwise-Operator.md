@@ -9,7 +9,7 @@ These operators are used to perform manipulation of individual bits of a number.
 |`^`|Bitwise XOR|Returns bit by bit XOR of input values.|
 |`~`|Bitwise Complement|This is a unary operator which returns the one’s compliment representation of the input value, i.e. with all bits inversed.|
 
-##### Example
+##### Example 01
 
 ```java
 // Java program to illustrate

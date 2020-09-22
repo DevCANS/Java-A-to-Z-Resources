@@ -18,7 +18,7 @@ It is a good practice to group related classes implemented by you so that a prog
 
 Since the package creates a new namespace there won't be any name conflicts with names in other packages. Using packages, it is easier to provide access control and it is also easier to locate the related classes.
 
-##### Example
+##### Example 01
 
 ```java
 /* File name : Animal.java */
@@ -101,5 +101,3 @@ then the class path to `MyPack` is
 ### Youtube Videos
 
 * [Cave of Programming](https://www.youtube.com/watch?v=BT5Nk2aIRJg&list=PL9DF6E4B45C36D411&index=24)
-
-### More Examples and Practice Questions

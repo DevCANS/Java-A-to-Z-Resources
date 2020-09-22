@@ -8,7 +8,7 @@ upon which they operate is specified as a parameter. Using generics, it is possi
 
 ## Generic Classes
 
-##### Example
+##### Example 01
 
 ```java
 // A simple generic class.
@@ -116,7 +116,7 @@ iOb = new Gen<Integer>(88);
 
 When declaring an instance of a generic type, the type argument passed to the type parameter must be a reference type. You cannot use a primitive type, such as int or char. For example, with `Gen`, it is possible to pass any class type to `T`, but you cannot pass a primitive type to a type parameter.
 
-##### Example
+##### Example 02
 
 You can declare more than one type parameter in a generic type. To specify two or more type parameters, simply use a comma-separated list.
 
@@ -177,7 +177,7 @@ class SimpGen {
 
 Sometimes it is useful to limit the types that can be passed to a type parameter. For example, assume that you want to create a generic class that contains a method that returns the average of an array of numbers. Thus, you want to specify the type of the numbers generically, using a type parameter.
 
-##### Example
+##### Example 03
 
 ```java
 // In this version of Stats, the type argument for

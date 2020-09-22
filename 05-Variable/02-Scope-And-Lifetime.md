@@ -8,8 +8,6 @@
 
 These variables must be declared inside class (outside any function). They can be directly accessed anywhere in class. Let’s take a look at an example:
 
-##### Example
-
 ```java
 public class Test{
 	// All variables defined directly inside a class 
@@ -40,8 +38,6 @@ public class Test{
 
 Variables declared inside a method have method level scope and can’t be accessed outside the method.
 
-##### Example
-
 ```java
 public class Test{
 
@@ -54,8 +50,6 @@ public class Test{
 __Note__ : Local variables don’t exist after method’s execution is over.
 
 Here’s another example of method scope, except this time the variable got passed in as a parameter to the method:
-
-##### Example
 
 ```java
 class Test
@@ -70,7 +64,7 @@ class Test
 
 The above code uses this keyword to differentiate between the local and class variables.
 
-### Example
+##### Example 01
 
 ```java
 public class Test { 
@@ -106,6 +100,8 @@ public class Test {
 
 A variable declared inside pair of brackets `{` and `}` in a method has scope withing the brackets only.
 
+##### Example 02
+
 ```java
 public class Test{
 
@@ -130,7 +126,7 @@ public class Test{
 	 10
      As another example, consider following program with a for loop.
 
-
+##### Example 03
 ```java
 class Test{
 
@@ -190,9 +186,11 @@ In general, a set of curly brackets `{ }` defines a scope.
 
 ## External Resources
 
+### Readings
+
 * [JavaTPoint](https://www.javatpoint.com/java-variables)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/variables-in-java/)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

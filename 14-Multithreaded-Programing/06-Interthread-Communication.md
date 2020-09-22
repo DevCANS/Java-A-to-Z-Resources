@@ -19,7 +19,7 @@ final void notify( )
 final void notify All( )
 ```
 
-##### Example
+##### Example 01
 
 ```java
 // An incorrect implementation of a producer and consumer.
@@ -99,6 +99,8 @@ Although the `put()` and `get()` methods on `Q` are synchronized, nothing stops 
 After the producer put 1, the consumer started and got the same 1 five times in a row. Then, the producer resumed and produced 2 through 7 without letting the consumer have a chance to consume them.
 
 The proper way to write this program in Java is to use `wait()` and `notify()` to signal in both directions, as shown here:
+
+##### Example 02
 
 ```java
 // A correct implementation of a producer and consumer.
@@ -194,13 +196,14 @@ try{
 }
 ```
 
-
 ## External Resources
+
+### Readings
 
 * [JavaTPoint](https://www.javatpoint.com/inter-thread-communication-example)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/inter-thread-communication-java/)
   
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 * [Tutorial Docs](https://www.tutorialdocs.com/article/java-inter-thread-communication.html)
 * More provided in the last section of current section.

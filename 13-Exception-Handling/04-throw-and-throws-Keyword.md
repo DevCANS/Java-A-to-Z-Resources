@@ -10,6 +10,8 @@ throw ThrowableInstance
 
 Here, `ThrowableInstance` must be an object of type `Throwable` or a subclass of `Throwable`. Primitive types, such as `int` or `char`, as well as non-Throwable classes, such as `String` and `Object`, cannot be used as exceptions. There are two ways you can obtain a Throwable object: using a parameter in a `catch` clause or creating one with the `new` operator.
 
+##### Example 01
+
 ```java
 // Demonstrate throw.
 class ThrowDemo {
@@ -59,7 +61,7 @@ type methodName(parameter_list) throws exception_list{
 
 Here, exception-list is a comma-separated list of the exceptions that a method can throw.
 
-##### Example
+##### Example 02
 
 ```java
 class ThrowsDemo {
@@ -95,6 +97,8 @@ class ThrowsDemo {
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/throwing.html)
 * JavaTPoint
   * [throw](https://www.javatpoint.com/throw-keyword)
@@ -106,4 +110,5 @@ class ThrowsDemo {
 * [Cave of Programming](https://www.youtube.com/watch?v=5pPPtRtCBHw&list=PL9DF6E4B45C36D411&index=35)
 
 ### More Examples and Practice Questions
+
 Provided in the last chapter of this section

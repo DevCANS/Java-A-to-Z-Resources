@@ -2,7 +2,7 @@
 
 The wildcard argument is specified by the `?`, and it represents an unknown type. A wildcard parameterized type is an instantiation of a generic type where at least one type argument is a wildcard.
 
-##### Example
+##### Example 01
 
 ```java
 // Use a wildcard.
@@ -81,13 +81,11 @@ A bounded wildcard is especially important when you are creating a generic type 
 
 If you want the generic expression to accept all subclasses of a particular type, you will use upper bound wildcard using `extends` keyword.
 
-##### Example
+##### Example 02
 
 ```java
-public class GenericsExample<T>
-{
-   public static void main(String[] args)
-   {
+public class GenericsExample<T>{
+   public static void main(String[] args){
       //List of Integers
       List<Integer> ints = Arrays.asList(1,2,3,4,5);
       System.out.println(sum(ints));
@@ -117,7 +115,7 @@ public class GenericsExample<T>
 
 If you want a generic expression to accept all types which are “super” type of a particular type OR parent class of a particular class then you will use a lower bound wildcard for this purpose, using `super` keyword.
 
-##### Example
+##### Example 03
 
 ```java
 import java.util.Arrays;  

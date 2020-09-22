@@ -33,7 +33,7 @@ statement2;
 // its block.
 ```
 
-##### Example
+##### Example 01
 
 ```java
 // Java program to illustrate If statement    
@@ -73,7 +73,7 @@ if (condition){
 } 
 ```
 
-##### Example
+##### Example 02
 
 ```java
 // Java program to illustrate if-else statement  
@@ -110,7 +110,7 @@ if (condition1){
 }
 ```
 
-##### Example
+##### Example 03
 
 ```java
 // Java program to illustrate nested-if statement 
@@ -157,7 +157,7 @@ else
     statement;
 ```
 
-##### Example
+##### Example 04
 
 ```java
 // Java program to illustrate if-else-if ladder 

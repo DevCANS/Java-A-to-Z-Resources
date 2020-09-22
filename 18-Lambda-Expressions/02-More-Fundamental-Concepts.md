@@ -8,7 +8,7 @@ Because of type inference, all lambda expressions exhibit some â€œgeneric-likeâ€
 
 However, the functional interface associated with a lambda expression can be generic. In this case, the target type of the lambda expression is determined, in part, by the type argument or arguments specified when a functional interface reference is declared.
 
-##### Example
+##### Example 01
 
 ```java
 // Use a generic functional interface with lambda expressions.
@@ -60,7 +60,7 @@ Here, `T` specifies both the return type and the parameter type of `func()`. Thi
 
 To pass a lambda expression as an argument, the type of the parameter receiving the lambda expression argument must be of a functional interface type compatible with the lambda.
 
-##### Example
+##### Example 02
 
 ```java
 // Use lambda expressions as an argument to a method.
@@ -77,7 +77,7 @@ class LambdasAsArgumentsDemo {
 // by a lambda expression.
 // The second parameter specifies the string to operate on.
 static String stringOp(StringFunc sf, String s) {
-return sf.func(s);
+    return sf.func(s);
 }
 
 public static void main(String args[]){
@@ -131,6 +131,8 @@ public static void main(String args[]){
 
 A lambda expression can throw an exception. However, it if throws a checked exception, then that exception must be compatible with the exception(s) listed in the throws clause of the abstract method in the functional interface.
 
+##### Example 03
+
 ```java
 // Throw an exception from a lambda expression.
 interface DoubleNumericArrayFunc {
@@ -180,7 +182,7 @@ Java lambdas can capture the following types of variables:
 * Instance Variables
 * Static Variables
 
-##### Example
+##### Example 04
 
 ```java
 // An example of capturing a local variable from the enclosing scope.
@@ -212,5 +214,7 @@ class VarCapture {
 If `num` were to be modified, either inside the lambda or outside of it, `num` would lose its effectively final status. This would cause an error, and the program would not compile.
 
 ## External Resources
+
+### Readings
 
 * [Jenkov Tutorials](http://tutorials.jenkov.com/java/lambda-expressions.html)

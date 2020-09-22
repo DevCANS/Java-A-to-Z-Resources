@@ -14,7 +14,7 @@ To enter an object’s _monitor_, just call a method that has been modified with
 synchronized returnType methodName(parameters)
 ```
 
-##### Example
+##### Example 01
 
 This example does not use synchronization.
 
@@ -109,7 +109,7 @@ synchronized(objRef) {
 }
 ```
 
-##### Example
+##### Example 02
 
 ```java
 // This program uses a synchronized block.
@@ -165,10 +165,12 @@ Here, the `call()` method is not modified by `synchronized`. Instead, the `synch
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html)
 * [JavaTPoint - Synchronized method](https://www.javatpoint.com/synchronization-in-java)
 * [JavaTPoint - Synchronized block](https://www.javatpoint.com/synchronized-block-example)
 
-#### More Examples and Practice Problems
+### More Examples and Practice Problems
 
 Provided in the last chapter of the current section.

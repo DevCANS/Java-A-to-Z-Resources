@@ -15,7 +15,7 @@ Some of the relational operators are:
 |`>`|Greater than|Returns true of left hand side is greater than right hand side.|
 |`>=`|Greater than or equal to|Returns true of left hand side is greater than or equal to right hand side.|
 
-##### Example
+##### Example 01
 
 ```java
 // Java program to illustrate 

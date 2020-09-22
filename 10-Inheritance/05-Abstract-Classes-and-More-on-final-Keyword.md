@@ -18,7 +18,7 @@ An abstract class can have an abstract method as well as concrete methods. Abstr
 abstract return_type name(parameter_list);
 ```
 
-##### Example
+##### Example 01
 
 ```java
 //abstract parent class
@@ -26,6 +26,9 @@ abstract class Animal{
    //abstract method
    public abstract void sound();
 }
+```
+
+```java
 //Dog class extends Animal class
 public class Dog extends Animal{
 
@@ -48,7 +51,7 @@ public class Dog extends Animal{
 
 While method overriding is one of Java’s most powerful features, there will be times when you will want to prevent it from occurring. To disallow a method from being overridden, specify `final` as a modifier at the start of its declaration. Methods declared as final cannot be overridden.
 
-##### Example
+##### Example 02
 
 ```java
 class A {

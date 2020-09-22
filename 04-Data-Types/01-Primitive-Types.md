@@ -11,7 +11,8 @@ Java defines four integer types __bytes__, __short__, __int__, and __long__. All
 |__byte__|8|–128|127|<code>byte variableName;</code>|
 
 
-#### Example
+#### Example 01
+
 ```java
 // Compute distance light travels using long variables.
 class Light {
@@ -56,7 +57,7 @@ type.
 
 The value of `float` type ends with 'f' and `double` with a 'd'
 
-#### Example
+#### Example 02
 
 ```java    
 public class MyClass {
@@ -86,7 +87,8 @@ languages. Thus, in Java char is a 16-bit type. The range of a char is 0 to 65,5
 negative chars. The standard set of characters known as ASCII still ranges from 0 to 127 as
 always, and the extended 8-bit character set, ISO-Latin-1, ranges from 0 to 255.
 
-#### Example
+#### Example 03
+
 ```java
 // Demonstrate char data type.
 class CharDemo {
@@ -109,7 +111,7 @@ corresponds to the letter X. As mentioned, the ASCII character set occupies the 
 values in the Unicode character set. For this reason, all the “old tricks” that you may have
 used with characters in other languages will work in Java, too.
 
-#### Example
+#### Example 04
 
 ```java
 // char variables behave like integers.
@@ -136,7 +138,7 @@ possible values, true or false. This is the type returned by all relational oper
 case of a < b. boolean is also the type required by the conditional expressions that govern the
 control statements such as if and for.
 
-#### Example
+#### Example 05
 
 ```java
 // Demonstrate boolean values.
@@ -168,10 +170,12 @@ class BoolTest {
 
 # External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 * [JavaTPoints](https://www.javatpoint.com/java-data-types)
 
-#### Youtube Videos
+### Youtube Videos
 
 * [ProgrammingKnowledge](https://www.youtube.com/watch?v=4ekASokneGU&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=5&t=430s)
 * [Alex Lee (int)](https://www.youtube.com/watch?v=3Bf2Y9NBcck&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=7)
@@ -179,6 +183,6 @@ class BoolTest {
 * [Alex Lee (booleans)](https://www.youtube.com/watch?v=CHVVEGRGiJU&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=9)
 * [Cave of Programming](https://www.youtube.com/watch?v=oPBWC4_Zmj0&list=PL9DF6E4B45C36D411&index=2)
 
-#### More Example Programs and Practice Questions
+### More Example Programs and Practice Questions
 
 * [w3Resources](https://www.w3resource.com/java-exercises/basic/index.php) Solve Question 1 to 7

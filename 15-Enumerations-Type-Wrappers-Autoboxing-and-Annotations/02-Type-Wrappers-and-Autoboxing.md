@@ -20,7 +20,7 @@ Type Wrapper classes are those whose objects wraps a primitive data type within 
 |char|Character|
 |boolean|Boolean|
 
-##### Example
+##### Example 01
 
 ```java
 // Demonstrate a type wrapper.
@@ -43,7 +43,7 @@ __Autoboxing__: Automatic conversion of primitive types to the object of their c
 
 __Unboxing__: It is just the reverse process of autoboxing. Automatically converting an object of a wrapper class to its corresponding primitive type is known as unboxing. For example – conversion of Integer to int, Long to long, Double to double, etc.
 
-##### Example
+##### Example 02
 
 ```java
 // Autoboxing/unboxing occurs inside expressions.
@@ -79,6 +79,8 @@ class AutoBox3 {
     i after expression: 134
 
 ## External Resources
+
+### Readings
 
 * [JavaTPoint](https://www.javatpoint.com/wrapper-class-in-java)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/wrapper-classes-java/)

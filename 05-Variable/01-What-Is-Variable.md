@@ -27,7 +27,7 @@ __variable name__: Name given to the variable.
 
 __value__: It is the initial value stored in the variable.
 
-##### Examples:
+##### Example
 
 ```java
 float simpleInterest; //Declaring float variable
@@ -58,7 +58,7 @@ __Local Variables__:
 
 * Initilisation of Local Variable is Mandatory.
 
-##### Example
+##### Example 01
 
 ```java
 public class StudentDetails { 
@@ -87,7 +87,7 @@ If we use the variable age outside `StudentAge()` function, the compiler will pr
 
 
 
-##### Example
+##### Example 02
 
 ```java
 public class StudentDetails {
@@ -127,7 +127,7 @@ __Instance Variables__: Instance variables are non-static variables and are decl
 * Initilisation of Instance Variable is not Mandatory. Its default value is 0
 Instance Variable can be accessed only by creating objects.
 
-##### Example
+##### Example 03
 
 ```java
 import java.io.*; 
@@ -207,7 +207,7 @@ To access static variables, we need not create an object of that class, we can s
 ClassName.variableName;
 ```
 
-##### Example
+##### Example 04
 
 ```java
 import java.io.*; 
@@ -237,10 +237,12 @@ public class EmpDemo {
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)
 * [JavaTPoint](https://www.javatpoint.com/java-variables)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/variables-in-java/)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

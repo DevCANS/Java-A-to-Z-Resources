@@ -4,7 +4,7 @@
 
 The try statement can be nested. That is, a try statement can be inside the block of another try. Each time a try statement is entered, the context of that exception is pushed on the stack. If an inner try statement does not have a catch handler for a particular exception, the stack is unwound and the next try statement’s catch handlers are inspected for a match. This continues until one of the catch statements succeeds, or until all of the nested try statements are exhausted. If no catch statement matches, then the Java run-time system will handle the exception.
 
-##### Example
+##### Example 01
 
 ```java
 // An example of nested try statements.
@@ -58,7 +58,7 @@ runs that illustrate each case:
 
 Nesting of `try` statements can occur in less obvious ways when method calls are involved. For example, you can enclose a call to a method within a `try` block. Inside that method is another `try` statement. In this case, the `try` within the method is still nested inside the outer `try` block, which calls the method. Here is the previous program recoded so that the nested `try` block is moved inside the method `nesttry()`:
 
-##### Example
+##### Example 02
 ```java
 /* Try statements can be implicitly nested via
 calls to methods. */
@@ -116,7 +116,7 @@ try {
 
 The previous statements demonstrate three catch blocks, but you can have any number of them after a single try. If an exception occurs in the protected code, the exception is thrown to the first catch block in the list. If the data type of the exception thrown matches ExceptionType1, it gets caught there. If not, the exception passes down to the second catch statement. This continues until the exception either is caught or falls through all catches, in which case the current method stops execution and the exception is thrown down to the previous method on the call stack.
 
-##### Example
+##### Example 03
 
 ```java
 // Demonstrate multiple catch statements.
@@ -167,4 +167,5 @@ When you use multiple catch statements, it is important to remember that excepti
 * [Cave of Programming](https://www.youtube.com/watch?v=odhReeuuCXo&list=PL9DF6E4B45C36D411&index=36)
 
 #### More Examples and Practice Questions
+
 Provided in the last chapter of this section

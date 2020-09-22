@@ -8,7 +8,7 @@ Deadlock is a difficult error to debug for two reasons:
 * In general, it occurs only rarely, when the two threads time-slice in just the right way.
 * It may involve more than two threads and two synchronized objects. (That is, deadlock can occur through a more convoluted sequence of events than just described.)
 
-##### Example
+##### Example 01
 
 ```java
 // An example of deadlock.
@@ -96,10 +96,12 @@ There are some methods by which we can avoid this condition. We can’t complete
 
 ## External Resources
 
+### Readings
+
 * [GeeksForGeeks - Deadlocks in Java](https://www.geeksforgeeks.org/deadlock-in-java-multithreading/)
 * [GeeksForGeeks - Deadlock](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 * [JavaTPoint Quiz on Multithreading 1](https://www.javatpoint.com/directload.jsp?val=90)
 * [JavaTPoint Quiz on Multithreading 2](https://www.javatpoint.com/directload.jsp?val=91)
 * [Interview Questions - DZone](https://dzone.com/articles/top-15-java-multithreading-concurrency-interview-q)

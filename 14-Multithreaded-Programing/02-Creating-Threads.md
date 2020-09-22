@@ -25,6 +25,8 @@ The easiest way to create a thread is to create a class that implements the Runn
 
 To implement Runnable interface, a class need only implement a single method called `run()`.
 
+##### Example 01
+
 ```java
 class NewThread implements Runnable {
     Thread t;
@@ -87,7 +89,7 @@ class ThreadDemo {
 
 The second way to create a thread is to create a new class that extends `Thread`, and then to create an instance of that class. The extending class must override the `run()` method, which is the entry point for the new thread. It must also call `start()` to begin execution of the new thread.
 
-##### Example
+##### Example 02
 
 ```java
 class NewThread extends Thread {
@@ -153,4 +155,5 @@ At this point, you might be wondering why Java has two ways to create child thre
 * [ProgrammingKnowledge - By Implementing Runnable](https://www.youtube.com/watch?v=UXW5a-iHjso&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=44)
 
 ### More Examples and Practice Questions
+
 Provided in the last chapter of the current section

@@ -7,7 +7,7 @@ A finally keyword is used to create a block of code that follows a try block. A 
 The finally clause is optional. However, each try statement requires at least
 one catch or a finally clause.
 
-##### Example
+##### Example 01
 
 ```java
 // Demonstrate finally.
@@ -60,4 +60,5 @@ In this example, `procA()` prematurely breaks out of the `try` by throwing an ex
 * [Alex Lee](https://www.youtube.com/watch?v=bLGzEqd-ELM&list=PL59LTecnGM1Mg6I4i_KbS0w5bPcDjl7oz&index=21)
 
 ### More Examples and Practice Questions
+
 Provided in the last chapter of this section

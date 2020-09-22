@@ -21,7 +21,7 @@ The `getCause()` method returns the exception that underlies the current excepti
 
 You can associate a cause with an exception after the exception has been created. However, the cause exception can be set only once. Thus, you can call `initCause()` only once for each exception object. Furthermore, if the cause exception was set by a constructor, then you can’t set it again using `initCause()`.
 
-##### Example
+##### Example 01
 
 ```java
 // Demonstrate exception chaining.
@@ -69,7 +69,7 @@ try (resource declaration) {
 }
 ```
 
-##### Example
+##### Example 02
 
 ```java
 import java.io.*;
@@ -103,7 +103,7 @@ Output if the test.txt file is found.
 
 We can declare more than one resource in the `try-with-resources` statement by separating them with a semicolon `;`
 
-##### Example
+##### Example 03
 
 ```java
 import java.io.*;
@@ -134,7 +134,7 @@ try{
 }
 ```
 
-##### Example
+##### Example 04
 
 ```java
 // Demonstrate the multi-catch feature.
@@ -158,11 +158,13 @@ The program will generate an `ArithmeticException` when the division by zero is 
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials - Chained Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html)
 * [Oracle Tutorials - try-with-resources](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 * [GeeksForGeeks - multi-catch](https://www.geeksforgeeks.org/multicatch-in-java/?ref=lbp)
 
-#### More Examples and Practice Questions and Quizes
+### More Examples and Practice Questions and Quizes
 
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/essential/exceptions/QandE/questions.html)
 * [JavaTPoint Quiz 1](https://www.javatpoint.com/directload.jsp?val=89)

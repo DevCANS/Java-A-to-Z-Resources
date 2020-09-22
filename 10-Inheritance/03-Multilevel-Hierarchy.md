@@ -2,7 +2,7 @@
 
 In this chapter you will learn more about multilevel hierarchy. It is perfectly acceptable to use a subclass as a superclass of another. For example, given three classes called A, B, and C, C can be a subclass of B, which is a subclass of A. When this type of situation occurs, each subclass inherits all of the traits found in all of its superclasses. In this case, C inherits all aspects of B and A.
 
-##### Example
+##### Example 01
 
 ```java
 // Extend BoxWeight to include shipping costs.
@@ -134,7 +134,7 @@ This example illustrates one other important point: `super()` always refers to t
 
 In a class hierarchy, constructors complete their execution in order of derivation, from superclass to subclass. Further, since `super()` must be the first statement executed in a subclass’ constructor, this order is the same whether or not `super()` is used. If `super()` is not used, then the default or parameterless constructor of each superclass will be executed.
 
-##### Example
+##### Example 02
 
 ```java
 // Demonstrate when constructors are executed.

@@ -10,6 +10,8 @@ The most basic way of creating a string is
 
 As with any other objects in Java Strings can also created using 'new' keyword
 
+##### Example 01
+
 ```java
 public class StringExample{
     public static void main(String[] args){
@@ -74,7 +76,7 @@ System.out.println(str.cahrtAt(6));
     H
     W
 
-># External Resources
+## External Resources
 
 ### Readings
 

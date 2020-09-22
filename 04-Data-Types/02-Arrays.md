@@ -7,7 +7,7 @@ An array stores a fixed-size sequential collection of elements of the same type.
 To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable can reference.
 
 
-##### Example 1
+##### Example 01
 
 ```java
 public class ArrayExample1{
@@ -29,7 +29,7 @@ public class ArrayExample1{
 
 #### By Using 'new' Keyword
 
-##### Example 2
+##### Example 02
 
 ```java
 public class ArrayExample{
@@ -81,7 +81,7 @@ int[][] twoD = new int[4][5];
 ```
 This allocates a 4 by 5 array and assigns it to twoD. Internally, this matrix is implemented as an array of arrays of int. Conceptually, this array will look like the one shown in Figure 3-1. The following program numbers each element in the array from left to right, top to bottom, and then displays these values:
 
-##### Example 3
+##### Example 03
 
 ```java
 // Demonstrate a two-dimensional array.
@@ -113,7 +113,7 @@ class TwoDArray {
     15 16 17 18 19
 
 
-##### Example 4
+##### Example 04
 
 ```java
 public class TwoDArray2{

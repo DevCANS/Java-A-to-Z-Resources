@@ -6,6 +6,8 @@ There are two types of nested classes: static and non-static. A static nested cl
 
 The most important type of nested class is the inner class. An inner class is a non-static nested class. It has access to all of the variables and methods of its outer class and may refer to them directly in the same way that other non-static members of the outer class do.
 
+##### Example 01
+
 ```java
 // Demonstrate an inner class.
 class Outer {
@@ -44,7 +46,7 @@ As explained, an inner class has access to all of the members of its enclosing c
 
 It is also possible to define inner classes within any block scope. For example, you can define a nested class within the block defined by a method or even within the body of a `for` loop
 
-##### Example
+##### Example 02
 
 ```java
 // Define an inner class within a for loop.

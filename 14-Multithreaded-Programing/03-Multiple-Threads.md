@@ -4,7 +4,7 @@
 
 So far, you have been using only two threads: the main thread and one child thread. However, your program can spawn as many threads as it needs. For example, the following program creates three child threads:
 
-##### Example
+##### Example 01
 
 ```java
 // Create multiple threads.
@@ -88,7 +88,7 @@ final void join() throws InterruptedException
 
 This method waits until the thread on which it is called terminates.
 
-##### Example
+##### Example 02
 
 ```java
 // Using join() to wait for threads to finish.
@@ -183,6 +183,6 @@ class DemoJoin {
 
 * [ProgrammingKnowledge](https://www.youtube.com/watch?v=8bSlaGsG4dk&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=45)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

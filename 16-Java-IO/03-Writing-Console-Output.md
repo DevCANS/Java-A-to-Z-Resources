@@ -26,6 +26,8 @@ PrintWriter(OutputStream outputStream, boolean flushingOn)
 
 To write to the console by using a PrintWriter, specify System.out for the output stream and automatic flushing.
 
+##### Example 01
+
 ```java
 // Demonstrate PrintWriter
 import java.io.*;
@@ -48,9 +50,11 @@ public class PrintWriterDemo {
 
 ## External Resources
 
+### Readings
+
 * [JavaTPoint](https://www.javatpoint.com/java-printwriter-class)
 * [GeeksForGeeks - Formated Output](https://www.geeksforgeeks.org/formatted-output-in-java/)
 
-#### More Examples and Practice Questions
+### More Examples and Practice Questions
 
 Provided in the last chapter of current section.

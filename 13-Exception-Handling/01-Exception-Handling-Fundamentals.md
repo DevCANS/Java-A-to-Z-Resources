@@ -17,7 +17,7 @@ A checked exception is an exception that is checked (notified) by the compiler a
 
 For example, if you use FileReader class in your program to read data from a file, if the file specified in its constructor doesn't exist, then a FileNotFoundException occurs, and the compiler prompts the programmer to handle the exception.
 
-##### Example
+##### Example 01
 
 ```java
 import java.io.File;
@@ -35,19 +35,19 @@ public class FilenotFound_Demo {
 ##### Output
 If you try to compile the above program you will get the following exceptions
 
-```
-C:\>javac FilenotFound_Demo.java
-FilenotFound_Demo.java:8: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
-      FileReader fr = new FileReader(file);
-                      ^
-1 error
-```
+
+    C:\>javac FilenotFound_Demo.java
+    FilenotFound_Demo.java:8: error: unreported exception FileNotFoundException; must be caught or declared to be thrown
+        FileReader fr = new FileReader(file);
+                        ^
+    1 error
+
 
 ### Unchecked Exception
 
 Runtime Exceptions are also known as Unchecked Exceptions. These exceptions are not checked at compile-time so compiler does not check whether the programmer has handled them or not but it’s the responsibility of the programmer to handle these exceptions and provide a safe exit. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
 
-##### Example
+##### Example 02
 
 ```java
 class Exc1 {
@@ -63,11 +63,10 @@ class Exc1 {
 
 ##### Output
 
-```
-java.lang.ArithmeticException: / by zero
-    at Exc1.subroutine(Exc1.java:4)
-    at Exc1.main(Exc1.java:7)
-```
+    java.lang.ArithmeticException: / by zero
+        at Exc1.subroutine(Exc1.java:4)
+        at Exc1.main(Exc1.java:7)
+
 
 The bottom of the stack is main’s line 7, which is the call to subroutine( ), which caused the exception at line 4. The call stack is quite useful for debugging, because it pinpoints the precise sequence of steps that led to the error.
 
@@ -107,4 +106,5 @@ Basically, an Error is used by the Java run-time system (JVM) to indicate errors
 * [Alex Lee](https://www.youtube.com/watch?v=xNVlq9IEBEg&list=PL59LTecnGM1Mg6I4i_KbS0w5bPcDjl7oz&index=10)
 
 #### More Examples and Practice Questions
+
 Provided in the last chapter of this section

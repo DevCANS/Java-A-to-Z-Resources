@@ -4,9 +4,9 @@
 
 You can use interfaces to import shared constants into multiple classes by simply declaring an interface that contains variables that are initialized to the desired values. When you include that interface in a class (that is, when you “implement” the interface), all of those variable names will be in scope as constants. (This is similar to using a header file in C/C++ to create a large number of #defined constants or const declarations.) If an interface contains no methods, then any class that includes such an interface doesn’t actually implement anything. It is as if that class were importing the constant fields into the class name space as final variables. The next example uses this technique to implement an automated “decision maker”:
 
-```java
-import java.util.Random;
+##### Example 01
 
+```java
 interface SharedConstants {
     int NO = 0;
     int YES = 1;
@@ -15,6 +15,10 @@ interface SharedConstants {
     int SOON = 4;
     int NEVER = 5;
 }
+```
+
+```java
+import java.util.Random;
 
 class Question implements SharedConstants {
     Random rand = new Random();
@@ -33,7 +37,9 @@ class Question implements SharedConstants {
             return NEVER; // 2%
     }
 }
+```
 
+```java
 class AskMe implements SharedConstants {
     public static void answer(int result) {
         switch(result) {
@@ -85,7 +91,7 @@ Starting from Java 8 an interface can have a default method which provides an im
 
 An interface default method is defined similar to the way a method is defined by a class. The primary difference is that the declaration is preceded by the keyword `default`.
 
-##### Example
+##### Example 02
 
 ```java
 public interface MyIF {
@@ -102,7 +108,7 @@ public interface MyIF {
 }
 ```
 
-Because getString( ) includes a default implementation, it is not necessary for an implementing class to override it. In other words, if an implementing class does not provide its own implementation, the default is used.
+Because `getString()` includes a default implementation, it is not necessary for an implementing class to override it. In other words, if an implementing class does not provide its own implementation, the default is used.
 
 ```java
 // Implement MyIF.
@@ -144,5 +150,7 @@ Starting from Java 8 another new capability to interface was added: the ability 
 
 
 ## External Resources
+
+### Readings
 
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)

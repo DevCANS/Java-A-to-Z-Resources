@@ -10,7 +10,7 @@ To create a static method reference, use this general syntax:
 ClassName::methodName
 ```
 
-##### Example
+##### Example 01
 
 ```java
 // Demonstrate a method reference for a static method.
@@ -71,7 +71,7 @@ To pass a reference to an instance method on a specific object, use this basic s
 objRef::methodName
 ```
 
-##### Example
+##### Example 02
 
 ```java
 // Demonstrate a method reference to an instance method
@@ -142,7 +142,7 @@ Similar to the way that you can create references to methods, you can create ref
 classname::new
 ```
 
-##### Example
+##### Example 03
 
 ```java
 // Demonstrate a Constructor reference.
@@ -195,6 +195,8 @@ class ConstructorRefDemo{
 In the program, notice that the `func()` method of `MyFunc` returns a reference of type `MyClass` and has an int parameter. Next, notice that `MyClass` defines two constructors. The first specifies a parameter of type `int`. The second is the default, parameterless constructor.
 
 ## External Resources
+
+### Readings
 
 * [Jenkov Tutorial](http://tutorials.jenkov.com/java/lambda-expressions.html)
 * [Beginners Book](https://beginnersbook.com/2017/10/method-references-in-java-8/)

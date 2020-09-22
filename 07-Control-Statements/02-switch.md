@@ -27,7 +27,7 @@ The `break` statement is used inside the switch to terminate a statement sequenc
 
 If none of the constants matches the value of the expression, then the `default` statement is executed. However, the `default` statement is optional. If no `case` matches and no `default` is present, then no further action is taken.
 
-##### Example
+##### Example 01
 
 ```java
 // A simple example of the switch.
@@ -65,7 +65,7 @@ class SampleSwitch {
 
 The `break` statement is optional. If you omit the `break`, execution will continue on into the next `case`. It is sometimes desirable to have multiple cases without `break` statements between them.
 
-##### Example
+##### Example 02
 
 ```java
 class Switch {
