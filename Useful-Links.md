@@ -37,8 +37,6 @@ __Note__: Not recommended for beginners
 
 * Udemy
   * [Java Programming Masterclass for Software Developers - Tim Buchalka](https://www.udemy.com/course/java-the-complete-java-developer-course/)
-* Coursera
-  * 
 
 ## Practice Questions
 
