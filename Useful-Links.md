@@ -16,6 +16,7 @@ The following resources will help you boost your learning process.
 * [JavaTPoint](https://www.javatpoint.com)
 * [GeeksForGeeks](https://www.geeksforgeeks.org/java/)
 * [BeginnersBook](https://beginnersbook.com/java-tutorial-for-beginners-with-examples/)
+* [Jenkov's Tutorials](http://tutorials.jenkov.com/java/index.html)
 
 ### Youtube Videos
 
@@ -23,6 +24,21 @@ The following resources will help you boost your learning process.
 * [Cave of Programming - Java for Complete Beginners](https://www.youtube.com/playlist?list=PL9DF6E4B45C36D411)
 * [Durga Software Solutions - Java Tutorials By Durga Sir](https://www.youtube.com/playlist?list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0)
 * [Alex Lee](https://www.youtube.com/channel/UC_fFL5jgoCOrwAVoM_fBYwA/playlists)
+* [Edureka](https://www.youtube.com/watch?v=hBh_CC5y8-s)
+* [Java by Saurabh Shukla (Hindi Tutorial)](https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E)
+
+#### Crash Courses
+
+__Note__: Not recommended for beginners
+
+* [Programmin with Mosh](https://www.youtube.com/watch?v=eIrMbAQSU34&t=1s)
+
+## Paid Courses
+
+* Udemy
+  * [Java Programming Masterclass for Software Developers - Tim Buchalka](https://www.udemy.com/course/java-the-complete-java-developer-course/)
+* Coursera
+  * 
 
 ## Practice Questions
 
