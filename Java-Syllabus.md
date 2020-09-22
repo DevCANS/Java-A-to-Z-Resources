@@ -51,7 +51,7 @@
 * [if statements](07-Control-Statements/01-If-Statment.md)
   * [Nested if-else](07-Control-Statements/01-If-Statment.md#Nested-if)
   * [if-else ladder](07-Control-Statements/01-If-Statment.md#if-else-ladder)
-* switch
+* [switch](07-Control-Statements/02-switch.md)
 * Loops
   * while
   * do-while

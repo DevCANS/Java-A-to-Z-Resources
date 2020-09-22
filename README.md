@@ -49,7 +49,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Unary Operator|:heavy_check_mark:|:x:|:x:|:x:|
 ||Assignment Operator|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 |__Control Statements__|'if' Statements|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
-||switch|:x:|:x:|:x:|:x:|
+||switch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Loops|:x:|:x:|:x:|:x:|
 ||Jump Statements|:x:|:x:|:x:|:x:|
 |__Classes and Objects__|Class Fundamentals|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
