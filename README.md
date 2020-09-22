@@ -56,7 +56,7 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Objects and The 'new' Keyword|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Methods|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Constructors|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-||Access Control|:x:|:x:|:x:|:x:|
+||Access Control|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |__More on Classes__|'static' Keyword|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 ||Nested or Inner Classes|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||'final' Keyword|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
