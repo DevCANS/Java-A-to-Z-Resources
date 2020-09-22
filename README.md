@@ -93,9 +93,9 @@ Please read the [Contribution Guidelines](CONTRIBUTING.md)
 ||Reading Console Input|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Writing to Console|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|
 ||Reading and Writing Files|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|__Generics__|Generic Classes|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+|__Generics__|Generic Classes|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Generic Methods, Constructors and Interfaces|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
-||Wildcard Arguments|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+||Wildcard Arguments|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 |__Lambda Expressions__|Lambda Expression Fundamentals|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||More Fundamental Concepts|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 ||Method References|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|

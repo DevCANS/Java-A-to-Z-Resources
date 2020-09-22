@@ -159,5 +159,11 @@ public class LowerBoundWildcard {
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/generics/wildcards.html)
 * [JavaTPoint](https://www.javatpoint.com/generics-in-java)
+
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=QqLBp7MdkEU&list=PL9DF6E4B45C36D411&index=31)

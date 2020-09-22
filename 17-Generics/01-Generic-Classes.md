@@ -233,5 +233,11 @@ Because the type `T` is now bounded by `Number`, the Java compiler knows that al
 
 ## External Resources
 
+### Readings
+
 * [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 * [JavaTPoint](https://www.javatpoint.com/generics-in-java)
+
+### Youtube Videos
+
+* [Cave of Programming](https://www.youtube.com/watch?v=rOBtgaXaba0&list=PL9DF6E4B45C36D411&index=30)
