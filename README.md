@@ -11,7 +11,7 @@ A collection of resources that you might find helpful.
 
 ## Contribution Guidelines
 
-Please read the [Contribution Guidelines](CONTRIBUTING.md)
+Our contribution guidelines have been changed. Please check it [here](CONTRIBUTING.md) before making any pull request.
 
 ## Contents
 
