@@ -11,7 +11,7 @@ Java defines four integer types __bytes__, __short__, __int__, and __long__. All
 |__byte__|8|–128|127|<code>byte variableName;</code>|
 
 
-#### Example 01
+##### [Example 01](../20-Examples/04-Data-Types/01-Premitive-Types/Example-01/)
 
 ```java
 // Compute distance light travels using long variables.
@@ -38,7 +38,7 @@ class Light {
 }
 ```
 
-#### Output
+##### Output
     In 1000 days light will travel about 16070400000000 miles.
 
 Clearly, the result could not have been held in an int variable.
@@ -57,7 +57,7 @@ type.
 
 The value of `float` type ends with 'f' and `double` with a 'd'
 
-#### Example 02
+##### [Example 02](../20-Examples/04-Data-Types/01-Premitive-Types/Example-02/)
 
 ```java    
 public class MyClass {
@@ -70,7 +70,7 @@ public class MyClass {
 }
 ```
 
-#### Output
+##### Output
 
     35000.0
     120000.0
@@ -87,7 +87,7 @@ languages. Thus, in Java char is a 16-bit type. The range of a char is 0 to 65,5
 negative chars. The standard set of characters known as ASCII still ranges from 0 to 127 as
 always, and the extended 8-bit character set, ISO-Latin-1, ranges from 0 to 255.
 
-#### Example 03
+##### [Example 03](../20-Examples/04-Data-Types/01-Premitive-Types/Example-03/)
 
 ```java
 // Demonstrate char data type.
@@ -102,7 +102,7 @@ class CharDemo {
 }
 ```
 
-#### Output
+##### Output
 
     ch1 and ch2: X Y
 
@@ -111,7 +111,7 @@ corresponds to the letter X. As mentioned, the ASCII character set occupies the 
 values in the Unicode character set. For this reason, all the “old tricks” that you may have
 used with characters in other languages will work in Java, too.
 
-#### Example 04
+##### [Example 04](../20-Examples/04-Data-Types/01-Premitive-Types/Example-04/)
 
 ```java
 // char variables behave like integers.
@@ -126,7 +126,7 @@ class CharDemo2 {
 }
 ```
 
-#### Output
+##### Output
 
     ch1 contains X
     ch1 is now Y
@@ -138,7 +138,7 @@ possible values, true or false. This is the type returned by all relational oper
 case of a < b. boolean is also the type required by the conditional expressions that govern the
 control statements such as if and for.
 
-#### Example 05
+##### [Example 05](../20-Examples/04-Data-Types/01-Premitive-Types/Example-05/)
 
 ```java
 // Demonstrate boolean values.

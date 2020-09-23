@@ -10,7 +10,7 @@ The most basic way of creating a string is
 
 As with any other objects in Java Strings can also created using 'new' keyword
 
-##### Example 01
+##### [Example 01](../20-Examples/04-Data-Types/03-Strings/Example-01/)
 
 ```java
 public class StringExample{
@@ -24,19 +24,19 @@ public class StringExample{
 }
 ```
 
-#### Output
+##### Output
 
     hello
 
 You will learn about Onjects and 'new' keyword in Objects and Classes section.
 
-#### Some String Methods
+#### [Some String Methods](../20-Examples/04-Data-Types/03-Strings/Example-02/)
 
 ##### Lenght of String
 ```java
 String str = "Hello World";
 int len = str.length();
-System.out.println();
+System.out.println(len);
 ```
 ##### Output
 

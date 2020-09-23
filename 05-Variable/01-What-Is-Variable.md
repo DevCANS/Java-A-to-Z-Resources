@@ -58,7 +58,7 @@ __Local Variables__:
 
 * Initilisation of Local Variable is Mandatory.
 
-##### Example 01
+##### [Example 01](../20-Examples/05-Variable/01-What-is-Variable/Example-01/)
 
 ```java
 public class StudentDetails { 
@@ -87,7 +87,7 @@ If we use the variable age outside `StudentAge()` function, the compiler will pr
 
 
 
-##### Example 02
+##### [Example 02](../20-Examples/05-Variable/01-What-is-Variable/Example-02/)
 
 ```java
 public class StudentDetails {
@@ -127,7 +127,7 @@ __Instance Variables__: Instance variables are non-static variables and are decl
 * Initilisation of Instance Variable is not Mandatory. Its default value is 0
 Instance Variable can be accessed only by creating objects.
 
-##### Example 03
+##### [Example 03](../20-Examples/05-Variable/01-What-is-Variable/Example-03/)
 
 ```java
 import java.io.*; 
@@ -207,7 +207,7 @@ To access static variables, we need not create an object of that class, we can s
 ClassName.variableName;
 ```
 
-##### Example 04
+##### [Example 04](../20-Examples/05-Variable/01-What-is-Variable/Example-04/)
 
 ```java
 import java.io.*; 

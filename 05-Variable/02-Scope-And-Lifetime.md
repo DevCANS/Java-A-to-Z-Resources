@@ -64,7 +64,7 @@ class Test
 
 The above code uses this keyword to differentiate between the local and class variables.
 
-##### Example 01
+##### [Example 01](../20-Examples/05-Variable/02-Scope-and-Lifetime/Example-01/)
 
 ```java
 public class Test { 
@@ -100,7 +100,7 @@ public class Test {
 
 A variable declared inside pair of brackets `{` and `}` in a method has scope withing the brackets only.
 
-##### Example 02
+##### [Example 02](../20-Examples/05-Variable/02-Scope-and-Lifetime/Example-02/)
 
 ```java
 public class Test{
@@ -126,7 +126,8 @@ public class Test{
 	 10
      As another example, consider following program with a for loop.
 
-##### Example 03
+##### [Example 03](../20-Examples/05-Variable/02-Scope-and-Lifetime/Example-03/)
+
 ```java
 class Test{
 
