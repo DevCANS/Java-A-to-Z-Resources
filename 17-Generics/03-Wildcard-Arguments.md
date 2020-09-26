@@ -84,6 +84,7 @@ If you want the generic expression to accept all subclasses of a particular type
 ##### [Example 02](../20-Examples/17-Generics/03-Wildcard-Arguments/Example-02/)
 
 ```java
+import java.util.*;
 public class GenericsExample<T>{
    public static void main(String[] args){
       //List of Integers
@@ -110,6 +111,11 @@ public class GenericsExample<T>{
    }
 }
 ```
+
+##### Output
+
+    15.0
+    6.5
 
 ### Lower Bounded Wildcards
 

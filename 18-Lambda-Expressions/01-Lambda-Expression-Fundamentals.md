@@ -100,7 +100,7 @@ interface NumericTest2 {
 ```
 
 ```java
-class LambdaDemo3 {
+class LambdaDemo {
     public static void main(String args[]){
         // This lambda expression determines if one number is
         // a factor of another.

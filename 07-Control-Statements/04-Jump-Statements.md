@@ -2,7 +2,7 @@
 
 Java supports three jump statements: `break`, `continue`, and `return`. These statements transfer control to another part of your program.
 
-## break
+## break Statement
 
 In Java, the `break` statement has three uses.
 
@@ -84,7 +84,7 @@ class Break {
 
 ```java
 // Using break to exit from nested loops
-class BreakLoop4 {
+class BreakLoop {
     public static void main(String args[]) {
         outer: for(int i=0; i<3; i++) {
             System.out.print("Pass " + i + ": ");
@@ -104,7 +104,7 @@ class BreakLoop4 {
 
     Pass 0: 0 1 2 3 4 5 6 7 8 9 Loops complete.
 
-## continue
+## continue Statement
 
 Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running the loop but stop processing the remainder of the code in its body for this particular iteration.
 

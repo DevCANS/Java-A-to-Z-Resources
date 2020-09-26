@@ -95,7 +95,7 @@ class MyStringOps {
 ```
 
 ```java
-class MethodRefDemo2 {
+class MethodRefDemo {
     // This method has a functional interface as the type of
     // its first parameter. Thus, it can be passed any instance
     // of that interface, including method references.

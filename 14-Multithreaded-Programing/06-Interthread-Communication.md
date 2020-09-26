@@ -153,6 +153,21 @@ class Producer implements Runnable {
 ```
 
 ```java
+class Consumer implements Runnable {
+    Q q;
+    Consumer(Q q) {
+        this.q = q;
+        new Thread(this, "Consumer").start();
+    }
+    public void run() {
+            while(true) {
+            q.get();
+        }
+    }
+}
+```
+
+```java
 class PCFixed {
     public static void main(String args[]) {
         Q q = new Q();

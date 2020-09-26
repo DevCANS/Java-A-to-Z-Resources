@@ -4,6 +4,8 @@ Console output is most easily accomplished with `print()` and `println()`, descr
 
 Because `PrintStream` is an output stream derived from `OutputStream`, it also implements the low-level method `write()`. Thus, `write()` can be used to write to the console.
 
+##### [Example 01](../20-Examples/16-Java-IO/03-Writing-Console-Output/Example-01/)
+
 ```java
 // Demonstrate System.out.write().
 class WriteDemo {
@@ -16,6 +18,10 @@ class WriteDemo {
 }
 ```
 
+##### Output
+
+    A
+
 ## The PrintWriter Class
 
 For realworld programs, the recommended method of writing to the console when using Java is through a `PrintWriter` stream. `PrintWriter` is one of the character-based classes. Using a character-based class for console output makes internationalizing your program easier.
@@ -26,7 +32,7 @@ PrintWriter(OutputStream outputStream, boolean flushingOn)
 
 To write to the console by using a PrintWriter, specify System.out for the output stream and automatic flushing.
 
-##### Example 01
+##### [Example 02](../20-Examples/16-Java-IO/03-Writing-Console-Output/Example-02/)
 
 ```java
 // Demonstrate PrintWriter

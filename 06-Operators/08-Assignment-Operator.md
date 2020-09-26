@@ -28,7 +28,7 @@ a += 5; //a = a+5;
 // Java program to illustrate    
 // assignment operators    
 
-public class operators {
+public class Operators {
 
 	public static void main(String[] args){
 		int a = 20, b = 10, c, d, e = 10, f = 4, g = 9; 

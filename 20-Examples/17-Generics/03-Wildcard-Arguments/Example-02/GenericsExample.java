@@ -5,6 +5,8 @@
  * 
  */
 
+import java.util.*;
+
 public class GenericsExample<T>{
     public static void main(String[] args){
        //List of Integers
@@ -18,7 +20,7 @@ public class GenericsExample<T>{
        List<String> strings = Arrays.asList("1","2");
        //This will give compilation error as :: The method sum(List<? extends Number>) in the 
        //type GenericsExample<T> is not applicable for the arguments (List<String>)
-       System.out.println(sum(strings));
+       //System.out.println(sum(strings));
         
     }
      

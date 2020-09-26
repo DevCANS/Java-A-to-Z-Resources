@@ -20,7 +20,7 @@ Unary operators need only one operand. They are used to increment, decrement or 
 // Java program to illustrate    
 // unary operators    
 
-public class operators {
+public class Operators {
 
 	public static void main(String[] args){
 

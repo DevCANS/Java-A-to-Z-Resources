@@ -63,7 +63,7 @@ __Local Variables__:
 ```java
 public class StudentDetails { 
 
-	public void StudentAge(){ 
+	public void studentAge(){ 
 		// local variable age 
 		int age = 0; 
 		age = age + 5; 
@@ -72,7 +72,7 @@ public class StudentDetails {
 
 	public static void main(String args[]){ 
 		StudentDetails obj = new StudentDetails(); 
-		obj.StudentAge(); 
+		obj.studentAge(); 
 	} 
 } 
 ```
@@ -81,9 +81,9 @@ public class StudentDetails {
 
 	Student age is : 5
 
-In the above program, the variable `age` is a local variable to the function `StudentAge()`. 
+In the above program, the variable `age` is a local variable to the function `studentAge()`. 
 
-If we use the variable age outside `StudentAge()` function, the compiler will produce an error as shown in below program.
+If we use the variable age outside `studentAge()` function, the compiler will produce an error as shown in below program.
 
 
 
@@ -92,7 +92,7 @@ If we use the variable age outside `StudentAge()` function, the compiler will pr
 ```java
 public class StudentDetails {
 
-    public void StudentAge(){ 
+    public void studentAge(){ 
 		// local variable age 
         int age = 0; 
         age = age + 5; 
@@ -130,9 +130,7 @@ Instance Variable can be accessed only by creating objects.
 ##### [Example 03](../20-Examples/05-Variable/01-What-is-Variable/Example-03/)
 
 ```java
-import java.io.*; 
 class Marks { 
-
 	// These variables are instance variables. 
 	// These variables are in a class 
 	// and are not inside any function 
@@ -184,7 +182,7 @@ class MarksDemo {
 	60
 	85
 
-As you can see in the above program the variables, engMarks , mathsMarks , phyMarksare instance variables. In case we have multiple objects as in the above program, each object will have its own copies of instance variables. It is clear from the above output that each object will have its own copy of instance variable.
+As you can see in the above program the variables, `engMarks` , `mathsMarks`, `phyMarksare` instance variables. In case we have multiple objects as in the above program, each object will have its own copies of instance variables. It is clear from the above output that each object will have its own copy of instance variable.
 
 ## Static Variable
 
@@ -210,7 +208,6 @@ ClassName.variableName;
 ##### [Example 04](../20-Examples/05-Variable/01-What-is-Variable/Example-04/)
 
 ```java
-import java.io.*; 
 class Emp { 
 	// static variable salary 
 	public static double salary; 
@@ -224,8 +221,7 @@ public class EmpDemo {
 	public static void main(String args[]){ 
 		// accessing static variable without object 
 		Emp.salary = 1000; 
-		System.out.println(Emp.name + "'s average salary:"
-						+ Emp.salary); 
+		System.out.println(Emp.name + "'s average salary:" + Emp.salary); 
 	} 
 } 
 ```

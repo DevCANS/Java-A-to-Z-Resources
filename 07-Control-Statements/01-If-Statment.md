@@ -162,7 +162,7 @@ else
 ```java
 // Java program to illustrate if-else-if ladder 
 
-class ifelseifDemo{
+class IfElseIfDemo{
 	public static void main(String args[]){
 		int i = 20; 
 

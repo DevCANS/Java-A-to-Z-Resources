@@ -47,7 +47,7 @@ __Unboxing__: It is just the reverse process of autoboxing. Automatically conver
 
 ```java
 // Autoboxing/unboxing occurs inside expressions.
-class AutoBox3 {
+class AutoBox {
     public static void main(String args[]) {
         Integer iOb, iOb2;
         int i;

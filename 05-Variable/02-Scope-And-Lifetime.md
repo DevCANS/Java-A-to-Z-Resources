@@ -124,7 +124,8 @@ public class Test{
 ##### Output 
      
 	 10
-     As another example, consider following program with a for loop.
+
+As another example, consider following program with a for loop.
 
 ##### [Example 03](../20-Examples/05-Variable/02-Scope-and-Lifetime/Example-03/)
 

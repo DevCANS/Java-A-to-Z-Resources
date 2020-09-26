@@ -33,7 +33,7 @@ public interface Hockey extends Sports {
 }
 ```
 
-The Hockey interface has four methods, but it inherits two from Sports; thus, a class that implements Hockey needs to implement all six methods. Similarly, a class that implements Football needs to define the three methods from Football and the two methods from Sports.
+The `Hockey` interface has four methods, but it inherits two from `Sports`; thus, a class that implements `Hockey` needs to implement all six methods. Similarly, a class that implements `Football` needs to define the three methods from `Football` and the two methods from `Sports`.
 
 
 ## Nested Interfaces
@@ -81,9 +81,9 @@ class NestedIFDemo {
 
     10 is not negative
 
-Notice that A defines a member interface called NestedIF and that it is declared public. Next, B implements the nested interface by specifying `implements A.NestedIF`
+Notice that A defines a member interface called `NestedIF` and that it is declared public. Next, `B` implements the nested interface by specifying `implements A.NestedIF`
 
-Notice that the name is fully qualified by the enclosing class’ name. Inside the `main()` method, an A.NestedIF reference called nif is created, and it is assigned a reference to a B object. Because B implements A.NestedIF, this is legal.
+Notice that the name is fully qualified by the enclosing class’ name. Inside the `main()` method, an `A.NestedIF` reference called nif is created, and it is assigned a reference to a `B` object. Because `B` implements `A.NestedIF`, this is legal.
 
 
 ## External Resources

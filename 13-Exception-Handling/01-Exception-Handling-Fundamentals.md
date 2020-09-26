@@ -23,7 +23,7 @@ For example, if you use FileReader class in your program to read data from a fil
 import java.io.File;
 import java.io.FileReader;
 
-public class FilenotFound_Demo {
+public class FileNotFoundDemo {
 
    public static void main(String args[]) {		
       File file = new File("E://file.txt");

@@ -71,51 +71,50 @@ interface StringFunc {
 
 ```java
 class LambdasAsArgumentsDemo {
-// This method has a functional interface as the type of
-// its first parameter. Thus, it can be passed a reference to
-// any instance of that interface, including the instance created
-// by a lambda expression.
-// The second parameter specifies the string to operate on.
-static String stringOp(StringFunc sf, String s) {
-    return sf.func(s);
-}
+    // This method has a functional interface as the type of
+    // its first parameter. Thus, it can be passed a reference to
+    // any instance of that interface, including the instance created
+    // by a lambda expression.
+    // The second parameter specifies the string to operate on.
+    static String stringOp(StringFunc sf, String s){
+        return sf.func(s);
+    }
 
-public static void main(String args[]){
-    String inStr = "Lambdas add power to Java";
-    String outStr;
-    System.out.println("Here is input string: " + inStr);
-    
-    // Here, a simple expression lambda that uppercases a string
-    // is passed to stringOp( ).
-    outStr = stringOp((str) -> str.toUpperCase(), inStr);
-    System.out.println("The string in uppercase: " + outStr);
-    
-    // This passes a block lambda that removes spaces.
-    outStr = stringOp((str) -> {
-        String result = "";
-        int i;
-        for(i = 0; i < str.length(); i++)
-        if(str.charAt(i) != ' ')
-        result += str.charAt(i);
-        return result;
-    }, inStr);
-    System.out.println("The string with spaces removed: " + outStr);
-    
-    // Of course, it is also possible to pass a StringFunc instance
-    // created by an earlier lambda expression. For example,
-    // after this declaration executes, reverse refers to an
-    // instance of StringFunc.
-    StringFunc reverse = (str) -> {
-        String result = "";
-        int i;
-        for(i = str.length()-1; i >= 0; i--)
+    public static void main(String args[]){
+        String inStr = "Lambdas add power to Java";
+        String outStr;
+        System.out.println("Here is input string: " + inStr);
+        
+        // Here, a simple expression lambda that uppercases a string
+        // is passed to stringOp( ).
+        outStr = stringOp((str) -> str.toUpperCase(), inStr);
+        System.out.println("The string in uppercase: " + outStr);
+        
+        // This passes a block lambda that removes spaces.
+        outStr = stringOp((str) -> {
+            String result = "";
+            int i;
+            for(i = 0; i < str.length(); i++)
+            if(str.charAt(i) != ' ')
             result += str.charAt(i);
             return result;
+        }, inStr);
+        System.out.println("The string with spaces removed: " + outStr);
+        
+        // Of course, it is also possible to pass a StringFunc instance
+        // created by an earlier lambda expression. For example,
+        // after this declaration executes, reverse refers to an
+        // instance of StringFunc.
+        StringFunc reverse = (str) -> {
+            String result = "";
+            int i;
+            for(i = str.length()-1; i >= 0; i--)
+                result += str.charAt(i);
+                return result;
         };
         // Now, reverse can be passed as the first parameter to stringOp()
         // since it refers to a StringFunc object.
-        System.out.println("The string reversed: " +
-        stringOp(reverse, inStr));
+        System.out.println("The string reversed: " + stringOp(reverse, inStr));
     }
 }
 ```
@@ -138,7 +137,9 @@ A lambda expression can throw an exception. However, it if throws a checked exce
 interface DoubleNumericArrayFunc {
     double func(double[] n) throws EmptyArrayException;
 }
+```
 
+```java
 class EmptyArrayException extends Exception {
     EmptyArrayException() {
         super("Array Empty");
@@ -167,6 +168,13 @@ class LambdaExceptionDemo {
 }
 ```
 
+##### Output
+
+    The average is 2.5
+    Exception in thread "main" EmptyArrayException: Array Empty
+            at LambdaExceptionDemo.lambda$main$0(LambdaExceptionDemo.java:15)
+            at LambdaExceptionDemo.main(LambdaExceptionDemo.java:23) 
+
 The first call to `average.func()` returns the value 2.5. The second call, which passes a zero-length array, causes an `EmptyArrayException` to be thrown. Remember, the inclusion of the throws clause in `func()` is necessary. Without it, the program will not compile because the lambda expression will no longer be compatible with `func()`.
 
 ## Lambda Expression and Variable Capture
@@ -194,19 +202,19 @@ interface MyFunc {
 ```java
 class VarCapture {
     public static void main(String args[]){
-    // A local variable that can be captured.
-    int num = 10;
-    MyFunc myLambda = (n) -> {
-        // This use of num is OK. It does not modify num.
-        int v = num + n;
-        // However, the following is illegal because it attempts
-        // to modify the value of num.
-        // num++;
-        return v;
-    };
-    // The following line would also cause an error, because
-    // it would remove the effectively final status from num.
-    // num = 9;
+        // A local variable that can be captured.
+        int num = 10;
+        MyFunc myLambda = (n) -> {
+            // This use of num is OK. It does not modify num.
+            int v = num + n;
+            // However, the following is illegal because it attempts
+            // to modify the value of num.
+            // num++;
+            return v;
+        };
+        // The following line would also cause an error, because
+        // it would remove the effectively final status from num.
+        // num = 9;
     }
 }
 ```

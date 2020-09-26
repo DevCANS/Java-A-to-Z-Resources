@@ -13,7 +13,7 @@ The above statement means that if the condition evaluates to true, then execute 
 // Java program to illustrate    
 // max of three numbers using    
 // ternary operator.    
-public class operators {
+public class Operators {
 
 	public static void main(String[] args){ 
 		int a = 20, b = 10, c = 30, result; 

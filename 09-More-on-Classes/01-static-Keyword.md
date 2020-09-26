@@ -37,40 +37,40 @@ Class variables and methods can be accessed using the class name followed by a d
 ```java
 //Java Program to demonstrate the use of a static method.  
 class Student{  
-        int rollno;  
-        String name;  
-        //static variable
-        static String college = "ITS";  
-        //static method to change the value of static variable  
-        static void change(){  
+    int rollno;  
+    String name;  
+    //static variable
+    static String college = "ITS";  
+    //static method to change the value of static variable  
+    static void change(){
         college = "BBDIT";  
-        }  
-        //constructor to initialize the variable  
-        Student(int r, String n){  
+    }
+    //constructor to initialize the variable  
+    Student(int r, String n){
         rollno = r;  
         name = n;  
-        }  
-        //method to display values  
-        void display(){
-            System.out.println(rollno+" "+name+" "+college);
-        }  
+    }
+    //method to display values  
+    void display(){
+        System.out.println(rollno+" "+name+" "+college);
+    }
 }
 ```
 
 ```java
 //Test class to create and display the values of object  
-public class TestStaticMethod{  
-    public static void main(String args[]){  
-    Student.change();//calling change method  
-    //creating objects  
-    Student s1 = new Student(111,"Karan");  
-    Student s2 = new Student(222,"Aryan");  
-    Student s3 = new Student(333,"Sonoo");  
-    //calling display method  
-    s1.display();  
-    s2.display();  
-    s3.display();  
-    }  
+public class TestStaticMethod{
+    public static void main(String args[]){
+        Student.change();//calling change method
+        //creating objects
+        Student s1 = new Student(111,"Karan");
+        Student s2 = new Student(222,"Aryan");
+        Student s3 = new Student(333,"Sonoo");
+        //calling display method  
+        s1.display();
+        s2.display();
+        s3.display();
+    }
 }
 ```
 
@@ -98,8 +98,7 @@ Instance initializer block works are used to initialize the properties of an obj
 // with super() 
 
 //Parent Class
-class B 
-{ 
+class B {
 	B(){ 
 		System.out.println("B-Constructor Called"); 
 	}
@@ -111,8 +110,7 @@ class B
 } 
 
 // Child class 
-class A extends B 
-{ 
+class A extends B {
 	A(){ 
 		super(); 
 		System.out.println("A-Constructor Called"); 
@@ -125,8 +123,8 @@ class A extends B
 	// main function 
 	public static void main(String[] args){ 
 		A a = new A(); 
-	} 
-} 
+	}
+}
 ```
 
 ##### Output

@@ -82,7 +82,7 @@ class AskMe implements SharedConstants {
     Yes
 
 
-Notice that this program makes use of one of Java’s standard classes: Random. This class provides pseudorandom numbers. It contains several methods that allow you to obtain random numbers in the form required by your program. In this example, the method nextDouble( ) is used. It returns random numbers in the range 0.0 to 1.0. In this sample program, the two classes, Question and AskMe, both implement the SharedConstants interface where NO, YES, MAYBE, SOON, LATER, and NEVER are defined. Inside each class, the code refers to these constants as if each class had defined or nherited them directly. Here is the output of a sample run of this program. Note that the results are different each time it is run.
+Notice that this program makes use of one of Java’s standard classes: Random. This class provides pseudorandom numbers. It contains several methods that allow you to obtain random numbers in the form required by your program. In this example, the method `nextDouble()` is used. It returns random numbers in the range 0.0 to 1.0. In this sample program, the two classes, Question and AskMe, both implement the `SharedConstants` interface where `NO`, `YES`, `MAYBE`, `SOON`, `LATER`, and `NEVER` are defined. Inside each class, the code refers to these constants as if each class had defined or inherited them directly. Here is the output of a sample run of this program. Note that the results are different each time it is run.
 
 ## Methods
 
@@ -119,7 +119,9 @@ class MyIFImp implements MyIF {
         return 100;
     }
 }
+```
 
+```java
 // Use the default method.
 class DefaultMethodDemo {
     public static void main(String args[]) {

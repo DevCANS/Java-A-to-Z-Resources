@@ -76,8 +76,8 @@ class EnumDemo {
 All enumerations automatically contain two predefined methods: `values()` and `valueOf()`.
 
 ```java
-public static enumType [ ] values( )
-public static enumType valueOf(String str )
+public static enumType[] values()
+public static enumType valueOf(String str)
 ```
 
 The `values()` method returns an array that contains a list of the enumeration constants.
@@ -95,7 +95,7 @@ enum Apple {
 ```
 
 ```java
-class EnumDemo2 {
+class EnumDemo {
     public static void main(String args[]){
         Apple ap;
         System.out.println("Here are all Apple constants:");
@@ -121,9 +121,9 @@ class EnumDemo2 {
     Cortland
     ap contains Winesap
 
-A Java enumeration is a class type. You don't instantiate an enum but you can give them constructors, instance variables and methods and even implement interfaces.
+A Java enumeration is a class type. You don't instantiate an `enum` but you can give them constructors, instance variables and methods and even implement interfaces.
 
-Each enumeration constant is an object of its enumeration type. Thus, when you define a constructor for an enum, the constructor is called when each enumeration constant is created. Also, each enumeration constant has its own copy of any instance variables defined by the enumeration.
+Each enumeration constant is an object of its enumeration type. Thus, when you define a constructor for an `enum`, the constructor is called when each enumeration constant is created. Also, each enumeration constant has its own copy of any instance variables defined by the enumeration.
 
 Although you can’t inherit a superclass when declaring an `enum`, all enumerations automatically inherit one: `java.lang.Enum`. This class defines several methods that are available for use by all enumerations.
 

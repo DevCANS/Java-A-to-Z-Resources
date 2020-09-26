@@ -42,7 +42,7 @@ class Box {
 ```
 
 ```java
-class BoxDemo3 {
+class BoxDemo {
     public static void main(String args[]) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();
@@ -122,7 +122,6 @@ class Volume{
 __Note__: A `static` method belongs to the class and are not associated with objects so it can be directly accessed without creating an object of `Volume`. 
 
 ```java
-// This program includes a method inside the box class.
 class Box {
     double width;
     double height;
@@ -131,7 +130,7 @@ class Box {
 ```
 
 ```java
-class BoxDemo3 {
+class BoxDemo {
     public static void main(String args[]) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();

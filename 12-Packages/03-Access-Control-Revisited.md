@@ -71,11 +71,13 @@ class SamePackage {
 }
 ```
 
-The source for the first package defines three classes: Protection, Derived, and SamePackage. The first class defines four int variables in each of the legal protection modes. The variable n is declared with the default protection, n_pri is private, n_pro is protected, and n_pub is public.
+The source for the first package defines three classes: Protection, Derived, and `SamePackage`. The first class defines four `int` variables in each of the legal protection modes. The variable `n` is declared with the default protection, `n_pri` is private, `n_pro` is protected, and `n_pub` is public.
 
 Each subsequent class in this example will try to access the variables in an instance of this class. The lines that will not compile due to access restrictions are commented out. Before each of these lines is a comment listing the places from which this level of protection would allow access.
 
-The second class, Derived, is a subclass of Protection in the same package, p1. This grants Derived access to every variable in Protection except for n_pri, the private one. The third class, SamePackage, is not a subclass of Protection, but is in the same package and also has access to all but n_pri.
+The second class, Derived, is a subclass of Protection in the same package, `p1`. This grants Derived access to every variable in Protection except for `n_pri`, the private one. The third class, `SamePackage`, is not a subclass of Protection, but is in the same package and also has access to all but `n_pri`.
+
+This is file __Protection2.java__:
 
 ```java
 package p2;
@@ -92,7 +94,7 @@ class Protection2 extends p1.Protection {
 }
 ```
 
-This is file OtherPackage.java:
+This is file __OtherPackage.java__:
 
 ```java
 package p2;
@@ -111,7 +113,7 @@ class OtherPackage {
 }
 ```
 
-The two classes defined in `p2` cover the other two conditions that are affected by access control. The first class, `Protection2`, is a subclass of `p1.Protection`. This grants access to all of p1.Protection’s variables except for `n_pri` (because it is private) and `n`, the variable declared with the default protection. Remember, the default only allows access from within the class or the package, not extrapackage subclasses. Finally, the class `OtherPackage` has access to only one variable, `n_pub`, which was declared public.
+The two classes defined in `p2` cover the other two conditions that are affected by access control. The first class, `Protection2`, is a subclass of `p1.Protection`. This grants access to all of __p1.Protection__’s variables except for `n_pri` (because it is private) and `n`, the variable declared with the default protection. Remember, the default only allows access from within the class or the package, not extrapackage subclasses. Finally, the class `OtherPackage` has access to only one variable, `n_pub`, which was declared public.
 
 ## External Resources
 

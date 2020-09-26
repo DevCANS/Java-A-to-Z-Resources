@@ -47,7 +47,7 @@ class Box {
 ```
 
 ```java
-class BoxDemo6 {
+class BoxDemo {
     public static void main(String args[]) {
         // declare, allocate, and initialize Box objects
         Box mybox1 = new Box();
@@ -104,7 +104,7 @@ class Box {
 ```
 
 ```java
-class BoxDemo7 {
+class BoxDemo {
     public static void main(String args[]) {
         // declare, allocate, and initialize Box objects
         Box mybox1 = new Box(10, 20, 15);

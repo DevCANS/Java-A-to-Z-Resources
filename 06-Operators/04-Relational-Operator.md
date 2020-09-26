@@ -22,7 +22,7 @@ Some of the relational operators are:
 
 // relational operators 
 
-public class operators { 
+public class Operators { 
 
 	public static void main(String[] args){
 		int a = 20, b = 10; 

@@ -31,7 +31,9 @@ class Callme {
         System.out.println("]");
     }
 }
+```
 
+```java
 class Caller implements Runnable {
     String msg;
     Callme target;
@@ -46,7 +48,9 @@ class Caller implements Runnable {
         target.call(msg);
     }
 }
+```
 
+```java
 class Synch {
     public static void main(String args[]) {
         Callme target = new Callme();
@@ -124,7 +128,9 @@ class Callme {
         System.out.println("]");
     }
 }
+```
 
+```java
 class Caller implements Runnable {
     String msg;
     Callme target;
@@ -142,8 +148,10 @@ class Caller implements Runnable {
         }
     }
 }
+```
 
-class Synch1 {
+```java
+class Synch {
     public static void main(String args[]) {
         Callme target = new Callme();
         Caller ob1 = new Caller(target, "Hello");
@@ -161,7 +169,7 @@ class Synch1 {
 }
 ```
 
-Here, the `call()` method is not modified by `synchronized`. Instead, the `synchronized` statement is used inside Caller’s `run()` method. This causes the same correct output as the preceding example, because each thread waits for the prior one to finish before proceeding.
+Here, the `call()` method is not modified by `synchronized`. Instead, the `synchronized` statement is used inside `Caller`’s `run()` method. This causes the same correct output as the preceding example, because each thread waits for the prior one to finish before proceeding.
 
 ## External Resources
 
