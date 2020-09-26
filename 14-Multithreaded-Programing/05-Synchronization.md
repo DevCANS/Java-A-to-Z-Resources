@@ -14,7 +14,7 @@ To enter an object’s _monitor_, just call a method that has been modified with
 synchronized returnType methodName(parameters)
 ```
 
-##### Example 01
+##### [Example 01](../20-Examples/14-Multithreaded-Programing/05-Synchronization/Example-01/)
 
 This example does not use synchronization.
 
@@ -109,7 +109,7 @@ synchronized(objRef) {
 }
 ```
 
-##### Example 02
+##### [Example 02](../20-Examples/14-Multithreaded-Programing/05-Synchronization/Example-02/)
 
 ```java
 // This program uses a synchronized block.

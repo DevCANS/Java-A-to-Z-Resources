@@ -6,7 +6,7 @@ Ternary operator is a shorthand version of if-else statement. It has three opera
 
 The above statement means that if the condition evaluates to true, then execute the statements after the `?` else execute the statements after the `:`.
 
-##### Example 01
+##### [Example 01](../20-Examples/06-Operators/06-Ternary-Operator/Example-01/)
 
 ```java
 

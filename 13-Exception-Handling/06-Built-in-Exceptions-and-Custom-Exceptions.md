@@ -49,7 +49,7 @@ The Exception class does not define any methods of its own. It does, of course, 
 * Create a constructor with a `String` parameter which is the detail message of the exception. In this constructor, simply call the super constructor and pass the message.
 * Sometimes it is better to override `toString()`. The version of `toString()` defined by `Throwable` (and inherited by `Exception`) first displays the name of the exception followed by a colon, which is then followed by your description. By overriding `toString()`, you can prevent the exception name and colon from being displayed. This makes for a cleaner output, which is desirable in some cases.
 
-##### Example 01
+##### [Example 01](../20-Examples/13-Exception-Handling/06-Built-in-Exceptions-and-Custom-Exceptions/Example-01/)
 
 ```java
 // This program creates a custom exception type.

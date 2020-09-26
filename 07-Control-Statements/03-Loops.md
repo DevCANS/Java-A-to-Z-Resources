@@ -12,7 +12,7 @@ while(condition) {
 
 The condition can be any `Boolean` expression. The body of the loop will be executed as long as the conditional expression is true. When condition becomes false, control passes to the next line of code immediately following the loop.
 
-##### Example 01
+##### [Example 01](../20-Examples/07-Control-Statements/03-Loops/Example-01/)
 
 ```java
 // Demonstrate the while loop.
@@ -54,7 +54,7 @@ do {
 
 Each iteration of the `do-while` loop first executes the body of the loop and then evaluates the conditional expression. If this expression is true, the loop will repeat. Otherwise, the loop terminates.
 
-##### Example 02
+##### [Example 02](../20-Examples/07-Control-Statements/03-Loops/Example-02/)
 
 ```java
 // Demonstrate the do-while loop.
@@ -101,7 +101,7 @@ It consists of four parts:
 * __Body__: The statement of the loop is executed each time until the second condition is false.
 * __Iteration__: It increments or decrements the variable value. It is an optional condition.
 
-##### Example 03
+##### [Example 03](../20-Examples/07-Control-Statements/03-Loops/Example-03/)
 
 ```java
 // Demonstrate the for loop.
@@ -131,7 +131,7 @@ class ForTick {
 
 Often the variable that controls a `for` loop is needed only for the purposes of the loop and is not used elsewhere. When this is the case, it is possible to declare the variable inside the initialization portion of the `for`.
 
-##### Example 04
+##### [Example 04](../20-Examples/07-Control-Statements/03-Loops/Example-04/)
 
 ```java
 // Declare a loop control variable inside the for.
@@ -148,7 +148,7 @@ class ForTick {
 
 There will be times when you will want to include more than one statement in the initialization and iteration portions of the `for` loop. To allow two or more variables to control a `for` loop, Java permits you to include multiple statements in both the initialization and iteration portions of the `for`. Each statement is separated from the next by a comma.
 
-##### Example 05
+##### [Example 05](../20-Examples/07-Control-Statements/03-Loops/Example-05/)
 
 ```java
 // Using the comma.
@@ -185,7 +185,7 @@ for(type itrVar : collection)
 
 Here, `type` specifies the data type and `itrVar` specifies the name of an iteration variable that will receive the elements from a collection, one at a time, from beginning to end. The collection being cycled through is specified by collection.
 
-##### Example 06
+##### [Example 06](../20-Examples/07-Control-Statements/03-Loops/Example-06/)
 
 ```java
 // Use a for-each style for loop.

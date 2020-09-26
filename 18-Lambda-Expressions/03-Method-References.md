@@ -10,7 +10,7 @@ To create a static method reference, use this general syntax:
 ClassName::methodName
 ```
 
-##### Example 01
+##### [Example 01]((../20-Examples/18-Lambda-Expressions/03-Method-References/Example-01/))
 
 ```java
 // Demonstrate a method reference for a static method.
@@ -71,7 +71,7 @@ To pass a reference to an instance method on a specific object, use this basic s
 objRef::methodName
 ```
 
-##### Example 02
+##### [Example 02](../20-Examples/18-Lambda-Expressions/03-Method-References/Example-02/)
 
 ```java
 // Demonstrate a method reference to an instance method
@@ -142,7 +142,7 @@ Similar to the way that you can create references to methods, you can create ref
 classname::new
 ```
 
-##### Example 03
+##### [Example 03](../20-Examples/18-Lambda-Expressions/03-Method-References/Example-03/)
 
 ```java
 // Demonstrate a Constructor reference.

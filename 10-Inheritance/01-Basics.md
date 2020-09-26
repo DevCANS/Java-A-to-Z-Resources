@@ -24,7 +24,7 @@ the `extends` keyword.
 
 ![Inheritance types](images/types_of_inheritance.png)
 
-##### Example 01
+##### [Example 01](../20-Examples/10-Inheritance/01-Basics/Example-01/)
 
 ```java
 // Create a superclass.

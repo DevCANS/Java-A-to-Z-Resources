@@ -19,7 +19,7 @@ final void notify( )
 final void notify All( )
 ```
 
-##### Example 01
+##### [Example 01](../20-Examples/14-Multithreaded-Programing/06-Interthread-Communication/Example-01/)
 
 ```java
 // An incorrect implementation of a producer and consumer.
@@ -100,7 +100,7 @@ After the producer put 1, the consumer started and got the same 1 five times in 
 
 The proper way to write this program in Java is to use `wait()` and `notify()` to signal in both directions, as shown here:
 
-##### Example 02
+##### [Example 02](../20-Examples/14-Multithreaded-Programing/06-Interthread-Communication/Example-02/)
 
 ```java
 // A correct implementation of a producer and consumer.

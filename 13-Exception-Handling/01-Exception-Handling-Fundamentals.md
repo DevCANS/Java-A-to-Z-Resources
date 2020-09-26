@@ -17,7 +17,7 @@ A checked exception is an exception that is checked (notified) by the compiler a
 
 For example, if you use FileReader class in your program to read data from a file, if the file specified in its constructor doesn't exist, then a FileNotFoundException occurs, and the compiler prompts the programmer to handle the exception.
 
-##### Example 01
+##### [Example 01](../20-Examples/13-Exception-Handling/01-Exception-Handling-Fundamentals/Example-01/)
 
 ```java
 import java.io.File;
@@ -47,7 +47,7 @@ If you try to compile the above program you will get the following exceptions
 
 Runtime Exceptions are also known as Unchecked Exceptions. These exceptions are not checked at compile-time so compiler does not check whether the programmer has handled them or not but it’s the responsibility of the programmer to handle these exceptions and provide a safe exit. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
 
-##### Example 02
+##### [Example 02](../20-Examples/13-Exception-Handling/01-Exception-Handling-Fundamentals/Example-02/)
 
 ```java
 class Exc1 {

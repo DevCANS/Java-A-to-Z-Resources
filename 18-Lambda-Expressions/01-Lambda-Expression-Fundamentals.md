@@ -90,7 +90,7 @@ __Points to Remember__
 * The return types must be compatible.
 * Any exceptions thrown by the lambda expression must be acceptable to the method.
 
-##### Example 01
+##### [Example 01](../20-Examples/18-Lambda-Expressions/01-Lambda-Expression-Fundamentals/Example-01/)
 
 ```java
 // Demonstrate a lambda expression that takes two parameters.
@@ -127,7 +127,7 @@ Java supports a second type of lambda expression in which the code on the right 
 
 Aside from allowing multiple statements, block lambdas are used much like the expression lambdas just discussed. One key difference, however, is that you must explicitly use a return statement to return a value.
 
-##### Example 02
+##### [Example 02](../20-Examples/18-Lambda-Expressions/01-Lambda-Expression-Fundamentals/Example-02/)
 
 ```java
 // A block lambda that computes the factorial of an int value.

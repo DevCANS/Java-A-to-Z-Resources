@@ -52,7 +52,7 @@ When a class implements an interface, you can think of the class agreeing to per
 
 A class can implement an interface using the keyword `implements`.
 
-##### Example 01
+##### [Example 01](../20-Examples/11-Interfaces/01-Introduction/Example-01/)
 
 ```java
 public class SUV implements Car{

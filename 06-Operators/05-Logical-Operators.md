@@ -9,7 +9,7 @@ Conditional operators are-
 |`&&`|Logical AND|Returns true when both conditions are true.|
 |`||`|Logical OR|Returns true if at least one condition is true.|
 
-##### Example 01
+##### [Example 01](../20-Examples/06-Operators/05-Logical-Operator/Example-01/)
 
 ```java
 // Java program to illustrate 

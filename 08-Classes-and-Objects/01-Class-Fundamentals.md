@@ -58,7 +58,7 @@ myBox.width = 100;
 
 This assigns the value `100` to the copy of `width` that is contained within the `myBox` object.
 
-##### Example 01
+##### [Example 01](../20-Examples/08-Classes-and-Objects/01-Class-Fundamentals/Example-01/)
 
 ```java
 /* A program that uses the Box class.

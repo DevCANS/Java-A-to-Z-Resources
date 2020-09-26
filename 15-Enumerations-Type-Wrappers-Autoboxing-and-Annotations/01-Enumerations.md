@@ -21,7 +21,7 @@ Two enumeration constants can be compared for equality by using the `==` relatio
 
 An enumeration value can also be used to control a `switch` statement. All of the case statements must use constants from the same `enum` as that used by the `switch` expression.
 
-##### Example 01
+##### [Example 01](../20-Examples/15-Enumerations-Type-Wrappers-Autoboxing-and-Annotations/01-Enumerations/Example-01/)
 
 ```java
 // An enumeration of apple varieties.
@@ -84,7 +84,7 @@ The `values()` method returns an array that contains a list of the enumeration c
 
 The `valueOf()` method returns the enumeration constant whose value corresponds to the string passed in str.
 
-##### Example 02
+##### [Example 02](../20-Examples/15-Enumerations-Type-Wrappers-Autoboxing-and-Annotations/01-Enumerations/Example-02/)
 
 ```java
 // Use the built-in enumeration methods.

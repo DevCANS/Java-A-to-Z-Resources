@@ -22,7 +22,7 @@ class MyClass{
 
 Constructors look a little strange because they have no return type, not even void. This is because the implicit return type of a class’ constructor is the class type itself.
 
-##### Example 01
+##### [Example 01](../20-Examples/08-Classes-and-Objects/04-Constructors/Example-01/)
 
 ```java
 /* Here, Box uses a constructor to initialize the
@@ -80,7 +80,7 @@ If you implement any constructor then you no longer receive a default constructo
 
 While the `Box()` constructor in the preceding example does initialize a Box object, it is not very useful - all boxes have the same dimensions. You need is a way to construct Box objects of various dimensions. To do this you need to put parameters in constructors.
 
-##### Example 02
+##### [Example 02](../20-Examples/08-Classes-and-Objects/04-Constructors/Example-02/)
 
 ```java
 /* Here, Box uses a parameterized constructor to

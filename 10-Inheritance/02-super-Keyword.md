@@ -12,7 +12,7 @@ A subclass can call a constructor defined by its superclass by use of the follow
 super(arg-list);
 ```
 
-##### Example 01
+##### [Example 01](../20-Examples/10-Inheritance/02-super-Keyword/Example-01/)
 
 ```java
 class ParentClass{
@@ -74,7 +74,7 @@ super.member
 
 This second form of super is most applicable to situations in which member names of a subclass hide members by the same name in the superclass.
 
-##### Example 02
+##### [Example 02](../20-Examples/10-Inheritance/02-super-Keyword/Example-02/)
 
 ```java
 // Using super to overcome name hiding.

@@ -18,7 +18,7 @@ It is a good practice to group related classes implemented by you so that a prog
 
 Since the package creates a new namespace there won't be any name conflicts with names in other packages. Using packages, it is easier to provide access control and it is also easier to locate the related classes.
 
-##### Example 01
+##### [Example 01](../20-Examples/12-Packages/01-Packages-and-CLASSPATH/Example-01/animals/)
 
 ```java
 /* File name : Animal.java */

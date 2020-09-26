@@ -21,7 +21,7 @@ The `getCause()` method returns the exception that underlies the current excepti
 
 You can associate a cause with an exception after the exception has been created. However, the cause exception can be set only once. Thus, you can call `initCause()` only once for each exception object. Furthermore, if the cause exception was set by a constructor, then you can’t set it again using `initCause()`.
 
-##### Example 01
+##### [Example 01](../20-Examples/13-Exception-Handling/07-Chained-Exception-and-Other-Features/Example-01/)
 
 ```java
 // Demonstrate exception chaining.
@@ -69,7 +69,7 @@ try (resource declaration) {
 }
 ```
 
-##### Example 02
+##### [Example 02](../20-Examples/13-Exception-Handling/07-Chained-Exception-and-Other-Features/Example-02/)
 
 ```java
 import java.io.*;
@@ -103,7 +103,7 @@ Output if the test.txt file is found.
 
 We can declare more than one resource in the `try-with-resources` statement by separating them with a semicolon `;`
 
-##### Example 03
+##### [Example 03](../20-Examples/13-Exception-Handling/07-Chained-Exception-and-Other-Features/Example-03/)
 
 ```java
 import java.io.*;
@@ -134,7 +134,7 @@ try{
 }
 ```
 
-##### Example 04
+##### [Example 04](../20-Examples/13-Exception-Handling/07-Chained-Exception-and-Other-Features/Example-04/)
 
 ```java
 // Demonstrate the multi-catch feature.

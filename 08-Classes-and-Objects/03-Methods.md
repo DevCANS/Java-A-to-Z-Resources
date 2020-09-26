@@ -25,7 +25,7 @@ Methods having return type other than `void` must end with a return statement an
 return value;
 ```
 
-##### Example 01
+##### [Example 01](../20-Examples/08-Classes-and-Objects/03-Methods/Example-01/)
 
 ```java
 // This program includes a method inside the box class.
@@ -72,7 +72,7 @@ class BoxDemo3 {
 
 Method Overloading is a feature that allows a class to have more than one method having the same name, if their parameter lists are different.
 
-##### Example 02
+##### [Example 02](../20-Examples/08-Classes-and-Objects/03-Methods/Example-02/)
 
 ```java
 class DisplayOverloading{
@@ -108,7 +108,7 @@ Method overloading can also be done when same number of parameters are there but
 
 An object can also be sent as parameters to a method in the same way as premitive types.
 
-##### Example 03
+##### [Example 03](../20-Examples/08-Classes-and-Objects/03-Methods/Example-03/)
 
 ```java
 class Volume{

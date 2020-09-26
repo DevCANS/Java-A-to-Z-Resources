@@ -62,7 +62,7 @@ When an overridden method is called through a superclass reference, Java determi
 
 In other words, it is the type of the object being referred to (not the type of the reference variable) that determines which version of an overridden method will be executed.
 
-##### Example 02
+##### [Example 02](../20-Examples/10-Inheritance/04-Method-Overriding/Example-02/)
 
 ```java
 // Dynamic Method Dispatch

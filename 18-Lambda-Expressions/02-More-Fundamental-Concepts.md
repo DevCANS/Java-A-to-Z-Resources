@@ -8,7 +8,7 @@ Because of type inference, all lambda expressions exhibit some â€œgeneric-likeâ€
 
 However, the functional interface associated with a lambda expression can be generic. In this case, the target type of the lambda expression is determined, in part, by the type argument or arguments specified when a functional interface reference is declared.
 
-##### Example 01
+##### [Example 01](../20-Examples/18-Lambda-Expressions/02-More-Fundamental-Concepts/Example-01/)
 
 ```java
 // Use a generic functional interface with lambda expressions.
@@ -60,7 +60,7 @@ Here, `T` specifies both the return type and the parameter type of `func()`. Thi
 
 To pass a lambda expression as an argument, the type of the parameter receiving the lambda expression argument must be of a functional interface type compatible with the lambda.
 
-##### Example 02
+##### [Example 02](../20-Examples/18-Lambda-Expressions/02-More-Fundamental-Concepts/Example-02/)
 
 ```java
 // Use lambda expressions as an argument to a method.
@@ -131,7 +131,7 @@ public static void main(String args[]){
 
 A lambda expression can throw an exception. However, it if throws a checked exception, then that exception must be compatible with the exception(s) listed in the throws clause of the abstract method in the functional interface.
 
-##### Example 03
+##### [Example 03](../20-Examples/18-Lambda-Expressions/02-More-Fundamental-Concepts/Example-03/)
 
 ```java
 // Throw an exception from a lambda expression.

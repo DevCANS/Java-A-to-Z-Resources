@@ -12,7 +12,7 @@ try {
 
 The part of code which can throw an exception is put inside try block. Immediately following the try block, include a catch clause that specifies the exception type that you wish to catch.
 
-##### Example 01
+##### [Example 01](../20-Examples/13-Exception-Handling/02-try-catch-block/Example-01/)
 
 ```java
 class Exc2 {

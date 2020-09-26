@@ -42,7 +42,7 @@ An interface can be declared inside a class or another interface as member. Such
 
 When a nested interface is used outside of its enclosing scope, it must be qualified by the name of the class or interface of which it is a member. Thus, outside of the class or interface in which a nested interface is declared, its name must be fully qualified.
 
-##### Example 01
+##### [Example 01](../20-Examples/11-Interfaces/02-Nested-Interface-And-Extending-Interface/Example-01/)
 
 ```java
 // A nested interface example.

@@ -10,7 +10,7 @@ When a member of a class is modified by `public`, then that member can be access
 
 In the classes developed so far, all members of a class have used the `default` access mode. However, this is not what you will typically want to be the case. Usually, you will want to restrict access to the data members of a class—allowing access only through methods. Also, there will be times when you will want to define methods that are `private` to a class. Usually classes are declared as `public`.
 
-##### Example 01
+##### [Example 01](../20-Examples/08-Classes-and-Objects/05-Access-Control/Example-01/)
 
 ```java
 /* This program demonstrates the difference between

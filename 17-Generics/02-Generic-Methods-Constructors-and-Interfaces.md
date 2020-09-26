@@ -6,7 +6,7 @@ You can write a single generic method declaration that can be called with argume
 
 This is similar to declaring a generic type, but the type parameter's scope is limited to the method where it is declared. Static and non-static generic methods are allowed, as well as generic class constructors.
 
-##### Example 01
+##### [Example 01](../20-Examples/17-Generics/02-Generic-Methods-Constructors-and-Interfaces/Example-01/)
 
 ```java
 public class GenericsType<T> {
@@ -71,7 +71,7 @@ public static <T extends Comparable<T>> int compare(T t1, T t2){
 
 Since constructors are special type of methods,it is possible for constructors to be generic, even if their class is not.
 
-##### Example 02
+##### [Example 02](../20-Examples/17-Generics/02-Generic-Methods-Constructors-and-Interfaces/Example-02/)
 
 ```java
 // Use a generic constructor.
@@ -107,7 +107,7 @@ class GenConsDemo {
 
 In addition to generic classes and methods, you can also have generic interfaces. Generic interfaces are specified just like generic classes.
 
-##### Example 03
+##### [Example 03](../20-Examples/17-Generics/02-Generic-Methods-Constructors-and-Interfaces/Example-03/)
 
 ```java
 // A generic interface example.

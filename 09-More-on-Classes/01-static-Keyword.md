@@ -32,7 +32,7 @@ Methods declared as static have several restrictions:
 
 Class variables and methods can be accessed using the class name followed by a dot and the name of the variable or method.
 
-##### Example 01
+##### [Example 01](../20-Examples/09-More-on-Classes/01-static-Keyword/Example-01/)
 
 ```java
 //Java Program to demonstrate the use of a static method.  
@@ -90,7 +90,7 @@ Instance initializer block works are used to initialize the properties of an obj
 * We can also have multiple Initializer Blocks in a single class. If compiler finds multiple Initializer Blocks, then they all are executed from top to bottom i.e. the Initializer Blocks which is written at top will be executed first.
 * You can have Initializer Blocks in parent class also. Iinitializer block code runs immediately after the call to `super()` in a constructor. The compiler executes parents class’s Initializer Blocks before executing current class’s Initializer Blocks.
 
-##### Example 02
+##### [Example 02](../20-Examples/09-More-on-Classes/01-static-Keyword/Example-02/)
 
 ```java
 // Java program to illustrate 
@@ -140,7 +140,7 @@ class A extends B
 
 Instance variables are initialized using initialization blocks. However, the static initialization blocks can only initialize the static instance variables. These blocks are only executed once when the class is loaded. There can be multiple static initialization blocks in a class that is called in the order they appear in the program.
 
-##### Example 03
+##### [Example 03](../20-Examples/09-More-on-Classes/01-static-Keyword/Example-03/)
 
 ```java
 class JavaExample{

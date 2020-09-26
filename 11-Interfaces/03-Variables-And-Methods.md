@@ -4,7 +4,7 @@
 
 You can use interfaces to import shared constants into multiple classes by simply declaring an interface that contains variables that are initialized to the desired values. When you include that interface in a class (that is, when you “implement” the interface), all of those variable names will be in scope as constants. (This is similar to using a header file in C/C++ to create a large number of #defined constants or const declarations.) If an interface contains no methods, then any class that includes such an interface doesn’t actually implement anything. It is as if that class were importing the constant fields into the class name space as final variables. The next example uses this technique to implement an automated “decision maker”:
 
-##### Example 01
+##### [Example 01](../20-Examples/11-Interfaces/03-Variables-and-Methods/Example-01/)
 
 ```java
 interface SharedConstants {
@@ -91,7 +91,7 @@ Starting from Java 8 an interface can have a default method which provides an im
 
 An interface default method is defined similar to the way a method is defined by a class. The primary difference is that the declaration is preceded by the keyword `default`.
 
-##### Example 02
+##### [Example 02](../20-Examples/11-Interfaces/03-Variables-and-Methods/Example-02/)
 
 ```java
 public interface MyIF {

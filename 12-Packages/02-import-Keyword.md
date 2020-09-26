@@ -19,7 +19,7 @@ import java.io.*;
 
 If a class with the same name exists in two different packages that you import using the star form, the compiler will remain silent, unless you try to use one of the classes. In that case, you will get a compile-time error and have to explicitly name the class specifying its package.
 
-##### Example 01
+##### [Example 01](../20-Examples/12-Packages/02-import-Keyword/Example-01/)
 
 ```java
 package MyPack;
