@@ -48,7 +48,7 @@ Our contribution guidelines have been changed. Please check it [here](CONTRIBUTI
 ||Ternary Operator|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
 ||Unary Operator|:heavy_check_mark:|:x:|:x:|:x:|
 ||Assignment Operator|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
-|__Control Statements__|'if' Statements|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|
+|__Control Statements__|'if' Statements|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 ||switch|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 ||Loops|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 ||Jump Statements|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|

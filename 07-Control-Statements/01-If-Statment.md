@@ -186,6 +186,19 @@ class ifelseifDemo{
 
 ### Youtube Videos
 
+### Readings
+
+* [Oracle Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
+* [JavaTPoint](https://www.javatpoint.com/java-if-else)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/java-if-else-statement-with-examples/)
+* [BeginnersBook](https://beginnersbook.com/2017/08/if-else-statement-in-java/)
+
+### Youtube Videos
+
 * [ProgrammingKnowledge](https://www.youtube.com/watch?v=WZXq5_9_JDs&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al&index=8)
 * [Cave of Programming](https://www.youtube.com/watch?v=jjx5mJOcLqM&list=PL9DF6E4B45C36D411&index=6)
 * [Alex Lee](https://www.youtube.com/watch?v=yvWnj_HfG6s&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=10)
+
+### More Examples and Practice Questions
+
+* [CodesDope](https://www.codesdope.com/practice/java-decide-if-or-else/)
