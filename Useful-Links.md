@@ -58,3 +58,7 @@ __Note__: Not recommended for beginners
 * [Oracle Conventions for the Java Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
 * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html#s2.1-file-name)
 * [Alibaba Java Coding Guidelines](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
+
+## Resources
+
+* [Java interview questions](https://www.interviewbit.com/java-interview-questions/)
